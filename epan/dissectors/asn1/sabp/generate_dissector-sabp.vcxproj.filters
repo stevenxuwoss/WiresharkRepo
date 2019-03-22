@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\87be709b49e6e4d40ed9ab46ca13e749\packet-sabp-stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\26c123101f3580f6b96293b2d8328f74\generate_dissector-sabp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Development\wireshark\epan\dissectors\asn1\sabp\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Development\wireshark\epan\dissectors\asn1\sabp\CMakeFiles\generate_dissector-sabp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{15AD5180-863D-3736-8DCF-AD1A045E840D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

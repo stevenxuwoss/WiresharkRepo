@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<descriptor>
+  <version>
+    0.0.0
+  </version>
+  <headers>
+    {RELPATH}/abi-check-headers
+  </headers>
+  <libs>
+    C:/Development/wireshark/run
+  </libs>
+  <include_paths>C:/Development/wireshark
+C:/Development/wireshark-win64-libs/glib2-2.52.2-1.31-win64ws/include/glib-2.0
+C:/Development/wireshark-win64-libs/glib2-2.52.2-1.31-win64ws/lib/glib-2.0/include
+C:/Development/wireshark/wiretap
+  </include_paths>
+  <gcc_options>
+    -D_U_="__attribute((unused))"
+  </gcc_options>
+  <include_preamble>
+    config.h
+  </include_preamble>
+</descriptor>

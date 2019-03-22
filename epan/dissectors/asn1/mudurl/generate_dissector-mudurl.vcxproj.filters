@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\930284ee17ef585f9864ab4f68386ce4\packet-mudurl-stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\518bc4b1e31d9e361c25a41bbfab565c\generate_dissector-mudurl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Development\wireshark\epan\dissectors\asn1\mudurl\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Development\wireshark\epan\dissectors\asn1\mudurl\CMakeFiles\generate_dissector-mudurl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{15AD5180-863D-3736-8DCF-AD1A045E840D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

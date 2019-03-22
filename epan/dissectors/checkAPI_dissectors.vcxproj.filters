@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\da3cdc51c79870fd2d23650e77aca18d\checkAPI_dissectors.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Development\wireshark\epan\dissectors\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Development\wireshark\epan\dissectors\CMakeFiles\checkAPI_dissectors" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{15AD5180-863D-3736-8DCF-AD1A045E840D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

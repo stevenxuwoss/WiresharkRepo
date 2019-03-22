@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Development\wireshark-win64-libs\zlib-1.2.11-2-ws\adler32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark-win64-libs\zlib-1.2.11-2-ws\compress.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark-win64-libs\zlib-1.2.11-2-ws\crc32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark-win64-libs\zlib-1.2.11-2-ws\deflate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark-win64-libs\zlib-1.2.11-2-ws\gzclose.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark-win64-libs\zlib-1.2.11-2-ws\gzlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark-win64-libs\zlib-1.2.11-2-ws\gzread.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark-win64-libs\zlib-1.2.11-2-ws\gzwrite.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark-win64-libs\zlib-1.2.11-2-ws\inflate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark-win64-libs\zlib-1.2.11-2-ws\infback.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark-win64-libs\zlib-1.2.11-2-ws\inftrees.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark-win64-libs\zlib-1.2.11-2-ws\inffast.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark-win64-libs\zlib-1.2.11-2-ws\trees.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark-win64-libs\zlib-1.2.11-2-ws\uncompr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark-win64-libs\zlib-1.2.11-2-ws\zutil.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Development\wireshark\zlib\zconf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark-win64-libs\zlib-1.2.11-2-ws\zlib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark-win64-libs\zlib-1.2.11-2-ws\crc32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark-win64-libs\zlib-1.2.11-2-ws\deflate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark-win64-libs\zlib-1.2.11-2-ws\gzguts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark-win64-libs\zlib-1.2.11-2-ws\inffast.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark-win64-libs\zlib-1.2.11-2-ws\inffixed.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark-win64-libs\zlib-1.2.11-2-ws\inflate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark-win64-libs\zlib-1.2.11-2-ws\inftrees.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark-win64-libs\zlib-1.2.11-2-ws\trees.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark-win64-libs\zlib-1.2.11-2-ws\zutil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Development\wireshark-win64-libs\zlib-1.2.11-2-ws\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Development\wireshark-win64-libs\zlib-1.2.11-2-ws\win32\zlib1.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C6999C75-954B-316A-A081-47219EB72085}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{32DF5DB2-499A-3971-AE80-FFC1FEF2EED5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

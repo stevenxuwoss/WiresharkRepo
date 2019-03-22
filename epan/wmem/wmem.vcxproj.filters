@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Development\wireshark\epan\wmem\wmem_array.c">
+      <Filter>wmem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\epan\wmem\wmem_core.c">
+      <Filter>wmem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\epan\wmem\wmem_allocator_block.c">
+      <Filter>wmem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\epan\wmem\wmem_allocator_block_fast.c">
+      <Filter>wmem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\epan\wmem\wmem_allocator_simple.c">
+      <Filter>wmem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\epan\wmem\wmem_allocator_strict.c">
+      <Filter>wmem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\epan\wmem\wmem_interval_tree.c">
+      <Filter>wmem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\epan\wmem\wmem_list.c">
+      <Filter>wmem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\epan\wmem\wmem_map.c">
+      <Filter>wmem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\epan\wmem\wmem_miscutl.c">
+      <Filter>wmem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\epan\wmem\wmem_scopes.c">
+      <Filter>wmem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\epan\wmem\wmem_stack.c">
+      <Filter>wmem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\epan\wmem\wmem_strbuf.c">
+      <Filter>wmem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\epan\wmem\wmem_strutl.c">
+      <Filter>wmem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\epan\wmem\wmem_tree.c">
+      <Filter>wmem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\epan\wmem\wmem_user_cb.c">
+      <Filter>wmem</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Development\wireshark\epan\wmem\wmem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\epan\wmem\wmem_array.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\epan\wmem\wmem_core.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\epan\wmem\wmem_list.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\epan\wmem\wmem_map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\epan\wmem\wmem_miscutl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\epan\wmem\wmem_queue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\epan\wmem\wmem_scopes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\epan\wmem\wmem_stack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\epan\wmem\wmem_strbuf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\epan\wmem\wmem_strutl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\epan\wmem\wmem_tree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\epan\wmem\wmem_interval_tree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\epan\wmem\wmem_user_cb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\epan\wmem\wmem_allocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\epan\wmem\wmem_allocator_block.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\epan\wmem\wmem_allocator_block_fast.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\epan\wmem\wmem_allocator_simple.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\epan\wmem\wmem_allocator_strict.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\epan\wmem\wmem_map_int.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\epan\wmem\wmem_tree-int.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\epan\wmem\wmem_user_cb_int.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Development\wireshark\epan\wmem\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C6999C75-954B-316A-A081-47219EB72085}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="wmem">
+      <UniqueIdentifier>{93FF2563-9F2A-371D-8931-4BABB1173546}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

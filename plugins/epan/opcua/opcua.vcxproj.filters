@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Development\wireshark\plugins\epan\opcua\plugin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\plugins\epan\opcua\opcua.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\plugins\epan\opcua\opcua_transport_layer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\plugins\epan\opcua\opcua_security_layer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\plugins\epan\opcua\opcua_application_layer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\plugins\epan\opcua\opcua_serviceparser.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\plugins\epan\opcua\opcua_complextypeparser.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\plugins\epan\opcua\opcua_enumparser.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\plugins\epan\opcua\opcua_simpletypes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\plugins\epan\opcua\opcua_servicetable.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\plugins\epan\opcua\opcua_extensionobjecttable.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\plugins\epan\opcua\opcua_hfindeces.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\plugins\epan\opcua\opcua_statuscode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\ce93fc3fc99286d127035ebf1d8ae904\plugin.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Development\wireshark\plugins\epan\opcua\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Development\wireshark\plugins\epan\opcua\plugin.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{15AD5180-863D-3736-8DCF-AD1A045E840D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{32DF5DB2-499A-3971-AE80-FFC1FEF2EED5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Development\wireshark\tshark-tap-register.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\tshark.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\cli\tap-camelsrt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\cli\tap-diameter-avp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\cli\tap-expert.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\cli\tap-exportobject.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\cli\tap-endpoints.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\cli\tap-flow.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\cli\tap-follow.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\cli\tap-funnel.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\cli\tap-gsm_astat.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\cli\tap-hosts.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\cli\tap-httpstat.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\cli\tap-icmpstat.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\cli\tap-icmpv6stat.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\cli\tap-iostat.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\cli\tap-iousers.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\cli\tap-macltestat.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\cli\tap-protocolinfo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\cli\tap-protohierstat.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\cli\tap-rlcltestat.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\cli\tap-rpcprogs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\cli\tap-rtd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\cli\tap-rtp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\cli\tap-rtspstat.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\cli\tap-sctpchunkstat.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\cli\tap-simple_stattable.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\cli\tap-sipstat.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\cli\tap-smbsids.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\cli\tap-srt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\cli\tap-stats_tree.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\cli\tap-sv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\cli\tap-wspstat.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\9977e0a1dc4e3bfac0f880578d54d5f2\tshark-tap-register.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Development\wireshark\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="C:\Development\wireshark\capture_opts.dir\$(Configuration)\capture_opts.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\cli_main.dir\$(Configuration)\cli_main.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\shark_common.dir\$(Configuration)\cfile.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\shark_common.dir\$(Configuration)\extcap.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\shark_common.dir\$(Configuration)\extcap_parser.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\shark_common.dir\$(Configuration)\file_packet_provider.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\shark_common.dir\$(Configuration)\frame_tvbuff.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\shark_common.dir\$(Configuration)\sync_pipe_write.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\version_info.dir\$(Configuration)\version_info.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Development\wireshark\image\tshark.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{15AD5180-863D-3736-8DCF-AD1A045E840D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{2B62FEC1-30E0-3133-9EE0-2D8A18198EF0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{32DF5DB2-499A-3971-AE80-FFC1FEF2EED5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

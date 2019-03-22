@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\4896a238e368bee3072b88eb34d56c0a\AUTHORS-SHORT.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\4896a238e368bee3072b88eb34d56c0a\AUTHORS-SHORT-FORMAT.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\4896a238e368bee3072b88eb34d56c0a\androiddump.1.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\4896a238e368bee3072b88eb34d56c0a\capinfos.1.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\4896a238e368bee3072b88eb34d56c0a\captype.1.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\4896a238e368bee3072b88eb34d56c0a\ciscodump.1.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\4896a238e368bee3072b88eb34d56c0a\dftest.1.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\4896a238e368bee3072b88eb34d56c0a\dumpcap.1.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\4896a238e368bee3072b88eb34d56c0a\editcap.1.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\4896a238e368bee3072b88eb34d56c0a\mergecap.1.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\4896a238e368bee3072b88eb34d56c0a\randpkt.1.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\4896a238e368bee3072b88eb34d56c0a\randpktdump.1.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\4896a238e368bee3072b88eb34d56c0a\rawshark.1.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\4896a238e368bee3072b88eb34d56c0a\reordercap.1.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\4896a238e368bee3072b88eb34d56c0a\sshdump.1.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\4896a238e368bee3072b88eb34d56c0a\text2pcap.1.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\4896a238e368bee3072b88eb34d56c0a\tshark.1.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\4896a238e368bee3072b88eb34d56c0a\udpdump.1.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\4896a238e368bee3072b88eb34d56c0a\wireshark.pod.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\4896a238e368bee3072b88eb34d56c0a\wireshark.1.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\4896a238e368bee3072b88eb34d56c0a\mmdbresolve.1.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\4896a238e368bee3072b88eb34d56c0a\extcap.4.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\4896a238e368bee3072b88eb34d56c0a\wireshark-filter.4.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\4896a238e368bee3072b88eb34d56c0a\androiddump.html.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\4896a238e368bee3072b88eb34d56c0a\capinfos.html.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\4896a238e368bee3072b88eb34d56c0a\captype.html.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\4896a238e368bee3072b88eb34d56c0a\ciscodump.html.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\4896a238e368bee3072b88eb34d56c0a\dftest.html.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\4896a238e368bee3072b88eb34d56c0a\dumpcap.html.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\4896a238e368bee3072b88eb34d56c0a\editcap.html.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\4896a238e368bee3072b88eb34d56c0a\extcap.html.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\4896a238e368bee3072b88eb34d56c0a\mergecap.html.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\4896a238e368bee3072b88eb34d56c0a\randpkt.html.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\4896a238e368bee3072b88eb34d56c0a\randpktdump.html.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\4896a238e368bee3072b88eb34d56c0a\rawshark.html.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\4896a238e368bee3072b88eb34d56c0a\reordercap.html.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\4896a238e368bee3072b88eb34d56c0a\sshdump.html.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\4896a238e368bee3072b88eb34d56c0a\text2pcap.html.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\4896a238e368bee3072b88eb34d56c0a\tshark.html.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\4896a238e368bee3072b88eb34d56c0a\udpdump.html.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\4896a238e368bee3072b88eb34d56c0a\wireshark-filter.html.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\4896a238e368bee3072b88eb34d56c0a\wireshark.html.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\4896a238e368bee3072b88eb34d56c0a\mmdbresolve.html.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\238462a136375a9bbdf9bedb6252074e\docs.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Development\wireshark\doc\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Development\wireshark\doc\CMakeFiles\docs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{15AD5180-863D-3736-8DCF-AD1A045E840D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

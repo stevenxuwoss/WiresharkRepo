@@ -1,0 +1,1680 @@
+Determining if the function pcap_get_selectable_fd exists failed with the following output:
+Change Dir: C:/Development/wireshark/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_0f00a.vcxproj" "/p:Configuration=Debug" "/p:Platform=Win32" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.5.180.51428 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/5/2019 7:26:58 PM.
+Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_0f00a.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_0f00a.dir\Debug\".
+  Creating directory "C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_0f00a.dir\Debug\cmTC_0f00a.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_0f00a.dir\Debug\cmTC_0f00a.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\CL.exe /c /I"C:\Development\wireshark-win64-libs\WpdPack\Include" /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pcap_get_selectable_fd /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0f00a.dir\Debug\\" /Fd"cmTC_0f00a.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 "C:\Program Files\CMake\share\cmake-3.13\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.12.25831 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Development\wireshark-win64-libs\WpdPack\Include" /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pcap_get_selectable_fd /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0f00a.dir\Debug\\" /Fd"cmTC_0f00a.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 "C:\Program Files\CMake\share\cmake-3.13\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\cmTC_0f00a.exe" /INCREMENTAL /NOLOGO "C:\Development\wireshark-win64-libs\WpdPack\Lib\x64\wpcap.lib" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Development/wireshark/CMakeFiles/CMakeTmp/Debug/cmTC_0f00a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Development/wireshark/CMakeFiles/CMakeTmp/Debug/cmTC_0f00a.lib" /MACHINE:X86 /SAFESEH /guard:cf  /machine:X86 cmTC_0f00a.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _pcap_get_selectable_fd referenced in function _main [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_0f00a.vcxproj]
+C:\Development\wireshark-win64-libs\WpdPack\Lib\x64\wpcap.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86' [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_0f00a.vcxproj]
+C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\cmTC_0f00a.exe : fatal error LNK1120: 1 unresolved externals [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_0f00a.vcxproj]
+Done Building Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_0f00a.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_0f00a.vcxproj" (default target) (1) ->
+(Link target) -> 
+  C:\Development\wireshark-win64-libs\WpdPack\Lib\x64\wpcap.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86' [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_0f00a.vcxproj]
+
+
+"C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_0f00a.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol _pcap_get_selectable_fd referenced in function _main [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_0f00a.vcxproj]
+  C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\cmTC_0f00a.exe : fatal error LNK1120: 1 unresolved externals [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_0f00a.vcxproj]
+
+    1 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:02.39
+
+
+Determining if the function pcap_set_tstamp_precision exists failed with the following output:
+Change Dir: C:/Development/wireshark/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_6a13c.vcxproj" "/p:Configuration=Debug" "/p:Platform=Win32" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.5.180.51428 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/5/2019 7:27:00 PM.
+Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_6a13c.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_6a13c.dir\Debug\".
+  Creating directory "C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_6a13c.dir\Debug\cmTC_6a13c.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_6a13c.dir\Debug\cmTC_6a13c.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\CL.exe /c /I"C:\Development\wireshark-win64-libs\WpdPack\Include" /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pcap_set_tstamp_precision /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6a13c.dir\Debug\\" /Fd"cmTC_6a13c.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 "C:\Program Files\CMake\share\cmake-3.13\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.12.25831 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Development\wireshark-win64-libs\WpdPack\Include" /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pcap_set_tstamp_precision /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6a13c.dir\Debug\\" /Fd"cmTC_6a13c.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 "C:\Program Files\CMake\share\cmake-3.13\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\cmTC_6a13c.exe" /INCREMENTAL /NOLOGO "C:\Development\wireshark-win64-libs\WpdPack\Lib\x64\wpcap.lib" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Development/wireshark/CMakeFiles/CMakeTmp/Debug/cmTC_6a13c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Development/wireshark/CMakeFiles/CMakeTmp/Debug/cmTC_6a13c.lib" /MACHINE:X86 /SAFESEH /guard:cf  /machine:X86 cmTC_6a13c.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _pcap_set_tstamp_precision referenced in function _main [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_6a13c.vcxproj]
+C:\Development\wireshark-win64-libs\WpdPack\Lib\x64\wpcap.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86' [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_6a13c.vcxproj]
+C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\cmTC_6a13c.exe : fatal error LNK1120: 1 unresolved externals [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_6a13c.vcxproj]
+Done Building Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_6a13c.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_6a13c.vcxproj" (default target) (1) ->
+(Link target) -> 
+  C:\Development\wireshark-win64-libs\WpdPack\Lib\x64\wpcap.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86' [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_6a13c.vcxproj]
+
+
+"C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_6a13c.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol _pcap_set_tstamp_precision referenced in function _main [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_6a13c.vcxproj]
+  C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\cmTC_6a13c.exe : fatal error LNK1120: 1 unresolved externals [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_6a13c.vcxproj]
+
+    1 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:02.01
+
+
+Determining if the function pcap_set_tstamp_type exists failed with the following output:
+Change Dir: C:/Development/wireshark/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_3d70c.vcxproj" "/p:Configuration=Debug" "/p:Platform=Win32" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.5.180.51428 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/5/2019 7:27:03 PM.
+Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_3d70c.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_3d70c.dir\Debug\".
+  Creating directory "C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_3d70c.dir\Debug\cmTC_3d70c.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_3d70c.dir\Debug\cmTC_3d70c.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\CL.exe /c /I"C:\Development\wireshark-win64-libs\WpdPack\Include" /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pcap_set_tstamp_type /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3d70c.dir\Debug\\" /Fd"cmTC_3d70c.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 "C:\Program Files\CMake\share\cmake-3.13\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.12.25831 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Development\wireshark-win64-libs\WpdPack\Include" /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pcap_set_tstamp_type /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3d70c.dir\Debug\\" /Fd"cmTC_3d70c.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 "C:\Program Files\CMake\share\cmake-3.13\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\cmTC_3d70c.exe" /INCREMENTAL /NOLOGO "C:\Development\wireshark-win64-libs\WpdPack\Lib\x64\wpcap.lib" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Development/wireshark/CMakeFiles/CMakeTmp/Debug/cmTC_3d70c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Development/wireshark/CMakeFiles/CMakeTmp/Debug/cmTC_3d70c.lib" /MACHINE:X86 /SAFESEH /guard:cf  /machine:X86 cmTC_3d70c.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _pcap_set_tstamp_type referenced in function _main [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_3d70c.vcxproj]
+C:\Development\wireshark-win64-libs\WpdPack\Lib\x64\wpcap.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86' [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_3d70c.vcxproj]
+C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\cmTC_3d70c.exe : fatal error LNK1120: 1 unresolved externals [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_3d70c.vcxproj]
+Done Building Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_3d70c.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_3d70c.vcxproj" (default target) (1) ->
+(Link target) -> 
+  C:\Development\wireshark-win64-libs\WpdPack\Lib\x64\wpcap.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86' [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_3d70c.vcxproj]
+
+
+"C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_3d70c.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol _pcap_set_tstamp_type referenced in function _main [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_3d70c.vcxproj]
+  C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\cmTC_3d70c.exe : fatal error LNK1120: 1 unresolved externals [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_3d70c.vcxproj]
+
+    1 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:02.12
+
+
+Determining if the heimdal_version exist failed with the following output:
+Change Dir: C:/Development/wireshark/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_e4d30.vcxproj" "/p:Configuration=Debug" "/p:Platform=Win32" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.5.180.51428 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/5/2019 7:27:07 PM.
+Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_e4d30.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_e4d30.dir\Debug\".
+  Creating directory "C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_e4d30.dir\Debug\cmTC_e4d30.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_e4d30.dir\Debug\cmTC_e4d30.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\CL.exe /c /I"C:\Development\wireshark-win64-libs\krb5-1.17-1-win64ws\installed\x64-windows\include" /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e4d30.dir\Debug\\" /Fd"cmTC_e4d30.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 C:\Development\wireshark\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.12.25831 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Development\wireshark-win64-libs\krb5-1.17-1-win64ws\installed\x64-windows\include" /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e4d30.dir\Debug\\" /Fd"cmTC_e4d30.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 C:\Development\wireshark\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  CheckSymbolExists.c
+  
+C:\Development\wireshark\CMakeFiles\CMakeTmp\CheckSymbolExists.c(8): error C2065: 'heimdal_version': undeclared identifier [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_e4d30.vcxproj]
+Done Building Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_e4d30.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_e4d30.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Development\wireshark\CMakeFiles\CMakeTmp\CheckSymbolExists.c(8): error C2065: 'heimdal_version': undeclared identifier [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_e4d30.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:05.32
+
+File C:/Development/wireshark/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <krb5.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef heimdal_version
+  return ((int*)(&heimdal_version))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining size of off64_t failed with the following output:
+Change Dir: C:/Development/wireshark/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_22220.vcxproj" "/p:Configuration=Debug" "/p:Platform=Win32" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.5.180.51428 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/5/2019 7:27:13 PM.
+Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_22220.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_22220.dir\Debug\".
+  Creating directory "C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_22220.dir\Debug\cmTC_22220.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_22220.dir\Debug\cmTC_22220.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _LARGEFILE64_SOURCE=1 /D HAVE_SYS_TYPES_H /D HAVE_STDINT_H /D HAVE_STDDEF_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_22220.dir\Debug\\" /Fd"cmTC_22220.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 C:\Development\wireshark\CMakeFiles\CheckTypeSize\OFF64_T.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.12.25831 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _LARGEFILE64_SOURCE=1 /D HAVE_SYS_TYPES_H /D HAVE_STDINT_H /D HAVE_STDDEF_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_22220.dir\Debug\\" /Fd"cmTC_22220.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 C:\Development\wireshark\CMakeFiles\CheckTypeSize\OFF64_T.c
+  OFF64_T.c
+  
+C:\Development\wireshark\CMakeFiles\CheckTypeSize\OFF64_T.c(25): error C2065: 'off64_t': undeclared identifier [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_22220.vcxproj]
+C:\Development\wireshark\CMakeFiles\CheckTypeSize\OFF64_T.c(26): error C2065: 'off64_t': undeclared identifier [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_22220.vcxproj]
+C:\Development\wireshark\CMakeFiles\CheckTypeSize\OFF64_T.c(27): error C2065: 'off64_t': undeclared identifier [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_22220.vcxproj]
+C:\Development\wireshark\CMakeFiles\CheckTypeSize\OFF64_T.c(28): error C2065: 'off64_t': undeclared identifier [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_22220.vcxproj]
+C:\Development\wireshark\CMakeFiles\CheckTypeSize\OFF64_T.c(29): error C2065: 'off64_t': undeclared identifier [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_22220.vcxproj]
+Done Building Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_22220.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_22220.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Development\wireshark\CMakeFiles\CheckTypeSize\OFF64_T.c(25): error C2065: 'off64_t': undeclared identifier [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_22220.vcxproj]
+  C:\Development\wireshark\CMakeFiles\CheckTypeSize\OFF64_T.c(26): error C2065: 'off64_t': undeclared identifier [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_22220.vcxproj]
+  C:\Development\wireshark\CMakeFiles\CheckTypeSize\OFF64_T.c(27): error C2065: 'off64_t': undeclared identifier [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_22220.vcxproj]
+  C:\Development\wireshark\CMakeFiles\CheckTypeSize\OFF64_T.c(28): error C2065: 'off64_t': undeclared identifier [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_22220.vcxproj]
+  C:\Development\wireshark\CMakeFiles\CheckTypeSize\OFF64_T.c(29): error C2065: 'off64_t': undeclared identifier [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_22220.vcxproj]
+
+    0 Warning(s)
+    5 Error(s)
+
+Time Elapsed 00:00:01.52
+
+C:/Development/wireshark/CMakeFiles/CheckTypeSize/OFF64_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(off64_t))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function fseeko exists failed with the following output:
+Change Dir: C:/Development/wireshark/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_42181.vcxproj" "/p:Configuration=Debug" "/p:Platform=Win32" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.5.180.51428 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/5/2019 7:27:15 PM.
+Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_42181.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_42181.dir\Debug\".
+  Creating directory "C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_42181.dir\Debug\cmTC_42181.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_42181.dir\Debug\cmTC_42181.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fseeko /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_42181.dir\Debug\\" /Fd"cmTC_42181.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 "C:\Program Files\CMake\share\cmake-3.13\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.12.25831 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fseeko /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_42181.dir\Debug\\" /Fd"cmTC_42181.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 "C:\Program Files\CMake\share\cmake-3.13\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\cmTC_42181.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Development/wireshark/CMakeFiles/CMakeTmp/Debug/cmTC_42181.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Development/wireshark/CMakeFiles/CMakeTmp/Debug/cmTC_42181.lib" /MACHINE:X86 /SAFESEH /guard:cf  /machine:X86 cmTC_42181.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _fseeko referenced in function _main [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_42181.vcxproj]
+C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\cmTC_42181.exe : fatal error LNK1120: 1 unresolved externals [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_42181.vcxproj]
+Done Building Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_42181.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_42181.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol _fseeko referenced in function _main [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_42181.vcxproj]
+  C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\cmTC_42181.exe : fatal error LNK1120: 1 unresolved externals [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_42181.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:02.06
+
+
+Determining if the include file unistd.h exists failed with the following output:
+Change Dir: C:/Development/wireshark/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_fe2bf.vcxproj" "/p:Configuration=Debug" "/p:Platform=Win32" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.5.180.51428 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/5/2019 7:27:18 PM.
+Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_fe2bf.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_fe2bf.dir\Debug\".
+  Creating directory "C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_fe2bf.dir\Debug\cmTC_fe2bf.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_fe2bf.dir\Debug\cmTC_fe2bf.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fe2bf.dir\Debug\\" /Fd"cmTC_fe2bf.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 C:\Development\wireshark\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.12.25831 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fe2bf.dir\Debug\\" /Fd"cmTC_fe2bf.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 C:\Development\wireshark\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  CheckIncludeFile.c
+  
+C:\Development\wireshark\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_fe2bf.vcxproj]
+Done Building Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_fe2bf.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_fe2bf.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Development\wireshark\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_fe2bf.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:01.53
+
+
+Determining if the gnutls_pkcs11_obj_list_import_url4 exist failed with the following output:
+Change Dir: C:/Development/wireshark/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_c8a83.vcxproj" "/p:Configuration=Debug" "/p:Platform=Win32" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.5.180.51428 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/5/2019 7:27:24 PM.
+Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_c8a83.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_c8a83.dir\Debug\".
+  Creating directory "C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_c8a83.dir\Debug\cmTC_c8a83.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_c8a83.dir\Debug\cmTC_c8a83.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\CL.exe /c /I"C:\Development\wireshark-win64-libs\gnutls-3.6.3-1-win64ws\include" /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D ssize_t=int /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c8a83.dir\Debug\\" /Fd"cmTC_c8a83.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 C:\Development\wireshark\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.12.25831 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Development\wireshark-win64-libs\gnutls-3.6.3-1-win64ws\include" /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D ssize_t=int /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c8a83.dir\Debug\\" /Fd"cmTC_c8a83.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 C:\Development\wireshark\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  CheckSymbolExists.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\cmTC_c8a83.exe" /INCREMENTAL /NOLOGO "C:\Development\wireshark-win64-libs\gnutls-3.6.3-1-win64ws\bin\libgnutls-30.lib" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Development/wireshark/CMakeFiles/CMakeTmp/Debug/cmTC_c8a83.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Development/wireshark/CMakeFiles/CMakeTmp/Debug/cmTC_c8a83.lib" /MACHINE:X86 /SAFESEH /guard:cf  /machine:X86 cmTC_c8a83.dir\Debug\CheckSymbolExists.obj
+CheckSymbolExists.obj : error LNK2019: unresolved external symbol _gnutls_pkcs11_obj_list_import_url4 referenced in function _main [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_c8a83.vcxproj]
+C:\Development\wireshark-win64-libs\gnutls-3.6.3-1-win64ws\bin\libgnutls-30.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86' [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_c8a83.vcxproj]
+C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\cmTC_c8a83.exe : fatal error LNK1120: 1 unresolved externals [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_c8a83.vcxproj]
+Done Building Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_c8a83.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_c8a83.vcxproj" (default target) (1) ->
+(Link target) -> 
+  C:\Development\wireshark-win64-libs\gnutls-3.6.3-1-win64ws\bin\libgnutls-30.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86' [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_c8a83.vcxproj]
+
+
+"C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_c8a83.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckSymbolExists.obj : error LNK2019: unresolved external symbol _gnutls_pkcs11_obj_list_import_url4 referenced in function _main [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_c8a83.vcxproj]
+  C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\cmTC_c8a83.exe : fatal error LNK1120: 1 unresolved externals [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_c8a83.vcxproj]
+
+    1 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:02.07
+
+File C:/Development/wireshark/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <gnutls/pkcs11.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gnutls_pkcs11_obj_list_import_url4
+  return ((int*)(&gnutls_pkcs11_obj_list_import_url4))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the include file arpa/inet.h exists failed with the following output:
+Change Dir: C:/Development/wireshark/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_33ba7.vcxproj" "/p:Configuration=Debug" "/p:Platform=Win32" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.5.180.51428 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/5/2019 7:27:27 PM.
+Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_33ba7.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_33ba7.dir\Debug\".
+  Creating directory "C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_33ba7.dir\Debug\cmTC_33ba7.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_33ba7.dir\Debug\cmTC_33ba7.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_33ba7.dir\Debug\\" /Fd"cmTC_33ba7.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 C:\Development\wireshark\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.12.25831 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_33ba7.dir\Debug\\" /Fd"cmTC_33ba7.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 C:\Development\wireshark\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  CheckIncludeFile.c
+  
+C:\Development\wireshark\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'arpa/inet.h': No such file or directory [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_33ba7.vcxproj]
+Done Building Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_33ba7.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_33ba7.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Development\wireshark\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'arpa/inet.h': No such file or directory [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_33ba7.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:01.63
+
+
+Determining if the include file getopt.h exists failed with the following output:
+Change Dir: C:/Development/wireshark/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_0237c.vcxproj" "/p:Configuration=Debug" "/p:Platform=Win32" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.5.180.51428 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/5/2019 7:27:29 PM.
+Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_0237c.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_0237c.dir\Debug\".
+  Creating directory "C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_0237c.dir\Debug\cmTC_0237c.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_0237c.dir\Debug\cmTC_0237c.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0237c.dir\Debug\\" /Fd"cmTC_0237c.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 C:\Development\wireshark\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.12.25831 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0237c.dir\Debug\\" /Fd"cmTC_0237c.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 C:\Development\wireshark\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  CheckIncludeFile.c
+  
+C:\Development\wireshark\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'getopt.h': No such file or directory [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_0237c.vcxproj]
+Done Building Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_0237c.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_0237c.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Development\wireshark\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'getopt.h': No such file or directory [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_0237c.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:01.41
+
+
+Determining if the include file grp.h exists failed with the following output:
+Change Dir: C:/Development/wireshark/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_18d7c.vcxproj" "/p:Configuration=Debug" "/p:Platform=Win32" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.5.180.51428 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/5/2019 7:27:31 PM.
+Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_18d7c.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_18d7c.dir\Debug\".
+  Creating directory "C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_18d7c.dir\Debug\cmTC_18d7c.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_18d7c.dir\Debug\cmTC_18d7c.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_18d7c.dir\Debug\\" /Fd"cmTC_18d7c.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 C:\Development\wireshark\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.12.25831 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_18d7c.dir\Debug\\" /Fd"cmTC_18d7c.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 C:\Development\wireshark\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  CheckIncludeFile.c
+  
+C:\Development\wireshark\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'grp.h': No such file or directory [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_18d7c.vcxproj]
+Done Building Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_18d7c.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_18d7c.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Development\wireshark\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'grp.h': No such file or directory [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_18d7c.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:01.35
+
+
+Determining if files sys/types.h;ifaddrs.h exist failed with the following output:
+Change Dir: C:/Development/wireshark/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_2da0b.vcxproj" "/p:Configuration=Debug" "/p:Platform=Win32" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.5.180.51428 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/5/2019 7:27:33 PM.
+Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_2da0b.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_2da0b.dir\Debug\".
+  Creating directory "C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_2da0b.dir\Debug\cmTC_2da0b.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_2da0b.dir\Debug\cmTC_2da0b.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2da0b.dir\Debug\\" /Fd"cmTC_2da0b.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 C:\Development\wireshark\CMakeFiles\CheckIncludeFiles\HAVE_IFADDRS_H.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.12.25831 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2da0b.dir\Debug\\" /Fd"cmTC_2da0b.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 C:\Development\wireshark\CMakeFiles\CheckIncludeFiles\HAVE_IFADDRS_H.c
+  HAVE_IFADDRS_H.c
+  
+C:\Development\wireshark\CMakeFiles\CheckIncludeFiles\HAVE_IFADDRS_H.c(3): fatal error C1083: Cannot open include file: 'ifaddrs.h': No such file or directory [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_2da0b.vcxproj]
+Done Building Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_2da0b.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_2da0b.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Development\wireshark\CMakeFiles\CheckIncludeFiles\HAVE_IFADDRS_H.c(3): fatal error C1083: Cannot open include file: 'ifaddrs.h': No such file or directory [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_2da0b.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:01.51
+
+Source:
+/* */
+#include <sys/types.h>
+#include <ifaddrs.h>
+
+
+int main(void){return 0;}
+
+Determining if the include file netinet/in.h exists failed with the following output:
+Change Dir: C:/Development/wireshark/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_a5726.vcxproj" "/p:Configuration=Debug" "/p:Platform=Win32" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.5.180.51428 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/5/2019 7:27:35 PM.
+Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_a5726.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_a5726.dir\Debug\".
+  Creating directory "C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_a5726.dir\Debug\cmTC_a5726.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_a5726.dir\Debug\cmTC_a5726.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a5726.dir\Debug\\" /Fd"cmTC_a5726.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 C:\Development\wireshark\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.12.25831 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a5726.dir\Debug\\" /Fd"cmTC_a5726.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 C:\Development\wireshark\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  CheckIncludeFile.c
+  
+C:\Development\wireshark\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'netinet/in.h': No such file or directory [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_a5726.vcxproj]
+Done Building Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_a5726.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_a5726.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Development\wireshark\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'netinet/in.h': No such file or directory [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_a5726.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:01.65
+
+
+Determining if the include file netdb.h exists failed with the following output:
+Change Dir: C:/Development/wireshark/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_8fd90.vcxproj" "/p:Configuration=Debug" "/p:Platform=Win32" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.5.180.51428 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/5/2019 7:27:37 PM.
+Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_8fd90.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_8fd90.dir\Debug\".
+  Creating directory "C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_8fd90.dir\Debug\cmTC_8fd90.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_8fd90.dir\Debug\cmTC_8fd90.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8fd90.dir\Debug\\" /Fd"cmTC_8fd90.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 C:\Development\wireshark\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.12.25831 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8fd90.dir\Debug\\" /Fd"cmTC_8fd90.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 C:\Development\wireshark\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  CheckIncludeFile.c
+  
+C:\Development\wireshark\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'netdb.h': No such file or directory [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_8fd90.vcxproj]
+Done Building Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_8fd90.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_8fd90.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Development\wireshark\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'netdb.h': No such file or directory [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_8fd90.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:01.42
+
+
+Determining if the include file pwd.h exists failed with the following output:
+Change Dir: C:/Development/wireshark/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_e7cec.vcxproj" "/p:Configuration=Debug" "/p:Platform=Win32" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.5.180.51428 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/5/2019 7:27:39 PM.
+Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_e7cec.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_e7cec.dir\Debug\".
+  Creating directory "C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_e7cec.dir\Debug\cmTC_e7cec.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_e7cec.dir\Debug\cmTC_e7cec.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e7cec.dir\Debug\\" /Fd"cmTC_e7cec.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 C:\Development\wireshark\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.12.25831 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e7cec.dir\Debug\\" /Fd"cmTC_e7cec.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 C:\Development\wireshark\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+C:\Development\wireshark\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'pwd.h': No such file or directory [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_e7cec.vcxproj]
+Done Building Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_e7cec.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_e7cec.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Development\wireshark\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'pwd.h': No such file or directory [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_e7cec.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:01.46
+
+
+Determining if the include file sys/ioctl.h exists failed with the following output:
+Change Dir: C:/Development/wireshark/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_b265b.vcxproj" "/p:Configuration=Debug" "/p:Platform=Win32" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.5.180.51428 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/5/2019 7:27:42 PM.
+Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_b265b.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_b265b.dir\Debug\".
+  Creating directory "C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_b265b.dir\Debug\cmTC_b265b.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_b265b.dir\Debug\cmTC_b265b.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b265b.dir\Debug\\" /Fd"cmTC_b265b.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 C:\Development\wireshark\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.12.25831 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b265b.dir\Debug\\" /Fd"cmTC_b265b.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 C:\Development\wireshark\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  CheckIncludeFile.c
+  
+C:\Development\wireshark\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'sys/ioctl.h': No such file or directory [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_b265b.vcxproj]
+Done Building Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_b265b.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_b265b.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Development\wireshark\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'sys/ioctl.h': No such file or directory [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_b265b.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:01.44
+
+
+Determining if the include file sys/select.h exists failed with the following output:
+Change Dir: C:/Development/wireshark/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_2b484.vcxproj" "/p:Configuration=Debug" "/p:Platform=Win32" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.5.180.51428 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/5/2019 7:27:44 PM.
+Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_2b484.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_2b484.dir\Debug\".
+  Creating directory "C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_2b484.dir\Debug\cmTC_2b484.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_2b484.dir\Debug\cmTC_2b484.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2b484.dir\Debug\\" /Fd"cmTC_2b484.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 C:\Development\wireshark\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.12.25831 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2b484.dir\Debug\\" /Fd"cmTC_2b484.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 C:\Development\wireshark\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  CheckIncludeFile.c
+  
+C:\Development\wireshark\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'sys/select.h': No such file or directory [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_2b484.vcxproj]
+Done Building Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_2b484.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_2b484.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Development\wireshark\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'sys/select.h': No such file or directory [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_2b484.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:01.32
+
+
+Determining if the include file sys/socket.h exists failed with the following output:
+Change Dir: C:/Development/wireshark/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_d8357.vcxproj" "/p:Configuration=Debug" "/p:Platform=Win32" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.5.180.51428 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/5/2019 7:27:45 PM.
+Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_d8357.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_d8357.dir\Debug\".
+  Creating directory "C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_d8357.dir\Debug\cmTC_d8357.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_d8357.dir\Debug\cmTC_d8357.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d8357.dir\Debug\\" /Fd"cmTC_d8357.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 C:\Development\wireshark\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.12.25831 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d8357.dir\Debug\\" /Fd"cmTC_d8357.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 C:\Development\wireshark\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  CheckIncludeFile.c
+  
+C:\Development\wireshark\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'sys/socket.h': No such file or directory [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_d8357.vcxproj]
+Done Building Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_d8357.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_d8357.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Development\wireshark\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'sys/socket.h': No such file or directory [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_d8357.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:01.44
+
+
+Determining if the include file sys/sockio.h exists failed with the following output:
+Change Dir: C:/Development/wireshark/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_f66c7.vcxproj" "/p:Configuration=Debug" "/p:Platform=Win32" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.5.180.51428 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/5/2019 7:27:47 PM.
+Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_f66c7.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_f66c7.dir\Debug\".
+  Creating directory "C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_f66c7.dir\Debug\cmTC_f66c7.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_f66c7.dir\Debug\cmTC_f66c7.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f66c7.dir\Debug\\" /Fd"cmTC_f66c7.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 C:\Development\wireshark\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.12.25831 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f66c7.dir\Debug\\" /Fd"cmTC_f66c7.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 C:\Development\wireshark\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  CheckIncludeFile.c
+  
+C:\Development\wireshark\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'sys/sockio.h': No such file or directory [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_f66c7.vcxproj]
+Done Building Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_f66c7.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_f66c7.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Development\wireshark\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'sys/sockio.h': No such file or directory [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_f66c7.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:01.30
+
+
+Determining if the include file sys/time.h exists failed with the following output:
+Change Dir: C:/Development/wireshark/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_439c7.vcxproj" "/p:Configuration=Debug" "/p:Platform=Win32" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.5.180.51428 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/5/2019 7:27:49 PM.
+Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_439c7.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_439c7.dir\Debug\".
+  Creating directory "C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_439c7.dir\Debug\cmTC_439c7.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_439c7.dir\Debug\cmTC_439c7.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_439c7.dir\Debug\\" /Fd"cmTC_439c7.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 C:\Development\wireshark\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.12.25831 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_439c7.dir\Debug\\" /Fd"cmTC_439c7.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 C:\Development\wireshark\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  CheckIncludeFile.c
+  
+C:\Development\wireshark\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'sys/time.h': No such file or directory [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_439c7.vcxproj]
+Done Building Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_439c7.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_439c7.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Development\wireshark\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'sys/time.h': No such file or directory [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_439c7.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:01.30
+
+
+Determining if the include file sys/utsname.h exists failed with the following output:
+Change Dir: C:/Development/wireshark/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_a0bd5.vcxproj" "/p:Configuration=Debug" "/p:Platform=Win32" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.5.180.51428 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/5/2019 7:27:51 PM.
+Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_a0bd5.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_a0bd5.dir\Debug\".
+  Creating directory "C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_a0bd5.dir\Debug\cmTC_a0bd5.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_a0bd5.dir\Debug\cmTC_a0bd5.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a0bd5.dir\Debug\\" /Fd"cmTC_a0bd5.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 C:\Development\wireshark\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.12.25831 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a0bd5.dir\Debug\\" /Fd"cmTC_a0bd5.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 C:\Development\wireshark\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+C:\Development\wireshark\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'sys/utsname.h': No such file or directory [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_a0bd5.vcxproj]
+Done Building Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_a0bd5.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_a0bd5.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Development\wireshark\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'sys/utsname.h': No such file or directory [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_a0bd5.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:01.93
+
+
+Determining if the include file sys/wait.h exists failed with the following output:
+Change Dir: C:/Development/wireshark/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_73b00.vcxproj" "/p:Configuration=Debug" "/p:Platform=Win32" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.5.180.51428 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/5/2019 7:27:54 PM.
+Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_73b00.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_73b00.dir\Debug\".
+  Creating directory "C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_73b00.dir\Debug\cmTC_73b00.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_73b00.dir\Debug\cmTC_73b00.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_73b00.dir\Debug\\" /Fd"cmTC_73b00.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 C:\Development\wireshark\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.12.25831 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_73b00.dir\Debug\\" /Fd"cmTC_73b00.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 C:\Development\wireshark\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  CheckIncludeFile.c
+  
+C:\Development\wireshark\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'sys/wait.h': No such file or directory [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_73b00.vcxproj]
+Done Building Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_73b00.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_73b00.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Development\wireshark\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'sys/wait.h': No such file or directory [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_73b00.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:01.30
+
+
+Determining if the include file unistd.h exists failed with the following output:
+Change Dir: C:/Development/wireshark/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_1f518.vcxproj" "/p:Configuration=Debug" "/p:Platform=Win32" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.5.180.51428 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/5/2019 7:27:56 PM.
+Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_1f518.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_1f518.dir\Debug\".
+  Creating directory "C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_1f518.dir\Debug\cmTC_1f518.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_1f518.dir\Debug\cmTC_1f518.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1f518.dir\Debug\\" /Fd"cmTC_1f518.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 C:\Development\wireshark\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.12.25831 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1f518.dir\Debug\\" /Fd"cmTC_1f518.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 C:\Development\wireshark\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  CheckIncludeFile.c
+  
+C:\Development\wireshark\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_1f518.vcxproj]
+Done Building Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_1f518.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_1f518.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Development\wireshark\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_1f518.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:01.34
+
+
+Determining if the function getopt_long exists failed with the following output:
+Change Dir: C:/Development/wireshark/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_eea22.vcxproj" "/p:Configuration=Debug" "/p:Platform=Win32" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.5.180.51428 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/5/2019 7:27:58 PM.
+Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_eea22.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_eea22.dir\Debug\".
+  Creating directory "C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_eea22.dir\Debug\cmTC_eea22.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_eea22.dir\Debug\cmTC_eea22.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getopt_long /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_eea22.dir\Debug\\" /Fd"cmTC_eea22.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 "C:\Program Files\CMake\share\cmake-3.13\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.12.25831 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getopt_long /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_eea22.dir\Debug\\" /Fd"cmTC_eea22.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 "C:\Program Files\CMake\share\cmake-3.13\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\cmTC_eea22.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Development/wireshark/CMakeFiles/CMakeTmp/Debug/cmTC_eea22.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Development/wireshark/CMakeFiles/CMakeTmp/Debug/cmTC_eea22.lib" /MACHINE:X86 /SAFESEH /guard:cf  /machine:X86 cmTC_eea22.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _getopt_long referenced in function _main [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_eea22.vcxproj]
+C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\cmTC_eea22.exe : fatal error LNK1120: 1 unresolved externals [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_eea22.vcxproj]
+Done Building Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_eea22.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_eea22.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol _getopt_long referenced in function _main [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_eea22.vcxproj]
+  C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\cmTC_eea22.exe : fatal error LNK1120: 1 unresolved externals [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_eea22.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:02.24
+
+
+Determining if the include file alloca.h exists failed with the following output:
+Change Dir: C:/Development/wireshark/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_f324b.vcxproj" "/p:Configuration=Debug" "/p:Platform=Win32" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.5.180.51428 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/5/2019 7:28:01 PM.
+Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_f324b.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_f324b.dir\Debug\".
+  Creating directory "C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_f324b.dir\Debug\cmTC_f324b.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_f324b.dir\Debug\cmTC_f324b.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f324b.dir\Debug\\" /Fd"cmTC_f324b.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 C:\Development\wireshark\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.12.25831 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f324b.dir\Debug\\" /Fd"cmTC_f324b.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 C:\Development\wireshark\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  CheckIncludeFile.c
+  
+C:\Development\wireshark\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'alloca.h': No such file or directory [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_f324b.vcxproj]
+Done Building Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_f324b.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_f324b.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Development\wireshark\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'alloca.h': No such file or directory [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_f324b.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:02.06
+
+
+Determining if the function getifaddrs exists failed with the following output:
+Change Dir: C:/Development/wireshark/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_ce92e.vcxproj" "/p:Configuration=Debug" "/p:Platform=Win32" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.5.180.51428 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/5/2019 7:28:03 PM.
+Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_ce92e.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_ce92e.dir\Debug\".
+  Creating directory "C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_ce92e.dir\Debug\cmTC_ce92e.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_ce92e.dir\Debug\cmTC_ce92e.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getifaddrs /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ce92e.dir\Debug\\" /Fd"cmTC_ce92e.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 "C:\Program Files\CMake\share\cmake-3.13\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.12.25831 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getifaddrs /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ce92e.dir\Debug\\" /Fd"cmTC_ce92e.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 "C:\Program Files\CMake\share\cmake-3.13\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\cmTC_ce92e.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Development/wireshark/CMakeFiles/CMakeTmp/Debug/cmTC_ce92e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Development/wireshark/CMakeFiles/CMakeTmp/Debug/cmTC_ce92e.lib" /MACHINE:X86 /SAFESEH /guard:cf  /machine:X86 cmTC_ce92e.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _getifaddrs referenced in function _main [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_ce92e.vcxproj]
+C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\cmTC_ce92e.exe : fatal error LNK1120: 1 unresolved externals [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_ce92e.vcxproj]
+Done Building Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_ce92e.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_ce92e.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol _getifaddrs referenced in function _main [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_ce92e.vcxproj]
+  C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\cmTC_ce92e.exe : fatal error LNK1120: 1 unresolved externals [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_ce92e.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:02.15
+
+
+Determining if the function issetugid exists failed with the following output:
+Change Dir: C:/Development/wireshark/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_cd96d.vcxproj" "/p:Configuration=Debug" "/p:Platform=Win32" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.5.180.51428 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/5/2019 7:28:06 PM.
+Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_cd96d.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_cd96d.dir\Debug\".
+  Creating directory "C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_cd96d.dir\Debug\cmTC_cd96d.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_cd96d.dir\Debug\cmTC_cd96d.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=issetugid /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cd96d.dir\Debug\\" /Fd"cmTC_cd96d.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 "C:\Program Files\CMake\share\cmake-3.13\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.12.25831 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=issetugid /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cd96d.dir\Debug\\" /Fd"cmTC_cd96d.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 "C:\Program Files\CMake\share\cmake-3.13\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\cmTC_cd96d.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Development/wireshark/CMakeFiles/CMakeTmp/Debug/cmTC_cd96d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Development/wireshark/CMakeFiles/CMakeTmp/Debug/cmTC_cd96d.lib" /MACHINE:X86 /SAFESEH /guard:cf  /machine:X86 cmTC_cd96d.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _issetugid referenced in function _main [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_cd96d.vcxproj]
+C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\cmTC_cd96d.exe : fatal error LNK1120: 1 unresolved externals [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_cd96d.vcxproj]
+Done Building Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_cd96d.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_cd96d.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol _issetugid referenced in function _main [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_cd96d.vcxproj]
+  C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\cmTC_cd96d.exe : fatal error LNK1120: 1 unresolved externals [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_cd96d.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:01.99
+
+
+Determining if the function mkstemps exists failed with the following output:
+Change Dir: C:/Development/wireshark/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_f6387.vcxproj" "/p:Configuration=Debug" "/p:Platform=Win32" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.5.180.51428 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/5/2019 7:28:09 PM.
+Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_f6387.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_f6387.dir\Debug\".
+  Creating directory "C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_f6387.dir\Debug\cmTC_f6387.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_f6387.dir\Debug\cmTC_f6387.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=mkstemps /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f6387.dir\Debug\\" /Fd"cmTC_f6387.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 "C:\Program Files\CMake\share\cmake-3.13\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.12.25831 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=mkstemps /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f6387.dir\Debug\\" /Fd"cmTC_f6387.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 "C:\Program Files\CMake\share\cmake-3.13\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\cmTC_f6387.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Development/wireshark/CMakeFiles/CMakeTmp/Debug/cmTC_f6387.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Development/wireshark/CMakeFiles/CMakeTmp/Debug/cmTC_f6387.lib" /MACHINE:X86 /SAFESEH /guard:cf  /machine:X86 cmTC_f6387.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _mkstemps referenced in function _main [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_f6387.vcxproj]
+C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\cmTC_f6387.exe : fatal error LNK1120: 1 unresolved externals [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_f6387.vcxproj]
+Done Building Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_f6387.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_f6387.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol _mkstemps referenced in function _main [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_f6387.vcxproj]
+  C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\cmTC_f6387.exe : fatal error LNK1120: 1 unresolved externals [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_f6387.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:02.07
+
+
+Determining if the function setresgid exists failed with the following output:
+Change Dir: C:/Development/wireshark/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_902be.vcxproj" "/p:Configuration=Debug" "/p:Platform=Win32" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.5.180.51428 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/5/2019 7:28:11 PM.
+Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_902be.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_902be.dir\Debug\".
+  Creating directory "C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_902be.dir\Debug\cmTC_902be.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_902be.dir\Debug\cmTC_902be.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=setresgid /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_902be.dir\Debug\\" /Fd"cmTC_902be.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 "C:\Program Files\CMake\share\cmake-3.13\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.12.25831 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=setresgid /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_902be.dir\Debug\\" /Fd"cmTC_902be.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 "C:\Program Files\CMake\share\cmake-3.13\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\cmTC_902be.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Development/wireshark/CMakeFiles/CMakeTmp/Debug/cmTC_902be.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Development/wireshark/CMakeFiles/CMakeTmp/Debug/cmTC_902be.lib" /MACHINE:X86 /SAFESEH /guard:cf  /machine:X86 cmTC_902be.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _setresgid referenced in function _main [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_902be.vcxproj]
+C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\cmTC_902be.exe : fatal error LNK1120: 1 unresolved externals [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_902be.vcxproj]
+Done Building Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_902be.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_902be.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol _setresgid referenced in function _main [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_902be.vcxproj]
+  C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\cmTC_902be.exe : fatal error LNK1120: 1 unresolved externals [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_902be.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:02.06
+
+
+Determining if the function setresuid exists failed with the following output:
+Change Dir: C:/Development/wireshark/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_ad5cc.vcxproj" "/p:Configuration=Debug" "/p:Platform=Win32" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.5.180.51428 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/5/2019 7:28:14 PM.
+Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_ad5cc.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_ad5cc.dir\Debug\".
+  Creating directory "C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_ad5cc.dir\Debug\cmTC_ad5cc.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_ad5cc.dir\Debug\cmTC_ad5cc.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=setresuid /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ad5cc.dir\Debug\\" /Fd"cmTC_ad5cc.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 "C:\Program Files\CMake\share\cmake-3.13\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.12.25831 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=setresuid /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ad5cc.dir\Debug\\" /Fd"cmTC_ad5cc.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 "C:\Program Files\CMake\share\cmake-3.13\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\cmTC_ad5cc.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Development/wireshark/CMakeFiles/CMakeTmp/Debug/cmTC_ad5cc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Development/wireshark/CMakeFiles/CMakeTmp/Debug/cmTC_ad5cc.lib" /MACHINE:X86 /SAFESEH /guard:cf  /machine:X86 cmTC_ad5cc.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _setresuid referenced in function _main [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_ad5cc.vcxproj]
+C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\cmTC_ad5cc.exe : fatal error LNK1120: 1 unresolved externals [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_ad5cc.vcxproj]
+Done Building Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_ad5cc.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_ad5cc.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol _setresuid referenced in function _main [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_ad5cc.vcxproj]
+  C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\cmTC_ad5cc.exe : fatal error LNK1120: 1 unresolved externals [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_ad5cc.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:02.12
+
+
+Determining if the function strptime exists failed with the following output:
+Change Dir: C:/Development/wireshark/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_1e023.vcxproj" "/p:Configuration=Debug" "/p:Platform=Win32" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.5.180.51428 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/5/2019 7:28:17 PM.
+Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_1e023.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_1e023.dir\Debug\".
+  Creating directory "C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_1e023.dir\Debug\cmTC_1e023.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_1e023.dir\Debug\cmTC_1e023.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strptime /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1e023.dir\Debug\\" /Fd"cmTC_1e023.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 "C:\Program Files\CMake\share\cmake-3.13\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.12.25831 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strptime /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1e023.dir\Debug\\" /Fd"cmTC_1e023.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 "C:\Program Files\CMake\share\cmake-3.13\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\cmTC_1e023.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Development/wireshark/CMakeFiles/CMakeTmp/Debug/cmTC_1e023.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Development/wireshark/CMakeFiles/CMakeTmp/Debug/cmTC_1e023.lib" /MACHINE:X86 /SAFESEH /guard:cf  /machine:X86 cmTC_1e023.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _strptime referenced in function _main [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_1e023.vcxproj]
+C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\cmTC_1e023.exe : fatal error LNK1120: 1 unresolved externals [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_1e023.vcxproj]
+Done Building Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_1e023.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_1e023.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol _strptime referenced in function _main [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_1e023.vcxproj]
+  C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\cmTC_1e023.exe : fatal error LNK1120: 1 unresolved externals [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_1e023.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:01.96
+
+
+Performing C SOURCE FILE Test HAVE_STRUCT_SOCKADDR_SA_LEN failed with the following output:
+Change Dir: C:/Development/wireshark/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_e7ada.vcxproj" "/p:Configuration=Debug" "/p:Platform=Win32" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.5.180.51428 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/5/2019 7:28:19 PM.
+Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_e7ada.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_e7ada.dir\Debug\".
+  Creating directory "C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_e7ada.dir\Debug\cmTC_e7ada.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_e7ada.dir\Debug\cmTC_e7ada.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_STRUCT_SOCKADDR_SA_LEN /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e7ada.dir\Debug\\" /Fd"cmTC_e7ada.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 C:\Development\wireshark\CMakeFiles\CMakeTmp\src.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.12.25831 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_STRUCT_SOCKADDR_SA_LEN /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e7ada.dir\Debug\\" /Fd"cmTC_e7ada.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 C:\Development\wireshark\CMakeFiles\CMakeTmp\src.c
+  src.c
+  
+C:\Development\wireshark\CMakeFiles\CMakeTmp\src.c(2): fatal error C1083: Cannot open include file: 'sys/socket.h': No such file or directory [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_e7ada.vcxproj]
+Done Building Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_e7ada.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_e7ada.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Development\wireshark\CMakeFiles\CMakeTmp\src.c(2): fatal error C1083: Cannot open include file: 'sys/socket.h': No such file or directory [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_e7ada.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:01.43
+
+Source file was:
+
+#include <sys/socket.h>
+
+int main()
+{
+   (void)sizeof(((struct sockaddr *)0)->sa_len);
+   return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_STRUCT_STAT_ST_FLAGS failed with the following output:
+Change Dir: C:/Development/wireshark/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_28a97.vcxproj" "/p:Configuration=Debug" "/p:Platform=Win32" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.5.180.51428 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/5/2019 7:28:21 PM.
+Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_28a97.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_28a97.dir\Debug\".
+  Creating directory "C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_28a97.dir\Debug\cmTC_28a97.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_28a97.dir\Debug\cmTC_28a97.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_STRUCT_STAT_ST_FLAGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_28a97.dir\Debug\\" /Fd"cmTC_28a97.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 C:\Development\wireshark\CMakeFiles\CMakeTmp\src.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.12.25831 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_STRUCT_STAT_ST_FLAGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_28a97.dir\Debug\\" /Fd"cmTC_28a97.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 C:\Development\wireshark\CMakeFiles\CMakeTmp\src.c
+  src.c
+  
+C:\Development\wireshark\CMakeFiles\CMakeTmp\src.c(6): error C2039: 'st_flags': is not a member of 'stat' [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_28a97.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\sys/stat.h(89): note: see declaration of 'stat'
+Done Building Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_28a97.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_28a97.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Development\wireshark\CMakeFiles\CMakeTmp\src.c(6): error C2039: 'st_flags': is not a member of 'stat' [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_28a97.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:01.41
+
+Source file was:
+
+#include <sys/stat.h>
+
+int main()
+{
+   (void)sizeof(((struct stat *)0)->st_flags);
+   return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_STRUCT_STAT_ST_BIRTHTIME failed with the following output:
+Change Dir: C:/Development/wireshark/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_9b8ba.vcxproj" "/p:Configuration=Debug" "/p:Platform=Win32" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.5.180.51428 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/5/2019 7:28:23 PM.
+Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_9b8ba.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_9b8ba.dir\Debug\".
+  Creating directory "C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_9b8ba.dir\Debug\cmTC_9b8ba.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_9b8ba.dir\Debug\cmTC_9b8ba.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_STRUCT_STAT_ST_BIRTHTIME /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9b8ba.dir\Debug\\" /Fd"cmTC_9b8ba.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 C:\Development\wireshark\CMakeFiles\CMakeTmp\src.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.12.25831 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_STRUCT_STAT_ST_BIRTHTIME /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9b8ba.dir\Debug\\" /Fd"cmTC_9b8ba.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 C:\Development\wireshark\CMakeFiles\CMakeTmp\src.c
+  src.c
+  
+C:\Development\wireshark\CMakeFiles\CMakeTmp\src.c(6): error C2039: 'st_birthtime': is not a member of 'stat' [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_9b8ba.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\sys/stat.h(89): note: see declaration of 'stat'
+Done Building Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_9b8ba.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_9b8ba.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Development\wireshark\CMakeFiles\CMakeTmp\src.c(6): error C2039: 'st_birthtime': is not a member of 'stat' [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_9b8ba.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:01.90
+
+Source file was:
+
+#include <sys/stat.h>
+
+int main()
+{
+   (void)sizeof(((struct stat *)0)->st_birthtime);
+   return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_STRUCT_STAT___ST_BIRTHTIME failed with the following output:
+Change Dir: C:/Development/wireshark/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_5f4d0.vcxproj" "/p:Configuration=Debug" "/p:Platform=Win32" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.5.180.51428 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/5/2019 7:28:26 PM.
+Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_5f4d0.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_5f4d0.dir\Debug\".
+  Creating directory "C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_5f4d0.dir\Debug\cmTC_5f4d0.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_5f4d0.dir\Debug\cmTC_5f4d0.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_STRUCT_STAT___ST_BIRTHTIME /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5f4d0.dir\Debug\\" /Fd"cmTC_5f4d0.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 C:\Development\wireshark\CMakeFiles\CMakeTmp\src.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.12.25831 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_STRUCT_STAT___ST_BIRTHTIME /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5f4d0.dir\Debug\\" /Fd"cmTC_5f4d0.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 C:\Development\wireshark\CMakeFiles\CMakeTmp\src.c
+  src.c
+  
+C:\Development\wireshark\CMakeFiles\CMakeTmp\src.c(6): error C2039: '__st_birthtime': is not a member of 'stat' [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_5f4d0.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\sys/stat.h(89): note: see declaration of 'stat'
+Done Building Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_5f4d0.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_5f4d0.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Development\wireshark\CMakeFiles\CMakeTmp\src.c(6): error C2039: '__st_birthtime': is not a member of 'stat' [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_5f4d0.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:01.50
+
+Source file was:
+
+#include <sys/stat.h>
+
+int main()
+{
+   (void)sizeof(((struct stat *)0)->__st_birthtime);
+   return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_STRUCT_TM_TM_ZONE failed with the following output:
+Change Dir: C:/Development/wireshark/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_b4357.vcxproj" "/p:Configuration=Debug" "/p:Platform=Win32" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.5.180.51428 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/5/2019 7:28:28 PM.
+Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_b4357.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_b4357.dir\Debug\".
+  Creating directory "C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_b4357.dir\Debug\cmTC_b4357.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_b4357.dir\Debug\cmTC_b4357.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_STRUCT_TM_TM_ZONE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b4357.dir\Debug\\" /Fd"cmTC_b4357.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 C:\Development\wireshark\CMakeFiles\CMakeTmp\src.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.12.25831 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_STRUCT_TM_TM_ZONE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b4357.dir\Debug\\" /Fd"cmTC_b4357.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 C:\Development\wireshark\CMakeFiles\CMakeTmp\src.c
+  src.c
+  
+C:\Development\wireshark\CMakeFiles\CMakeTmp\src.c(6): error C2039: 'tm_zone': is not a member of 'tm' [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_b4357.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt_wtime.h(23): note: see declaration of 'tm'
+Done Building Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_b4357.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_b4357.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Development\wireshark\CMakeFiles\CMakeTmp\src.c(6): error C2039: 'tm_zone': is not a member of 'tm' [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_b4357.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:01.39
+
+Source file was:
+
+#include <time.h>
+
+int main()
+{
+   (void)sizeof(((struct tm *)0)->tm_zone);
+   return 0;
+}
+
+Determining if the tzname exist failed with the following output:
+Change Dir: C:/Development/wireshark/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_38112.vcxproj" "/p:Configuration=Debug" "/p:Platform=Win32" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.5.180.51428 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/5/2019 7:28:30 PM.
+Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_38112.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_38112.dir\Debug\".
+  Creating directory "C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_38112.dir\Debug\cmTC_38112.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_38112.dir\Debug\cmTC_38112.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_38112.dir\Debug\\" /Fd"cmTC_38112.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 C:\Development\wireshark\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.12.25831 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_38112.dir\Debug\\" /Fd"cmTC_38112.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 C:\Development\wireshark\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  CheckSymbolExists.c
+  
+C:\Development\wireshark\CMakeFiles\CMakeTmp\CheckSymbolExists.c(8): error C2065: 'tzname': undeclared identifier [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_38112.vcxproj]
+Done Building Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_38112.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_38112.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Development\wireshark\CMakeFiles\CMakeTmp\CheckSymbolExists.c(8): error C2065: 'tzname': undeclared identifier [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_38112.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:01.47
+
+File C:/Development/wireshark/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef tzname
+  return ((int*)(&tzname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function ssh_userauth_agent exists failed with the following output:
+Change Dir: C:/Development/wireshark/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_94b26.vcxproj" "/p:Configuration=Debug" "/p:Platform=Win32" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.5.180.51428 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/5/2019 7:28:37 PM.
+Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_94b26.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_94b26.dir\Debug\".
+  Creating directory "C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_94b26.dir\Debug\cmTC_94b26.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_94b26.dir\Debug\cmTC_94b26.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\CL.exe /c /I"C:\Development\wireshark-win64-libs\libssh-0.7.3-win64ws\include" /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=ssh_userauth_agent /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_94b26.dir\Debug\\" /Fd"cmTC_94b26.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 "C:\Program Files\CMake\share\cmake-3.13\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.12.25831 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Development\wireshark-win64-libs\libssh-0.7.3-win64ws\include" /Zi /W3 /WX- /diagnostics:classic /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=ssh_userauth_agent /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /guard:cf /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_94b26.dir\Debug\\" /Fd"cmTC_94b26.dir\Debug\vc141.pdb" /Gd /TC /wd4200 /analyze- /errorReport:queue  /Zo /utf-8 /w34295 /w34189 "C:\Program Files\CMake\share\cmake-3.13\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\cmTC_94b26.exe" /INCREMENTAL /NOLOGO "C:\Development\wireshark-win64-libs\libssh-0.7.3-win64ws\lib\ssh.lib" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Development/wireshark/CMakeFiles/CMakeTmp/Debug/cmTC_94b26.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Development/wireshark/CMakeFiles/CMakeTmp/Debug/cmTC_94b26.lib" /MACHINE:X86 /SAFESEH /guard:cf  /machine:X86 cmTC_94b26.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _ssh_userauth_agent referenced in function _main [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_94b26.vcxproj]
+C:\Development\wireshark-win64-libs\libssh-0.7.3-win64ws\lib\ssh.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86' [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_94b26.vcxproj]
+C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\cmTC_94b26.exe : fatal error LNK1120: 1 unresolved externals [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_94b26.vcxproj]
+Done Building Project "C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_94b26.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_94b26.vcxproj" (default target) (1) ->
+(Link target) -> 
+  C:\Development\wireshark-win64-libs\libssh-0.7.3-win64ws\lib\ssh.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86' [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_94b26.vcxproj]
+
+
+"C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_94b26.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol _ssh_userauth_agent referenced in function _main [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_94b26.vcxproj]
+  C:\Development\wireshark\CMakeFiles\CMakeTmp\Debug\cmTC_94b26.exe : fatal error LNK1120: 1 unresolved externals [C:\Development\wireshark\CMakeFiles\CMakeTmp\cmTC_94b26.vcxproj]
+
+    1 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:02.16
+
+

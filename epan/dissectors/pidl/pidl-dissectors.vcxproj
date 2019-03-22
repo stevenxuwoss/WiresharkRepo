@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8E6E9319-4914-3CE8-9C11-9EF3A082AF7B}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>pidl-dissectors</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Development\wireshark;C:\Development\wireshark-win64-libs\c-ares-1.15.0-win64ws\installed\x64-windows\include;C:\Development\wireshark-win64-libs\libgcrypt-1.8.3-win64ws\include;C:\Development\wireshark-win64-libs\gnutls-3.6.3-1-win64ws\include;C:\Development\wireshark-win64-libs\krb5-1.17-1-win64ws\installed\x64-windows\include;C:\Development\wireshark-win64-libs\lua-5.2.4-unicode-win64-vc14\include;C:\Development\wireshark-win64-libs\lz4-1.7.5-win64ws\include;C:\Development\wireshark-win64-libs\nghttp2-1.14.0-win64ws\include;C:\Development\wireshark-win64-libs\WpdPack\Include;C:\Development\wireshark-win64-libs\libsmi-svn-40773-win64ws\include;C:\Development\wireshark-win64-libs\snappy-1.1.3-win64ws\include;C:\Development\wireshark-win64-libs\zlib-1.2.11-2-ws;C:\Development\wireshark\zlib;C:\Development\wireshark-win64-libs\libxml2-2.9.9-win64ws\include\libxml2;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\include\glib-2.0;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\lib\glib-2.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Development\wireshark;C:\Development\wireshark-win64-libs\c-ares-1.15.0-win64ws\installed\x64-windows\include;C:\Development\wireshark-win64-libs\libgcrypt-1.8.3-win64ws\include;C:\Development\wireshark-win64-libs\gnutls-3.6.3-1-win64ws\include;C:\Development\wireshark-win64-libs\krb5-1.17-1-win64ws\installed\x64-windows\include;C:\Development\wireshark-win64-libs\lua-5.2.4-unicode-win64-vc14\include;C:\Development\wireshark-win64-libs\lz4-1.7.5-win64ws\include;C:\Development\wireshark-win64-libs\nghttp2-1.14.0-win64ws\include;C:\Development\wireshark-win64-libs\WpdPack\Include;C:\Development\wireshark-win64-libs\libsmi-svn-40773-win64ws\include;C:\Development\wireshark-win64-libs\snappy-1.1.3-win64ws\include;C:\Development\wireshark-win64-libs\zlib-1.2.11-2-ws;C:\Development\wireshark\zlib;C:\Development\wireshark-win64-libs\libxml2-2.9.9-win64ws\include\libxml2;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\include\glib-2.0;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\lib\glib-2.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Development\wireshark;C:\Development\wireshark-win64-libs\c-ares-1.15.0-win64ws\installed\x64-windows\include;C:\Development\wireshark-win64-libs\libgcrypt-1.8.3-win64ws\include;C:\Development\wireshark-win64-libs\gnutls-3.6.3-1-win64ws\include;C:\Development\wireshark-win64-libs\krb5-1.17-1-win64ws\installed\x64-windows\include;C:\Development\wireshark-win64-libs\lua-5.2.4-unicode-win64-vc14\include;C:\Development\wireshark-win64-libs\lz4-1.7.5-win64ws\include;C:\Development\wireshark-win64-libs\nghttp2-1.14.0-win64ws\include;C:\Development\wireshark-win64-libs\WpdPack\Include;C:\Development\wireshark-win64-libs\libsmi-svn-40773-win64ws\include;C:\Development\wireshark-win64-libs\snappy-1.1.3-win64ws\include;C:\Development\wireshark-win64-libs\zlib-1.2.11-2-ws;C:\Development\wireshark\zlib;C:\Development\wireshark-win64-libs\libxml2-2.9.9-win64ws\include\libxml2;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\include\glib-2.0;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\lib\glib-2.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Development\wireshark;C:\Development\wireshark-win64-libs\c-ares-1.15.0-win64ws\installed\x64-windows\include;C:\Development\wireshark-win64-libs\libgcrypt-1.8.3-win64ws\include;C:\Development\wireshark-win64-libs\gnutls-3.6.3-1-win64ws\include;C:\Development\wireshark-win64-libs\krb5-1.17-1-win64ws\installed\x64-windows\include;C:\Development\wireshark-win64-libs\lua-5.2.4-unicode-win64-vc14\include;C:\Development\wireshark-win64-libs\lz4-1.7.5-win64ws\include;C:\Development\wireshark-win64-libs\nghttp2-1.14.0-win64ws\include;C:\Development\wireshark-win64-libs\WpdPack\Include;C:\Development\wireshark-win64-libs\libsmi-svn-40773-win64ws\include;C:\Development\wireshark-win64-libs\snappy-1.1.3-win64ws\include;C:\Development\wireshark-win64-libs\zlib-1.2.11-2-ws;C:\Development\wireshark\zlib;C:\Development\wireshark-win64-libs\libxml2-2.9.9-win64ws\include\libxml2;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\include\glib-2.0;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\lib\glib-2.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\61b06eeab89d2b2c220c551c6edade70\pidl-dissectors.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Development/wireshark/CMakeFiles/61b06eeab89d2b2c220c551c6edade70/pidl-dissectors.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Development\wireshark\epan\dissectors\pidl\CMakeFiles\pidl-dissectors</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Development/wireshark/CMakeFiles/61b06eeab89d2b2c220c551c6edade70/pidl-dissectors.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Development\wireshark\epan\dissectors\pidl\CMakeFiles\pidl-dissectors</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Development/wireshark/CMakeFiles/61b06eeab89d2b2c220c551c6edade70/pidl-dissectors.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Development\wireshark\epan\dissectors\pidl\CMakeFiles\pidl-dissectors</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Development/wireshark/CMakeFiles/61b06eeab89d2b2c220c551c6edade70/pidl-dissectors.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Development\wireshark\epan\dissectors\pidl\CMakeFiles\pidl-dissectors</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Development\wireshark\epan\dissectors\pidl\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Development/wireshark/epan/dissectors/pidl/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Development/wireshark -BC:/Development/wireshark --check-stamp-file C:/Development/wireshark/epan/dissectors/pidl/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Development/wireshark/epan/dissectors/pidl/CMakeLists.txt;C:\Development\wireshark\epan\dissectors\pidl\CMakeLists.txt;C:\Development\wireshark\epan\dissectors\pidl\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Development\wireshark\epan\dissectors\pidl\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Development/wireshark/epan/dissectors/pidl/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Development/wireshark -BC:/Development/wireshark --check-stamp-file C:/Development/wireshark/epan/dissectors/pidl/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Development/wireshark/epan/dissectors/pidl/CMakeLists.txt;C:\Development\wireshark\epan\dissectors\pidl\CMakeLists.txt;C:\Development\wireshark\epan\dissectors\pidl\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Development\wireshark\epan\dissectors\pidl\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Development/wireshark/epan/dissectors/pidl/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Development/wireshark -BC:/Development/wireshark --check-stamp-file C:/Development/wireshark/epan/dissectors/pidl/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Development/wireshark/epan/dissectors/pidl/CMakeLists.txt;C:\Development\wireshark\epan\dissectors\pidl\CMakeLists.txt;C:\Development\wireshark\epan\dissectors\pidl\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Development\wireshark\epan\dissectors\pidl\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Development/wireshark/epan/dissectors/pidl/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Development/wireshark -BC:/Development/wireshark --check-stamp-file C:/Development/wireshark/epan/dissectors/pidl/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Development/wireshark/epan/dissectors/pidl/CMakeLists.txt;C:\Development\wireshark\epan\dissectors\pidl\CMakeLists.txt;C:\Development\wireshark\epan\dissectors\pidl\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Development\wireshark\epan\dissectors\pidl\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Development\wireshark\epan\dissectors\pidl\CMakeFiles\pidl-dissectors" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Development\wireshark\ZERO_CHECK.vcxproj">
+      <Project>{B765B3E1-9AF0-39DF-BCC2-760F120CAE35}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\pidl\generate_dissector-dcerpc-atsvc.vcxproj">
+      <Project>{CF6F00D7-34AE-3365-AE13-87B6A4D78FE2}</Project>
+      <Name>generate_dissector-dcerpc-atsvc</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\pidl\generate_dissector-dcerpc-bkrp.vcxproj">
+      <Project>{0DF52E0F-DEC2-3E3A-95E7-F9629E5879BE}</Project>
+      <Name>generate_dissector-dcerpc-bkrp</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\pidl\generate_dissector-dcerpc-clusapi.vcxproj">
+      <Project>{6A37DBE8-9023-39E3-81A0-2A097A81AF30}</Project>
+      <Name>generate_dissector-dcerpc-clusapi</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\pidl\generate_dissector-dcerpc-dfs.vcxproj">
+      <Project>{5EA8F62D-F517-3EE9-8AD6-2246A3259023}</Project>
+      <Name>generate_dissector-dcerpc-dfs</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\pidl\generate_dissector-dcerpc-dnsserver.vcxproj">
+      <Project>{93CF0463-360F-3505-8B5F-DF0BE1F2ACAD}</Project>
+      <Name>generate_dissector-dcerpc-dnsserver</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\pidl\generate_dissector-dcerpc-dssetup.vcxproj">
+      <Project>{29E7B2F9-2778-329C-A37B-7F3B5F11BF03}</Project>
+      <Name>generate_dissector-dcerpc-dssetup</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\pidl\generate_dissector-dcerpc-efs.vcxproj">
+      <Project>{B449AC33-5995-3719-8E83-72811A94F1FD}</Project>
+      <Name>generate_dissector-dcerpc-efs</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\pidl\generate_dissector-dcerpc-eventlog.vcxproj">
+      <Project>{C898A4F5-754A-34F4-86CB-F165B9A51FF9}</Project>
+      <Name>generate_dissector-dcerpc-eventlog</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\pidl\generate_dissector-dcerpc-frsrpc.vcxproj">
+      <Project>{21EEC2CC-1577-3F57-A70A-0B3BCB08A06E}</Project>
+      <Name>generate_dissector-dcerpc-frsrpc</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\pidl\generate_dissector-dcerpc-frstrans.vcxproj">
+      <Project>{2BAD6C5D-9FD2-3C0F-93F8-590C2C5874DC}</Project>
+      <Name>generate_dissector-dcerpc-frstrans</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\pidl\generate_dissector-dcerpc-fsrvp.vcxproj">
+      <Project>{7F826A63-C40D-3CC9-BA13-62B36CC852A2}</Project>
+      <Name>generate_dissector-dcerpc-fsrvp</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\pidl\generate_dissector-dcerpc-initshutdown.vcxproj">
+      <Project>{7E3F9392-93B5-31D3-AC92-8E0C0E42FC65}</Project>
+      <Name>generate_dissector-dcerpc-initshutdown</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\pidl\generate_dissector-dcerpc-lsa.vcxproj">
+      <Project>{BE132CE7-F409-3AFD-886A-032E4BD1BDF4}</Project>
+      <Name>generate_dissector-dcerpc-lsa</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\pidl\generate_dissector-dcerpc-mapi.vcxproj">
+      <Project>{6F5D9F12-2D3C-3CD9-8A6A-3B38B2299EBF}</Project>
+      <Name>generate_dissector-dcerpc-mapi</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\pidl\generate_dissector-dcerpc-mdssvc.vcxproj">
+      <Project>{EEB945EF-6921-34EF-AD2A-4DBD1062FE8F}</Project>
+      <Name>generate_dissector-dcerpc-mdssvc</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\pidl\generate_dissector-dcerpc-misc.vcxproj">
+      <Project>{1A0DD38D-52E5-3010-83BB-13F66FFC9C22}</Project>
+      <Name>generate_dissector-dcerpc-misc</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\pidl\generate_dissector-dcerpc-nspi.vcxproj">
+      <Project>{65085E34-AE77-36E3-A51E-AC7E58DC5A87}</Project>
+      <Name>generate_dissector-dcerpc-nspi</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\pidl\generate_dissector-dcerpc-rfr.vcxproj">
+      <Project>{B7992806-C834-3144-8975-F87F4D6CC93A}</Project>
+      <Name>generate_dissector-dcerpc-rfr</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\pidl\generate_dissector-dcerpc-samr.vcxproj">
+      <Project>{461A016A-B6C4-3339-B754-CD4A56641C0B}</Project>
+      <Name>generate_dissector-dcerpc-samr</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\pidl\generate_dissector-dcerpc-winreg.vcxproj">
+      <Project>{4AB70594-1BFC-3BF8-AC5B-6A9BE421B766}</Project>
+      <Name>generate_dissector-dcerpc-winreg</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\pidl\generate_dissector-dcerpc-witness.vcxproj">
+      <Project>{7DB990B3-F0E2-304E-AAD0-64992117AC88}</Project>
+      <Name>generate_dissector-dcerpc-witness</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\pidl\generate_dissector-dcerpc-wzcsvc.vcxproj">
+      <Project>{B66D923D-631B-3529-B604-D3655306D368}</Project>
+      <Name>generate_dissector-dcerpc-wzcsvc</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

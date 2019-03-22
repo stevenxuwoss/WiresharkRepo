@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{FC1AB37D-E5F7-3BA3-8EEF-B5384D767CCD}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>dumpabi-libwiretap</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Development\wireshark;C:\Development\wireshark\wiretap;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\include\glib-2.0;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\lib\glib-2.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Development\wireshark;C:\Development\wireshark\wiretap;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\include\glib-2.0;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\lib\glib-2.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Development\wireshark;C:\Development\wireshark\wiretap;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\include\glib-2.0;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\lib\glib-2.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Development\wireshark;C:\Development\wireshark\wiretap;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\include\glib-2.0;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\lib\glib-2.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\43385f9971ae0e325b8600ef727967b4\libwiretap.abi.tar.gz.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating libwiretap.abi.tar.gz</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E remove_directory C:/Development/wireshark/wiretap/abi-check-headers
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Development/wireshark/wiretap/abi-check-headers
+if %errorlevel% neq 0 goto :cmEnd
+xcopy ../config.h C:/Development/wireshark/wiretap/abi-check-headers/ /d
+if %errorlevel% neq 0 goto :cmEnd
+xcopy 5views.h aethra.h ascend-int.h ascendtext.h atm.h ber.h btsnoop.h camins.h capsa.h catapult_dct2000.h commview.h cosine.h csids.h daintree-sna.h dbs-etherwatch.h dct3trace.h dpa400.h erf.h eyesdn.h file_wrappers.h hcidump.h i4b_trace.h i4btrace.h ipfix.h iptrace.h iseries.h json.h k12.h lanalyzer.h libpcap.h logcat.h logcat_text.h merge.h mime_file.h mp2t.h mpeg.h mplog.h netmon.h netscaler.h netscreen.h nettl.h nettrace_3gpp_32_423.h network_instruments.h netxray.h ngsniffer.h packetlogger.h pcap-common.h pcap-encap.h pcapng.h pcapng_module.h peekclassic.h peektagged.h pppdump.h radcom.h rfc7468.h ruby_marshal.h secrets-types.h snoop.h stanag4607.h systemd_journal.h tnef.h toshiba.h visual.h vms.h vwr.h wtap-int.h wtap.h wtap_opttypes.h C:/Development/wireshark/ws_symbol_export.h C:/Development/wireshark/wiretap/abi-check-headers/ /d
+if %errorlevel% neq 0 goto :cmEnd
+abi-compliance-checker -l libwiretap -v2 -relpath C:/Development/wireshark/wiretap -dump-abi abi-descriptor.xml || cat C:/Development/wireshark/wiretap/logs/libwiretap/[0-9]*/log.txt
+if %errorlevel% neq 0 goto :cmEnd
+cp C:/Development/wireshark/wiretap/abi_dumps/libwiretap/libwiretap_* C:/Development/wireshark/wiretap/libwiretap.abi.tar.gz
+if %errorlevel% neq 0 goto :cmEnd
+rm -rf C:/Development/wireshark/wiretap/abi-check-headers C:/Development/wireshark/wiretap/abi_dumps
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Development/wireshark/CMakeFiles/43385f9971ae0e325b8600ef727967b4/libwiretap.abi.tar.gz.rule;C:\Development\wireshark\run\Debug\libwiretap.dll;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Development\wireshark\wiretap\libwiretap.abi.tar.gz</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating libwiretap.abi.tar.gz</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E remove_directory C:/Development/wireshark/wiretap/abi-check-headers
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Development/wireshark/wiretap/abi-check-headers
+if %errorlevel% neq 0 goto :cmEnd
+xcopy ../config.h C:/Development/wireshark/wiretap/abi-check-headers/ /d
+if %errorlevel% neq 0 goto :cmEnd
+xcopy 5views.h aethra.h ascend-int.h ascendtext.h atm.h ber.h btsnoop.h camins.h capsa.h catapult_dct2000.h commview.h cosine.h csids.h daintree-sna.h dbs-etherwatch.h dct3trace.h dpa400.h erf.h eyesdn.h file_wrappers.h hcidump.h i4b_trace.h i4btrace.h ipfix.h iptrace.h iseries.h json.h k12.h lanalyzer.h libpcap.h logcat.h logcat_text.h merge.h mime_file.h mp2t.h mpeg.h mplog.h netmon.h netscaler.h netscreen.h nettl.h nettrace_3gpp_32_423.h network_instruments.h netxray.h ngsniffer.h packetlogger.h pcap-common.h pcap-encap.h pcapng.h pcapng_module.h peekclassic.h peektagged.h pppdump.h radcom.h rfc7468.h ruby_marshal.h secrets-types.h snoop.h stanag4607.h systemd_journal.h tnef.h toshiba.h visual.h vms.h vwr.h wtap-int.h wtap.h wtap_opttypes.h C:/Development/wireshark/ws_symbol_export.h C:/Development/wireshark/wiretap/abi-check-headers/ /d
+if %errorlevel% neq 0 goto :cmEnd
+abi-compliance-checker -l libwiretap -v2 -relpath C:/Development/wireshark/wiretap -dump-abi abi-descriptor.xml || cat C:/Development/wireshark/wiretap/logs/libwiretap/[0-9]*/log.txt
+if %errorlevel% neq 0 goto :cmEnd
+cp C:/Development/wireshark/wiretap/abi_dumps/libwiretap/libwiretap_* C:/Development/wireshark/wiretap/libwiretap.abi.tar.gz
+if %errorlevel% neq 0 goto :cmEnd
+rm -rf C:/Development/wireshark/wiretap/abi-check-headers C:/Development/wireshark/wiretap/abi_dumps
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Development/wireshark/CMakeFiles/43385f9971ae0e325b8600ef727967b4/libwiretap.abi.tar.gz.rule;C:\Development\wireshark\run\Release\libwiretap.dll;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Development\wireshark\wiretap\libwiretap.abi.tar.gz</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating libwiretap.abi.tar.gz</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E remove_directory C:/Development/wireshark/wiretap/abi-check-headers
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Development/wireshark/wiretap/abi-check-headers
+if %errorlevel% neq 0 goto :cmEnd
+xcopy ../config.h C:/Development/wireshark/wiretap/abi-check-headers/ /d
+if %errorlevel% neq 0 goto :cmEnd
+xcopy 5views.h aethra.h ascend-int.h ascendtext.h atm.h ber.h btsnoop.h camins.h capsa.h catapult_dct2000.h commview.h cosine.h csids.h daintree-sna.h dbs-etherwatch.h dct3trace.h dpa400.h erf.h eyesdn.h file_wrappers.h hcidump.h i4b_trace.h i4btrace.h ipfix.h iptrace.h iseries.h json.h k12.h lanalyzer.h libpcap.h logcat.h logcat_text.h merge.h mime_file.h mp2t.h mpeg.h mplog.h netmon.h netscaler.h netscreen.h nettl.h nettrace_3gpp_32_423.h network_instruments.h netxray.h ngsniffer.h packetlogger.h pcap-common.h pcap-encap.h pcapng.h pcapng_module.h peekclassic.h peektagged.h pppdump.h radcom.h rfc7468.h ruby_marshal.h secrets-types.h snoop.h stanag4607.h systemd_journal.h tnef.h toshiba.h visual.h vms.h vwr.h wtap-int.h wtap.h wtap_opttypes.h C:/Development/wireshark/ws_symbol_export.h C:/Development/wireshark/wiretap/abi-check-headers/ /d
+if %errorlevel% neq 0 goto :cmEnd
+abi-compliance-checker -l libwiretap -v2 -relpath C:/Development/wireshark/wiretap -dump-abi abi-descriptor.xml || cat C:/Development/wireshark/wiretap/logs/libwiretap/[0-9]*/log.txt
+if %errorlevel% neq 0 goto :cmEnd
+cp C:/Development/wireshark/wiretap/abi_dumps/libwiretap/libwiretap_* C:/Development/wireshark/wiretap/libwiretap.abi.tar.gz
+if %errorlevel% neq 0 goto :cmEnd
+rm -rf C:/Development/wireshark/wiretap/abi-check-headers C:/Development/wireshark/wiretap/abi_dumps
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Development/wireshark/CMakeFiles/43385f9971ae0e325b8600ef727967b4/libwiretap.abi.tar.gz.rule;C:\Development\wireshark\run\MinSizeRel\libwiretap.dll;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Development\wireshark\wiretap\libwiretap.abi.tar.gz</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating libwiretap.abi.tar.gz</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E remove_directory C:/Development/wireshark/wiretap/abi-check-headers
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Development/wireshark/wiretap/abi-check-headers
+if %errorlevel% neq 0 goto :cmEnd
+xcopy ../config.h C:/Development/wireshark/wiretap/abi-check-headers/ /d
+if %errorlevel% neq 0 goto :cmEnd
+xcopy 5views.h aethra.h ascend-int.h ascendtext.h atm.h ber.h btsnoop.h camins.h capsa.h catapult_dct2000.h commview.h cosine.h csids.h daintree-sna.h dbs-etherwatch.h dct3trace.h dpa400.h erf.h eyesdn.h file_wrappers.h hcidump.h i4b_trace.h i4btrace.h ipfix.h iptrace.h iseries.h json.h k12.h lanalyzer.h libpcap.h logcat.h logcat_text.h merge.h mime_file.h mp2t.h mpeg.h mplog.h netmon.h netscaler.h netscreen.h nettl.h nettrace_3gpp_32_423.h network_instruments.h netxray.h ngsniffer.h packetlogger.h pcap-common.h pcap-encap.h pcapng.h pcapng_module.h peekclassic.h peektagged.h pppdump.h radcom.h rfc7468.h ruby_marshal.h secrets-types.h snoop.h stanag4607.h systemd_journal.h tnef.h toshiba.h visual.h vms.h vwr.h wtap-int.h wtap.h wtap_opttypes.h C:/Development/wireshark/ws_symbol_export.h C:/Development/wireshark/wiretap/abi-check-headers/ /d
+if %errorlevel% neq 0 goto :cmEnd
+abi-compliance-checker -l libwiretap -v2 -relpath C:/Development/wireshark/wiretap -dump-abi abi-descriptor.xml || cat C:/Development/wireshark/wiretap/logs/libwiretap/[0-9]*/log.txt
+if %errorlevel% neq 0 goto :cmEnd
+cp C:/Development/wireshark/wiretap/abi_dumps/libwiretap/libwiretap_* C:/Development/wireshark/wiretap/libwiretap.abi.tar.gz
+if %errorlevel% neq 0 goto :cmEnd
+rm -rf C:/Development/wireshark/wiretap/abi-check-headers C:/Development/wireshark/wiretap/abi_dumps
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Development/wireshark/CMakeFiles/43385f9971ae0e325b8600ef727967b4/libwiretap.abi.tar.gz.rule;C:\Development\wireshark\run\RelWithDebInfo\libwiretap.dll;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Development\wireshark\wiretap\libwiretap.abi.tar.gz</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\e349afdaef23f9ca89447f55ea921b37\dumpabi-libwiretap.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Development/wireshark/CMakeFiles/e349afdaef23f9ca89447f55ea921b37/dumpabi-libwiretap.rule;C:\Development\wireshark\wiretap\libwiretap.abi.tar.gz;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Development\wireshark\wiretap\CMakeFiles\dumpabi-libwiretap</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Development/wireshark/CMakeFiles/e349afdaef23f9ca89447f55ea921b37/dumpabi-libwiretap.rule;C:\Development\wireshark\wiretap\libwiretap.abi.tar.gz;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Development\wireshark\wiretap\CMakeFiles\dumpabi-libwiretap</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Development/wireshark/CMakeFiles/e349afdaef23f9ca89447f55ea921b37/dumpabi-libwiretap.rule;C:\Development\wireshark\wiretap\libwiretap.abi.tar.gz;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Development\wireshark\wiretap\CMakeFiles\dumpabi-libwiretap</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Development/wireshark/CMakeFiles/e349afdaef23f9ca89447f55ea921b37/dumpabi-libwiretap.rule;C:\Development\wireshark\wiretap\libwiretap.abi.tar.gz;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Development\wireshark\wiretap\CMakeFiles\dumpabi-libwiretap</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Development\wireshark\wiretap\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Development/wireshark/wiretap/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Development/wireshark -BC:/Development/wireshark --check-stamp-file C:/Development/wireshark/wiretap/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Development/wireshark/wiretap/CMakeLists.txt;C:\Development\wireshark\abi-descriptor.template;C:\Development\wireshark\cmake\modules\UseABICheck.cmake;C:\Development\wireshark\wiretap\CMakeLists.txt;C:\Development\wireshark\wiretap\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Development\wireshark\wiretap\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Development/wireshark/wiretap/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Development/wireshark -BC:/Development/wireshark --check-stamp-file C:/Development/wireshark/wiretap/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Development/wireshark/wiretap/CMakeLists.txt;C:\Development\wireshark\abi-descriptor.template;C:\Development\wireshark\cmake\modules\UseABICheck.cmake;C:\Development\wireshark\wiretap\CMakeLists.txt;C:\Development\wireshark\wiretap\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Development\wireshark\wiretap\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Development/wireshark/wiretap/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Development/wireshark -BC:/Development/wireshark --check-stamp-file C:/Development/wireshark/wiretap/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Development/wireshark/wiretap/CMakeLists.txt;C:\Development\wireshark\abi-descriptor.template;C:\Development\wireshark\cmake\modules\UseABICheck.cmake;C:\Development\wireshark\wiretap\CMakeLists.txt;C:\Development\wireshark\wiretap\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Development\wireshark\wiretap\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Development/wireshark/wiretap/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Development/wireshark -BC:/Development/wireshark --check-stamp-file C:/Development/wireshark/wiretap/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Development/wireshark/wiretap/CMakeLists.txt;C:\Development\wireshark\abi-descriptor.template;C:\Development\wireshark\cmake\modules\UseABICheck.cmake;C:\Development\wireshark\wiretap\CMakeLists.txt;C:\Development\wireshark\wiretap\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Development\wireshark\wiretap\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Development\wireshark\wiretap\CMakeFiles\dumpabi-libwiretap" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Development\wireshark\ZERO_CHECK.vcxproj">
+      <Project>{B765B3E1-9AF0-39DF-BCC2-760F120CAE35}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\wiretap\wiretap.vcxproj">
+      <Project>{E2E4D689-2F25-3D69-8097-424C43CB916A}</Project>
+      <Name>wiretap</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

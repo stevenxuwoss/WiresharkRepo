@@ -1,0 +1,1510 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8337D504-182F-38EE-9DE0-B6A03BB0BBD1}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>manpages</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Development\wireshark;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\include\glib-2.0;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\lib\glib-2.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Development\wireshark;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\include\glib-2.0;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\lib\glib-2.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Development\wireshark;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\include\glib-2.0;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\lib\glib-2.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Development\wireshark;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\include\glib-2.0;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\lib\glib-2.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\4896a238e368bee3072b88eb34d56c0a\androiddump.1.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating androiddump.1</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=1 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/androiddump.pod &gt; androiddump.1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/androiddump.1.rule;C:\Development\wireshark\doc\androiddump.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Development\wireshark\doc\androiddump.1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating androiddump.1</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=1 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/androiddump.pod &gt; androiddump.1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/androiddump.1.rule;C:\Development\wireshark\doc\androiddump.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Development\wireshark\doc\androiddump.1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating androiddump.1</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=1 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/androiddump.pod &gt; androiddump.1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/androiddump.1.rule;C:\Development\wireshark\doc\androiddump.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Development\wireshark\doc\androiddump.1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating androiddump.1</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=1 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/androiddump.pod &gt; androiddump.1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/androiddump.1.rule;C:\Development\wireshark\doc\androiddump.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Development\wireshark\doc\androiddump.1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\4896a238e368bee3072b88eb34d56c0a\capinfos.1.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating capinfos.1</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=1 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/capinfos.pod &gt; capinfos.1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/capinfos.1.rule;C:\Development\wireshark\doc\capinfos.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Development\wireshark\doc\capinfos.1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating capinfos.1</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=1 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/capinfos.pod &gt; capinfos.1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/capinfos.1.rule;C:\Development\wireshark\doc\capinfos.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Development\wireshark\doc\capinfos.1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating capinfos.1</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=1 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/capinfos.pod &gt; capinfos.1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/capinfos.1.rule;C:\Development\wireshark\doc\capinfos.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Development\wireshark\doc\capinfos.1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating capinfos.1</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=1 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/capinfos.pod &gt; capinfos.1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/capinfos.1.rule;C:\Development\wireshark\doc\capinfos.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Development\wireshark\doc\capinfos.1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\4896a238e368bee3072b88eb34d56c0a\captype.1.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating captype.1</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=1 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/captype.pod &gt; captype.1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/captype.1.rule;C:\Development\wireshark\doc\captype.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Development\wireshark\doc\captype.1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating captype.1</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=1 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/captype.pod &gt; captype.1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/captype.1.rule;C:\Development\wireshark\doc\captype.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Development\wireshark\doc\captype.1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating captype.1</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=1 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/captype.pod &gt; captype.1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/captype.1.rule;C:\Development\wireshark\doc\captype.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Development\wireshark\doc\captype.1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating captype.1</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=1 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/captype.pod &gt; captype.1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/captype.1.rule;C:\Development\wireshark\doc\captype.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Development\wireshark\doc\captype.1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\4896a238e368bee3072b88eb34d56c0a\ciscodump.1.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ciscodump.1</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=1 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/ciscodump.pod &gt; ciscodump.1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/ciscodump.1.rule;C:\Development\wireshark\doc\ciscodump.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Development\wireshark\doc\ciscodump.1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ciscodump.1</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=1 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/ciscodump.pod &gt; ciscodump.1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/ciscodump.1.rule;C:\Development\wireshark\doc\ciscodump.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Development\wireshark\doc\ciscodump.1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ciscodump.1</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=1 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/ciscodump.pod &gt; ciscodump.1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/ciscodump.1.rule;C:\Development\wireshark\doc\ciscodump.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Development\wireshark\doc\ciscodump.1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ciscodump.1</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=1 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/ciscodump.pod &gt; ciscodump.1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/ciscodump.1.rule;C:\Development\wireshark\doc\ciscodump.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Development\wireshark\doc\ciscodump.1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\4896a238e368bee3072b88eb34d56c0a\dftest.1.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating dftest.1</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=1 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/dftest.pod &gt; dftest.1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/dftest.1.rule;C:\Development\wireshark\doc\dftest.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Development\wireshark\doc\dftest.1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating dftest.1</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=1 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/dftest.pod &gt; dftest.1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/dftest.1.rule;C:\Development\wireshark\doc\dftest.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Development\wireshark\doc\dftest.1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating dftest.1</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=1 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/dftest.pod &gt; dftest.1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/dftest.1.rule;C:\Development\wireshark\doc\dftest.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Development\wireshark\doc\dftest.1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating dftest.1</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=1 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/dftest.pod &gt; dftest.1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/dftest.1.rule;C:\Development\wireshark\doc\dftest.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Development\wireshark\doc\dftest.1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\4896a238e368bee3072b88eb34d56c0a\dumpcap.1.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating dumpcap.1</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=1 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/dumpcap.pod &gt; dumpcap.1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/dumpcap.1.rule;C:\Development\wireshark\doc\dumpcap.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Development\wireshark\doc\dumpcap.1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating dumpcap.1</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=1 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/dumpcap.pod &gt; dumpcap.1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/dumpcap.1.rule;C:\Development\wireshark\doc\dumpcap.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Development\wireshark\doc\dumpcap.1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating dumpcap.1</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=1 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/dumpcap.pod &gt; dumpcap.1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/dumpcap.1.rule;C:\Development\wireshark\doc\dumpcap.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Development\wireshark\doc\dumpcap.1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating dumpcap.1</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=1 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/dumpcap.pod &gt; dumpcap.1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/dumpcap.1.rule;C:\Development\wireshark\doc\dumpcap.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Development\wireshark\doc\dumpcap.1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\4896a238e368bee3072b88eb34d56c0a\editcap.1.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating editcap.1</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=1 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/editcap.pod &gt; editcap.1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/editcap.1.rule;C:\Development\wireshark\doc\editcap.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Development\wireshark\doc\editcap.1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating editcap.1</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=1 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/editcap.pod &gt; editcap.1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/editcap.1.rule;C:\Development\wireshark\doc\editcap.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Development\wireshark\doc\editcap.1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating editcap.1</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=1 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/editcap.pod &gt; editcap.1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/editcap.1.rule;C:\Development\wireshark\doc\editcap.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Development\wireshark\doc\editcap.1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating editcap.1</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=1 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/editcap.pod &gt; editcap.1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/editcap.1.rule;C:\Development\wireshark\doc\editcap.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Development\wireshark\doc\editcap.1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\4896a238e368bee3072b88eb34d56c0a\mergecap.1.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating mergecap.1</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=1 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/mergecap.pod &gt; mergecap.1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/mergecap.1.rule;C:\Development\wireshark\doc\mergecap.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Development\wireshark\doc\mergecap.1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating mergecap.1</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=1 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/mergecap.pod &gt; mergecap.1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/mergecap.1.rule;C:\Development\wireshark\doc\mergecap.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Development\wireshark\doc\mergecap.1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating mergecap.1</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=1 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/mergecap.pod &gt; mergecap.1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/mergecap.1.rule;C:\Development\wireshark\doc\mergecap.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Development\wireshark\doc\mergecap.1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating mergecap.1</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=1 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/mergecap.pod &gt; mergecap.1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/mergecap.1.rule;C:\Development\wireshark\doc\mergecap.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Development\wireshark\doc\mergecap.1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\4896a238e368bee3072b88eb34d56c0a\randpkt.1.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating randpkt.1</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=1 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/randpkt.pod &gt; randpkt.1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/randpkt.1.rule;C:\Development\wireshark\doc\randpkt.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Development\wireshark\doc\randpkt.1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating randpkt.1</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=1 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/randpkt.pod &gt; randpkt.1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/randpkt.1.rule;C:\Development\wireshark\doc\randpkt.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Development\wireshark\doc\randpkt.1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating randpkt.1</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=1 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/randpkt.pod &gt; randpkt.1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/randpkt.1.rule;C:\Development\wireshark\doc\randpkt.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Development\wireshark\doc\randpkt.1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating randpkt.1</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=1 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/randpkt.pod &gt; randpkt.1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/randpkt.1.rule;C:\Development\wireshark\doc\randpkt.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Development\wireshark\doc\randpkt.1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\4896a238e368bee3072b88eb34d56c0a\randpktdump.1.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating randpktdump.1</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=1 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/randpktdump.pod &gt; randpktdump.1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/randpktdump.1.rule;C:\Development\wireshark\doc\randpktdump.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Development\wireshark\doc\randpktdump.1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating randpktdump.1</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=1 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/randpktdump.pod &gt; randpktdump.1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/randpktdump.1.rule;C:\Development\wireshark\doc\randpktdump.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Development\wireshark\doc\randpktdump.1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating randpktdump.1</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=1 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/randpktdump.pod &gt; randpktdump.1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/randpktdump.1.rule;C:\Development\wireshark\doc\randpktdump.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Development\wireshark\doc\randpktdump.1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating randpktdump.1</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=1 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/randpktdump.pod &gt; randpktdump.1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/randpktdump.1.rule;C:\Development\wireshark\doc\randpktdump.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Development\wireshark\doc\randpktdump.1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\4896a238e368bee3072b88eb34d56c0a\rawshark.1.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating rawshark.1</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=1 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/rawshark.pod &gt; rawshark.1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/rawshark.1.rule;C:\Development\wireshark\doc\rawshark.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Development\wireshark\doc\rawshark.1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating rawshark.1</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=1 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/rawshark.pod &gt; rawshark.1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/rawshark.1.rule;C:\Development\wireshark\doc\rawshark.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Development\wireshark\doc\rawshark.1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating rawshark.1</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=1 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/rawshark.pod &gt; rawshark.1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/rawshark.1.rule;C:\Development\wireshark\doc\rawshark.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Development\wireshark\doc\rawshark.1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating rawshark.1</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=1 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/rawshark.pod &gt; rawshark.1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/rawshark.1.rule;C:\Development\wireshark\doc\rawshark.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Development\wireshark\doc\rawshark.1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\4896a238e368bee3072b88eb34d56c0a\reordercap.1.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating reordercap.1</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=1 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/reordercap.pod &gt; reordercap.1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/reordercap.1.rule;C:\Development\wireshark\doc\reordercap.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Development\wireshark\doc\reordercap.1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating reordercap.1</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=1 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/reordercap.pod &gt; reordercap.1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/reordercap.1.rule;C:\Development\wireshark\doc\reordercap.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Development\wireshark\doc\reordercap.1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating reordercap.1</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=1 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/reordercap.pod &gt; reordercap.1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/reordercap.1.rule;C:\Development\wireshark\doc\reordercap.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Development\wireshark\doc\reordercap.1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating reordercap.1</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=1 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/reordercap.pod &gt; reordercap.1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/reordercap.1.rule;C:\Development\wireshark\doc\reordercap.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Development\wireshark\doc\reordercap.1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\4896a238e368bee3072b88eb34d56c0a\sshdump.1.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating sshdump.1</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=1 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/sshdump.pod &gt; sshdump.1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/sshdump.1.rule;C:\Development\wireshark\doc\sshdump.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Development\wireshark\doc\sshdump.1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating sshdump.1</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=1 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/sshdump.pod &gt; sshdump.1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/sshdump.1.rule;C:\Development\wireshark\doc\sshdump.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Development\wireshark\doc\sshdump.1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating sshdump.1</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=1 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/sshdump.pod &gt; sshdump.1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/sshdump.1.rule;C:\Development\wireshark\doc\sshdump.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Development\wireshark\doc\sshdump.1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating sshdump.1</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=1 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/sshdump.pod &gt; sshdump.1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/sshdump.1.rule;C:\Development\wireshark\doc\sshdump.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Development\wireshark\doc\sshdump.1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\4896a238e368bee3072b88eb34d56c0a\text2pcap.1.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating text2pcap.1</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=1 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/text2pcap.pod &gt; text2pcap.1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/text2pcap.1.rule;C:\Development\wireshark\doc\text2pcap.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Development\wireshark\doc\text2pcap.1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating text2pcap.1</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=1 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/text2pcap.pod &gt; text2pcap.1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/text2pcap.1.rule;C:\Development\wireshark\doc\text2pcap.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Development\wireshark\doc\text2pcap.1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating text2pcap.1</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=1 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/text2pcap.pod &gt; text2pcap.1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/text2pcap.1.rule;C:\Development\wireshark\doc\text2pcap.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Development\wireshark\doc\text2pcap.1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating text2pcap.1</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=1 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/text2pcap.pod &gt; text2pcap.1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/text2pcap.1.rule;C:\Development\wireshark\doc\text2pcap.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Development\wireshark\doc\text2pcap.1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\4896a238e368bee3072b88eb34d56c0a\tshark.1.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating tshark.1</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=1 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/tshark.pod &gt; tshark.1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/tshark.1.rule;C:\Development\wireshark\doc\tshark.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Development\wireshark\doc\tshark.1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating tshark.1</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=1 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/tshark.pod &gt; tshark.1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/tshark.1.rule;C:\Development\wireshark\doc\tshark.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Development\wireshark\doc\tshark.1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating tshark.1</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=1 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/tshark.pod &gt; tshark.1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/tshark.1.rule;C:\Development\wireshark\doc\tshark.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Development\wireshark\doc\tshark.1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating tshark.1</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=1 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/tshark.pod &gt; tshark.1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/tshark.1.rule;C:\Development\wireshark\doc\tshark.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Development\wireshark\doc\tshark.1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\4896a238e368bee3072b88eb34d56c0a\udpdump.1.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating udpdump.1</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=1 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/udpdump.pod &gt; udpdump.1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/udpdump.1.rule;C:\Development\wireshark\doc\udpdump.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Development\wireshark\doc\udpdump.1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating udpdump.1</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=1 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/udpdump.pod &gt; udpdump.1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/udpdump.1.rule;C:\Development\wireshark\doc\udpdump.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Development\wireshark\doc\udpdump.1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating udpdump.1</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=1 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/udpdump.pod &gt; udpdump.1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/udpdump.1.rule;C:\Development\wireshark\doc\udpdump.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Development\wireshark\doc\udpdump.1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating udpdump.1</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=1 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/udpdump.pod &gt; udpdump.1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/udpdump.1.rule;C:\Development\wireshark\doc\udpdump.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Development\wireshark\doc\udpdump.1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\4896a238e368bee3072b88eb34d56c0a\AUTHORS-SHORT.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating AUTHORS-SHORT</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Development/wireshark/doc/perlnoutf.pl C:/Development/wireshark/doc/make-authors-short.pl &lt; C:/Development/wireshark/AUTHORS &gt; C:/Development/wireshark/doc/AUTHORS-SHORT
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/AUTHORS-SHORT.rule;C:\Development\wireshark\doc\perlnoutf.pl;C:\Development\wireshark\doc\make-authors-short.pl;C:\Development\wireshark\AUTHORS;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Development\wireshark\doc\AUTHORS-SHORT</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating AUTHORS-SHORT</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Development/wireshark/doc/perlnoutf.pl C:/Development/wireshark/doc/make-authors-short.pl &lt; C:/Development/wireshark/AUTHORS &gt; C:/Development/wireshark/doc/AUTHORS-SHORT
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/AUTHORS-SHORT.rule;C:\Development\wireshark\doc\perlnoutf.pl;C:\Development\wireshark\doc\make-authors-short.pl;C:\Development\wireshark\AUTHORS;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Development\wireshark\doc\AUTHORS-SHORT</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating AUTHORS-SHORT</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Development/wireshark/doc/perlnoutf.pl C:/Development/wireshark/doc/make-authors-short.pl &lt; C:/Development/wireshark/AUTHORS &gt; C:/Development/wireshark/doc/AUTHORS-SHORT
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/AUTHORS-SHORT.rule;C:\Development\wireshark\doc\perlnoutf.pl;C:\Development\wireshark\doc\make-authors-short.pl;C:\Development\wireshark\AUTHORS;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Development\wireshark\doc\AUTHORS-SHORT</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating AUTHORS-SHORT</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Development/wireshark/doc/perlnoutf.pl C:/Development/wireshark/doc/make-authors-short.pl &lt; C:/Development/wireshark/AUTHORS &gt; C:/Development/wireshark/doc/AUTHORS-SHORT
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/AUTHORS-SHORT.rule;C:\Development\wireshark\doc\perlnoutf.pl;C:\Development\wireshark\doc\make-authors-short.pl;C:\Development\wireshark\AUTHORS;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Development\wireshark\doc\AUTHORS-SHORT</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\4896a238e368bee3072b88eb34d56c0a\AUTHORS-SHORT-FORMAT.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating AUTHORS-SHORT-FORMAT</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Development/wireshark/doc/perlnoutf.pl C:/Development/wireshark/doc/make-authors-format.pl &lt; C:/Development/wireshark/doc/AUTHORS-SHORT &gt; C:/Development/wireshark/doc/AUTHORS-SHORT-FORMAT
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/AUTHORS-SHORT-FORMAT.rule;C:\Development\wireshark\doc\perlnoutf.pl;C:\Development\wireshark\doc\make-authors-format.pl;C:\Development\wireshark\doc\AUTHORS-SHORT;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Development\wireshark\doc\AUTHORS-SHORT-FORMAT</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating AUTHORS-SHORT-FORMAT</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Development/wireshark/doc/perlnoutf.pl C:/Development/wireshark/doc/make-authors-format.pl &lt; C:/Development/wireshark/doc/AUTHORS-SHORT &gt; C:/Development/wireshark/doc/AUTHORS-SHORT-FORMAT
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/AUTHORS-SHORT-FORMAT.rule;C:\Development\wireshark\doc\perlnoutf.pl;C:\Development\wireshark\doc\make-authors-format.pl;C:\Development\wireshark\doc\AUTHORS-SHORT;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Development\wireshark\doc\AUTHORS-SHORT-FORMAT</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating AUTHORS-SHORT-FORMAT</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Development/wireshark/doc/perlnoutf.pl C:/Development/wireshark/doc/make-authors-format.pl &lt; C:/Development/wireshark/doc/AUTHORS-SHORT &gt; C:/Development/wireshark/doc/AUTHORS-SHORT-FORMAT
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/AUTHORS-SHORT-FORMAT.rule;C:\Development\wireshark\doc\perlnoutf.pl;C:\Development\wireshark\doc\make-authors-format.pl;C:\Development\wireshark\doc\AUTHORS-SHORT;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Development\wireshark\doc\AUTHORS-SHORT-FORMAT</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating AUTHORS-SHORT-FORMAT</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Development/wireshark/doc/perlnoutf.pl C:/Development/wireshark/doc/make-authors-format.pl &lt; C:/Development/wireshark/doc/AUTHORS-SHORT &gt; C:/Development/wireshark/doc/AUTHORS-SHORT-FORMAT
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/AUTHORS-SHORT-FORMAT.rule;C:\Development\wireshark\doc\perlnoutf.pl;C:\Development\wireshark\doc\make-authors-format.pl;C:\Development\wireshark\doc\AUTHORS-SHORT;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Development\wireshark\doc\AUTHORS-SHORT-FORMAT</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\4896a238e368bee3072b88eb34d56c0a\wireshark.pod.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating wireshark.pod</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+copy /B C:\Development\wireshark\doc\wireshark.pod.template + C:\Development\wireshark\doc\AUTHORS-SHORT-FORMAT C:\Development\wireshark\doc\wireshark.pod
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/wireshark.pod.rule;C:\Development\wireshark\doc\wireshark.pod.template;C:\Development\wireshark\doc\AUTHORS-SHORT-FORMAT;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Development\wireshark\doc\wireshark.pod</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating wireshark.pod</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+copy /B C:\Development\wireshark\doc\wireshark.pod.template + C:\Development\wireshark\doc\AUTHORS-SHORT-FORMAT C:\Development\wireshark\doc\wireshark.pod
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/wireshark.pod.rule;C:\Development\wireshark\doc\wireshark.pod.template;C:\Development\wireshark\doc\AUTHORS-SHORT-FORMAT;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Development\wireshark\doc\wireshark.pod</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating wireshark.pod</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+copy /B C:\Development\wireshark\doc\wireshark.pod.template + C:\Development\wireshark\doc\AUTHORS-SHORT-FORMAT C:\Development\wireshark\doc\wireshark.pod
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/wireshark.pod.rule;C:\Development\wireshark\doc\wireshark.pod.template;C:\Development\wireshark\doc\AUTHORS-SHORT-FORMAT;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Development\wireshark\doc\wireshark.pod</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating wireshark.pod</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+copy /B C:\Development\wireshark\doc\wireshark.pod.template + C:\Development\wireshark\doc\AUTHORS-SHORT-FORMAT C:\Development\wireshark\doc\wireshark.pod
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/wireshark.pod.rule;C:\Development\wireshark\doc\wireshark.pod.template;C:\Development\wireshark\doc\AUTHORS-SHORT-FORMAT;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Development\wireshark\doc\wireshark.pod</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\4896a238e368bee3072b88eb34d56c0a\wireshark.1.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating wireshark.1</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=1 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/wireshark.pod &gt; wireshark.1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/wireshark.1.rule;C:\Development\wireshark\doc\wireshark.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Development\wireshark\doc\wireshark.1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating wireshark.1</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=1 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/wireshark.pod &gt; wireshark.1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/wireshark.1.rule;C:\Development\wireshark\doc\wireshark.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Development\wireshark\doc\wireshark.1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating wireshark.1</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=1 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/wireshark.pod &gt; wireshark.1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/wireshark.1.rule;C:\Development\wireshark\doc\wireshark.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Development\wireshark\doc\wireshark.1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating wireshark.1</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=1 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/wireshark.pod &gt; wireshark.1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/wireshark.1.rule;C:\Development\wireshark\doc\wireshark.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Development\wireshark\doc\wireshark.1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\4896a238e368bee3072b88eb34d56c0a\mmdbresolve.1.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating mmdbresolve.1</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=1 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/mmdbresolve.pod &gt; mmdbresolve.1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/mmdbresolve.1.rule;C:\Development\wireshark\doc\mmdbresolve.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Development\wireshark\doc\mmdbresolve.1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating mmdbresolve.1</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=1 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/mmdbresolve.pod &gt; mmdbresolve.1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/mmdbresolve.1.rule;C:\Development\wireshark\doc\mmdbresolve.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Development\wireshark\doc\mmdbresolve.1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating mmdbresolve.1</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=1 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/mmdbresolve.pod &gt; mmdbresolve.1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/mmdbresolve.1.rule;C:\Development\wireshark\doc\mmdbresolve.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Development\wireshark\doc\mmdbresolve.1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating mmdbresolve.1</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=1 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/mmdbresolve.pod &gt; mmdbresolve.1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/mmdbresolve.1.rule;C:\Development\wireshark\doc\mmdbresolve.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Development\wireshark\doc\mmdbresolve.1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\4896a238e368bee3072b88eb34d56c0a\extcap.4.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating extcap.4</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=4 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/extcap.pod &gt; extcap.4
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/extcap.4.rule;C:\Development\wireshark\doc\extcap.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Development\wireshark\doc\extcap.4</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating extcap.4</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=4 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/extcap.pod &gt; extcap.4
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/extcap.4.rule;C:\Development\wireshark\doc\extcap.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Development\wireshark\doc\extcap.4</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating extcap.4</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=4 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/extcap.pod &gt; extcap.4
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/extcap.4.rule;C:\Development\wireshark\doc\extcap.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Development\wireshark\doc\extcap.4</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating extcap.4</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=4 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/extcap.pod &gt; extcap.4
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/extcap.4.rule;C:\Development\wireshark\doc\extcap.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Development\wireshark\doc\extcap.4</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\4896a238e368bee3072b88eb34d56c0a\wireshark-filter.4.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating wireshark-filter.4</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=4 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/wireshark-filter.pod &gt; wireshark-filter.4
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/wireshark-filter.4.rule;C:\Development\wireshark\doc\wireshark-filter.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Development\wireshark\doc\wireshark-filter.4</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating wireshark-filter.4</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=4 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/wireshark-filter.pod &gt; wireshark-filter.4
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/wireshark-filter.4.rule;C:\Development\wireshark\doc\wireshark-filter.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Development\wireshark\doc\wireshark-filter.4</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating wireshark-filter.4</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=4 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/wireshark-filter.pod &gt; wireshark-filter.4
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/wireshark-filter.4.rule;C:\Development\wireshark\doc\wireshark-filter.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Development\wireshark\doc\wireshark-filter.4</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating wireshark-filter.4</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Perl64\bin\perl.exe C:/Perl64/bin/pod2man --section=4 --center="The Wireshark Network Analyzer" --release=3.1.0 C:/Development/wireshark/doc/wireshark-filter.pod &gt; wireshark-filter.4
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Development/wireshark/CMakeFiles/4896a238e368bee3072b88eb34d56c0a/wireshark-filter.4.rule;C:\Development\wireshark\doc\wireshark-filter.pod;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Development\wireshark\doc\wireshark-filter.4</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\238462a136375a9bbdf9bedb6252074e\manpages.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Development/wireshark/CMakeFiles/238462a136375a9bbdf9bedb6252074e/manpages.rule;C:\Development\wireshark\doc\androiddump.1;C:\Development\wireshark\doc\capinfos.1;C:\Development\wireshark\doc\captype.1;C:\Development\wireshark\doc\ciscodump.1;C:\Development\wireshark\doc\ciscodump.1;C:\Development\wireshark\doc\dftest.1;C:\Development\wireshark\doc\dumpcap.1;C:\Development\wireshark\doc\editcap.1;C:\Development\wireshark\doc\mergecap.1;C:\Development\wireshark\doc\randpkt.1;C:\Development\wireshark\doc\randpktdump.1;C:\Development\wireshark\doc\rawshark.1;C:\Development\wireshark\doc\reordercap.1;C:\Development\wireshark\doc\sshdump.1;C:\Development\wireshark\doc\text2pcap.1;C:\Development\wireshark\doc\tshark.1;C:\Development\wireshark\doc\udpdump.1;C:\Development\wireshark\doc\wireshark.1;C:\Development\wireshark\doc\mmdbresolve.1;C:\Development\wireshark\doc\extcap.4;C:\Development\wireshark\doc\wireshark-filter.4;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Development\wireshark\doc\CMakeFiles\manpages</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Development/wireshark/CMakeFiles/238462a136375a9bbdf9bedb6252074e/manpages.rule;C:\Development\wireshark\doc\androiddump.1;C:\Development\wireshark\doc\capinfos.1;C:\Development\wireshark\doc\captype.1;C:\Development\wireshark\doc\ciscodump.1;C:\Development\wireshark\doc\ciscodump.1;C:\Development\wireshark\doc\dftest.1;C:\Development\wireshark\doc\dumpcap.1;C:\Development\wireshark\doc\editcap.1;C:\Development\wireshark\doc\mergecap.1;C:\Development\wireshark\doc\randpkt.1;C:\Development\wireshark\doc\randpktdump.1;C:\Development\wireshark\doc\rawshark.1;C:\Development\wireshark\doc\reordercap.1;C:\Development\wireshark\doc\sshdump.1;C:\Development\wireshark\doc\text2pcap.1;C:\Development\wireshark\doc\tshark.1;C:\Development\wireshark\doc\udpdump.1;C:\Development\wireshark\doc\wireshark.1;C:\Development\wireshark\doc\mmdbresolve.1;C:\Development\wireshark\doc\extcap.4;C:\Development\wireshark\doc\wireshark-filter.4;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Development\wireshark\doc\CMakeFiles\manpages</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Development/wireshark/CMakeFiles/238462a136375a9bbdf9bedb6252074e/manpages.rule;C:\Development\wireshark\doc\androiddump.1;C:\Development\wireshark\doc\capinfos.1;C:\Development\wireshark\doc\captype.1;C:\Development\wireshark\doc\ciscodump.1;C:\Development\wireshark\doc\ciscodump.1;C:\Development\wireshark\doc\dftest.1;C:\Development\wireshark\doc\dumpcap.1;C:\Development\wireshark\doc\editcap.1;C:\Development\wireshark\doc\mergecap.1;C:\Development\wireshark\doc\randpkt.1;C:\Development\wireshark\doc\randpktdump.1;C:\Development\wireshark\doc\rawshark.1;C:\Development\wireshark\doc\reordercap.1;C:\Development\wireshark\doc\sshdump.1;C:\Development\wireshark\doc\text2pcap.1;C:\Development\wireshark\doc\tshark.1;C:\Development\wireshark\doc\udpdump.1;C:\Development\wireshark\doc\wireshark.1;C:\Development\wireshark\doc\mmdbresolve.1;C:\Development\wireshark\doc\extcap.4;C:\Development\wireshark\doc\wireshark-filter.4;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Development\wireshark\doc\CMakeFiles\manpages</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Development/wireshark/CMakeFiles/238462a136375a9bbdf9bedb6252074e/manpages.rule;C:\Development\wireshark\doc\androiddump.1;C:\Development\wireshark\doc\capinfos.1;C:\Development\wireshark\doc\captype.1;C:\Development\wireshark\doc\ciscodump.1;C:\Development\wireshark\doc\ciscodump.1;C:\Development\wireshark\doc\dftest.1;C:\Development\wireshark\doc\dumpcap.1;C:\Development\wireshark\doc\editcap.1;C:\Development\wireshark\doc\mergecap.1;C:\Development\wireshark\doc\randpkt.1;C:\Development\wireshark\doc\randpktdump.1;C:\Development\wireshark\doc\rawshark.1;C:\Development\wireshark\doc\reordercap.1;C:\Development\wireshark\doc\sshdump.1;C:\Development\wireshark\doc\text2pcap.1;C:\Development\wireshark\doc\tshark.1;C:\Development\wireshark\doc\udpdump.1;C:\Development\wireshark\doc\wireshark.1;C:\Development\wireshark\doc\mmdbresolve.1;C:\Development\wireshark\doc\extcap.4;C:\Development\wireshark\doc\wireshark-filter.4;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Development\wireshark\doc\CMakeFiles\manpages</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Development\wireshark\doc\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Development/wireshark/doc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Development/wireshark -BC:/Development/wireshark --check-stamp-file C:/Development/wireshark/doc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Development/wireshark/doc/CMakeLists.txt;C:\Development\wireshark\doc\CMakeLists.txt;C:\Development\wireshark\doc\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Development\wireshark\doc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Development/wireshark/doc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Development/wireshark -BC:/Development/wireshark --check-stamp-file C:/Development/wireshark/doc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Development/wireshark/doc/CMakeLists.txt;C:\Development\wireshark\doc\CMakeLists.txt;C:\Development\wireshark\doc\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Development\wireshark\doc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Development/wireshark/doc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Development/wireshark -BC:/Development/wireshark --check-stamp-file C:/Development/wireshark/doc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Development/wireshark/doc/CMakeLists.txt;C:\Development\wireshark\doc\CMakeLists.txt;C:\Development\wireshark\doc\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Development\wireshark\doc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Development/wireshark/doc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Development/wireshark -BC:/Development/wireshark --check-stamp-file C:/Development/wireshark/doc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Development/wireshark/doc/CMakeLists.txt;C:\Development\wireshark\doc\CMakeLists.txt;C:\Development\wireshark\doc\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Development\wireshark\doc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Development\wireshark\doc\CMakeFiles\manpages" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Development\wireshark\ZERO_CHECK.vcxproj">
+      <Project>{B765B3E1-9AF0-39DF-BCC2-760F120CAE35}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

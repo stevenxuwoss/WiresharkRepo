@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<descriptor>
+  <version>
+    0.0.0
+  </version>
+  <headers>
+    {RELPATH}/abi-check-headers
+  </headers>
+  <libs>
+    C:/Development/wireshark/run
+  </libs>
+  <include_paths>C:/Development/wireshark
+C:/Development/wireshark-win64-libs/glib2-2.52.2-1.31-win64ws/include/glib-2.0
+C:/Development/wireshark-win64-libs/glib2-2.52.2-1.31-win64ws/lib/glib-2.0/include
+C:/Development/wireshark-win64-libs/c-ares-1.15.0-win64ws/installed/x64-windows/include
+C:/Development/wireshark-win64-libs/libgcrypt-1.8.3-win64ws/include
+C:/Development/wireshark-win64-libs/gnutls-3.6.3-1-win64ws/include
+C:/Development/wireshark-win64-libs/krb5-1.17-1-win64ws/installed/x64-windows/include
+C:/Development/wireshark-win64-libs/lua-5.2.4-unicode-win64-vc14/include
+C:/Development/wireshark-win64-libs/lz4-1.7.5-win64ws/include
+C:/Development/wireshark-win64-libs/nghttp2-1.14.0-win64ws/include
+C:/Development/wireshark-win64-libs/WpdPack/Include
+C:/Development/wireshark-win64-libs/libsmi-svn-40773-win64ws/include
+C:/Development/wireshark-win64-libs/snappy-1.1.3-win64ws/include
+C:/Development/wireshark-win64-libs/zlib-1.2.11-2-ws
+C:/Development/wireshark/zlib
+C:/Development/wireshark-win64-libs/libxml2-2.9.9-win64ws/include/libxml2
+C:/Development/wireshark/epan
+  </include_paths>
+  <gcc_options>
+    -D_U_="__attribute((unused))"
+  </gcc_options>
+  <include_preamble>
+    config.h
+  </include_preamble>
+</descriptor>

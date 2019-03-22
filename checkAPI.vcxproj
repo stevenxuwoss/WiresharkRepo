@@ -1,0 +1,359 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5B023302-C1F2-3728-B481-D5D3D5C285C8}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>checkAPI</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Development\wireshark;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\include\glib-2.0;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\lib\glib-2.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Development\wireshark;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\include\glib-2.0;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\lib\glib-2.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Development\wireshark;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\include\glib-2.0;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\lib\glib-2.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Development\wireshark;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\include\glib-2.0;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\lib\glib-2.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Development\wireshark\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Development/wireshark/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Development/wireshark -BC:/Development/wireshark --check-stamp-file C:/Development/wireshark/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Development/wireshark/CMakeLists.txt;C:\Development\wireshark\CMakeFiles\3.13.2\CMakeCCompiler.cmake;C:\Development\wireshark\CMakeFiles\3.13.2\CMakeCXXCompiler.cmake;C:\Development\wireshark\CMakeFiles\3.13.2\CMakeRCCompiler.cmake;C:\Development\wireshark\CMakeFiles\3.13.2\CMakeSystem.cmake;C:\Development\wireshark\CMakeLists.txt;C:\Development\wireshark\CMakeOptions.txt;C:\Development\wireshark\ConfigureChecks.cmake;C:\Development\wireshark\WiresharkConfig.cmake.in;C:\Development\wireshark\cmake\modules\CheckCLinkerFlag.cmake;C:\Development\wireshark\cmake\modules\FindAIRPCAP.cmake;C:\Development\wireshark\cmake\modules\FindBCG729.cmake;C:\Development\wireshark\cmake\modules\FindCARES.cmake;C:\Development\wireshark\cmake\modules\FindChocolatey.cmake;C:\Development\wireshark\cmake\modules\FindDOXYGEN.cmake;C:\Development\wireshark\cmake\modules\FindGCRYPT.cmake;C:\Development\wireshark\cmake\modules\FindGLIB2.cmake;C:\Development\wireshark\cmake\modules\FindGMODULE2.cmake;C:\Development\wireshark\cmake\modules\FindGNUTLS.cmake;C:\Development\wireshark\cmake\modules\FindGTHREAD2.cmake;C:\Development\wireshark\cmake\modules\FindKERBEROS.cmake;C:\Development\wireshark\cmake\modules\FindLEX.cmake;C:\Development\wireshark\cmake\modules\FindLIBSSH.cmake;C:\Development\wireshark\cmake\modules\FindLUA.cmake;C:\Development\wireshark\cmake\modules\FindLZ4.cmake;C:\Development\wireshark\cmake\modules\FindLibXml2.cmake;C:\Development\wireshark\cmake\modules\FindMSVC_REDIST.cmake;C:\Development\wireshark\cmake\modules\FindMaxMindDB.cmake;C:\Development\wireshark\cmake\modules\FindNGHTTP2.cmake;C:\Development\wireshark\cmake\modules\FindNSIS.cmake;C:\Development\wireshark\cmake\modules\FindPCAP.cmake;C:\Development\wireshark\cmake\modules\FindPOD.cmake;C:\Development\wireshark\cmake\modules\FindPortableApps.cmake;C:\Development\wireshark\cmake\modules\FindPowerShell.cmake;C:\Development\wireshark\cmake\modules\FindSBC.cmake;C:\Development\wireshark\cmake\modules\FindSMI.cmake;C:\Development\wireshark\cmake\modules\FindSNAPPY.cmake;C:\Development\wireshark\cmake\modules\FindSPANDSP.cmake;C:\Development\wireshark\cmake\modules\FindWSWinLibs.cmake;C:\Development\wireshark\cmake\modules\FindWiX.cmake;C:\Development\wireshark\cmake\modules\FindWinSparkle.cmake;C:\Development\wireshark\cmake\modules\FindYACC.cmake;C:\Development\wireshark\cmake\modules\FindZLIB.cmake;C:\Development\wireshark\cmake\modules\UseAsn2Wrs.cmake;C:\Development\wireshark\cmake\modules\UseCheckAPI.cmake;C:\Development\wireshark\cmake\modules\UseCustomIncludes.cmake;C:\Development\wireshark\cmake\modules\UseExecutableResources.cmake;C:\Development\wireshark\cmake\modules\UseLemon.cmake;C:\Development\wireshark\cmake\modules\UseMakePluginReg.cmake;C:\Development\wireshark\cmake\modules\UseMakeTaps.cmake;C:\Development\wireshark\cmake\modules\gmxTestLargeFiles.cmake;C:\Development\wireshark\cmakeconfig.h.in;C:\Development\wireshark\doxygen.cfg.in;C:\Development\wireshark\image\cli_template.rc.in;C:\Development\wireshark\image\dumpcap.rc.in;C:\Development\wireshark\image\libwireshark.rc.in;C:\Development\wireshark\image\libwscodecs.rc.in;C:\Development\wireshark\image\libwsutil.rc.in;C:\Development\wireshark\image\tshark.rc.in;C:\Development\wireshark\image\wireshark.exe.manifest.in;C:\Development\wireshark\image\wireshark.rc.in;C:\Development\wireshark\image\wiretap.rc.in;C:\Development\wireshark\packaging\macosx\Info.plist.in;C:\Development\wireshark\packaging\macosx\Read_me_first.rtf.in;C:\Development\wireshark\packaging\macosx\Wireshark_package.pmdoc\index.xml.in;C:\Development\wireshark\packaging\macosx\osx-app.sh.in;C:\Development\wireshark\packaging\macosx\osx-dmg.sh.in;C:\Development\wireshark\packaging\rpm\wireshark.spec.in;C:\Development\wireshark\packaging\source\git-export-release.sh.in;C:\Development\wireshark\wireshark.pc.in;C:\Development\wireshark\ws_version.h.in;C:\Program Files\CMake\share\cmake-3.13\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckCSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckVariableExists.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FeatureSummary.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindCygwin.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindPerl.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindPython\Support.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindPython3.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\InstallRequiredSystemLibraries.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\WriteBasicConfigVersionFile.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsConfig.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsConfigVersion.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsMacros.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Multimedia\Qt5MultimediaConfig.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Multimedia\Qt5MultimediaConfigVersion.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Multimedia\Qt5Multimedia_AudioCaptureServicePlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Multimedia\Qt5Multimedia_DSServicePlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Multimedia\Qt5Multimedia_QM3uPlaylistPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Multimedia\Qt5Multimedia_QWasapiPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Multimedia\Qt5Multimedia_QWindowsAudioPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Multimedia\Qt5Multimedia_WMFServicePlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Network\Qt5NetworkConfig.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Network\Qt5NetworkConfigVersion.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Network\Qt5Network_QGenericEnginePlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfig.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfigVersion.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupport_QWindowsPrinterSupportPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Svg\Qt5SvgConfig.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Svg\Qt5SvgConfigVersion.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Svg\Qt5Svg_QSvgIconPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Svg\Qt5Svg_QSvgPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5WinExtras\Qt5WinExtrasConfig.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5WinExtras\Qt5WinExtrasConfigVersion.cmake;C:\Development\wireshark\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Development\wireshark\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Development/wireshark/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Development/wireshark -BC:/Development/wireshark --check-stamp-file C:/Development/wireshark/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Development/wireshark/CMakeLists.txt;C:\Development\wireshark\CMakeFiles\3.13.2\CMakeCCompiler.cmake;C:\Development\wireshark\CMakeFiles\3.13.2\CMakeCXXCompiler.cmake;C:\Development\wireshark\CMakeFiles\3.13.2\CMakeRCCompiler.cmake;C:\Development\wireshark\CMakeFiles\3.13.2\CMakeSystem.cmake;C:\Development\wireshark\CMakeLists.txt;C:\Development\wireshark\CMakeOptions.txt;C:\Development\wireshark\ConfigureChecks.cmake;C:\Development\wireshark\WiresharkConfig.cmake.in;C:\Development\wireshark\cmake\modules\CheckCLinkerFlag.cmake;C:\Development\wireshark\cmake\modules\FindAIRPCAP.cmake;C:\Development\wireshark\cmake\modules\FindBCG729.cmake;C:\Development\wireshark\cmake\modules\FindCARES.cmake;C:\Development\wireshark\cmake\modules\FindChocolatey.cmake;C:\Development\wireshark\cmake\modules\FindDOXYGEN.cmake;C:\Development\wireshark\cmake\modules\FindGCRYPT.cmake;C:\Development\wireshark\cmake\modules\FindGLIB2.cmake;C:\Development\wireshark\cmake\modules\FindGMODULE2.cmake;C:\Development\wireshark\cmake\modules\FindGNUTLS.cmake;C:\Development\wireshark\cmake\modules\FindGTHREAD2.cmake;C:\Development\wireshark\cmake\modules\FindKERBEROS.cmake;C:\Development\wireshark\cmake\modules\FindLEX.cmake;C:\Development\wireshark\cmake\modules\FindLIBSSH.cmake;C:\Development\wireshark\cmake\modules\FindLUA.cmake;C:\Development\wireshark\cmake\modules\FindLZ4.cmake;C:\Development\wireshark\cmake\modules\FindLibXml2.cmake;C:\Development\wireshark\cmake\modules\FindMSVC_REDIST.cmake;C:\Development\wireshark\cmake\modules\FindMaxMindDB.cmake;C:\Development\wireshark\cmake\modules\FindNGHTTP2.cmake;C:\Development\wireshark\cmake\modules\FindNSIS.cmake;C:\Development\wireshark\cmake\modules\FindPCAP.cmake;C:\Development\wireshark\cmake\modules\FindPOD.cmake;C:\Development\wireshark\cmake\modules\FindPortableApps.cmake;C:\Development\wireshark\cmake\modules\FindPowerShell.cmake;C:\Development\wireshark\cmake\modules\FindSBC.cmake;C:\Development\wireshark\cmake\modules\FindSMI.cmake;C:\Development\wireshark\cmake\modules\FindSNAPPY.cmake;C:\Development\wireshark\cmake\modules\FindSPANDSP.cmake;C:\Development\wireshark\cmake\modules\FindWSWinLibs.cmake;C:\Development\wireshark\cmake\modules\FindWiX.cmake;C:\Development\wireshark\cmake\modules\FindWinSparkle.cmake;C:\Development\wireshark\cmake\modules\FindYACC.cmake;C:\Development\wireshark\cmake\modules\FindZLIB.cmake;C:\Development\wireshark\cmake\modules\UseAsn2Wrs.cmake;C:\Development\wireshark\cmake\modules\UseCheckAPI.cmake;C:\Development\wireshark\cmake\modules\UseCustomIncludes.cmake;C:\Development\wireshark\cmake\modules\UseExecutableResources.cmake;C:\Development\wireshark\cmake\modules\UseLemon.cmake;C:\Development\wireshark\cmake\modules\UseMakePluginReg.cmake;C:\Development\wireshark\cmake\modules\UseMakeTaps.cmake;C:\Development\wireshark\cmake\modules\gmxTestLargeFiles.cmake;C:\Development\wireshark\cmakeconfig.h.in;C:\Development\wireshark\doxygen.cfg.in;C:\Development\wireshark\image\cli_template.rc.in;C:\Development\wireshark\image\dumpcap.rc.in;C:\Development\wireshark\image\libwireshark.rc.in;C:\Development\wireshark\image\libwscodecs.rc.in;C:\Development\wireshark\image\libwsutil.rc.in;C:\Development\wireshark\image\tshark.rc.in;C:\Development\wireshark\image\wireshark.exe.manifest.in;C:\Development\wireshark\image\wireshark.rc.in;C:\Development\wireshark\image\wiretap.rc.in;C:\Development\wireshark\packaging\macosx\Info.plist.in;C:\Development\wireshark\packaging\macosx\Read_me_first.rtf.in;C:\Development\wireshark\packaging\macosx\Wireshark_package.pmdoc\index.xml.in;C:\Development\wireshark\packaging\macosx\osx-app.sh.in;C:\Development\wireshark\packaging\macosx\osx-dmg.sh.in;C:\Development\wireshark\packaging\rpm\wireshark.spec.in;C:\Development\wireshark\packaging\source\git-export-release.sh.in;C:\Development\wireshark\wireshark.pc.in;C:\Development\wireshark\ws_version.h.in;C:\Program Files\CMake\share\cmake-3.13\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckCSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckVariableExists.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FeatureSummary.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindCygwin.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindPerl.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindPython\Support.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindPython3.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\InstallRequiredSystemLibraries.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\WriteBasicConfigVersionFile.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsConfig.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsConfigVersion.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsMacros.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Multimedia\Qt5MultimediaConfig.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Multimedia\Qt5MultimediaConfigVersion.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Multimedia\Qt5Multimedia_AudioCaptureServicePlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Multimedia\Qt5Multimedia_DSServicePlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Multimedia\Qt5Multimedia_QM3uPlaylistPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Multimedia\Qt5Multimedia_QWasapiPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Multimedia\Qt5Multimedia_QWindowsAudioPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Multimedia\Qt5Multimedia_WMFServicePlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Network\Qt5NetworkConfig.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Network\Qt5NetworkConfigVersion.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Network\Qt5Network_QGenericEnginePlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfig.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfigVersion.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupport_QWindowsPrinterSupportPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Svg\Qt5SvgConfig.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Svg\Qt5SvgConfigVersion.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Svg\Qt5Svg_QSvgIconPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Svg\Qt5Svg_QSvgPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5WinExtras\Qt5WinExtrasConfig.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5WinExtras\Qt5WinExtrasConfigVersion.cmake;C:\Development\wireshark\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Development\wireshark\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Development/wireshark/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Development/wireshark -BC:/Development/wireshark --check-stamp-file C:/Development/wireshark/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Development/wireshark/CMakeLists.txt;C:\Development\wireshark\CMakeFiles\3.13.2\CMakeCCompiler.cmake;C:\Development\wireshark\CMakeFiles\3.13.2\CMakeCXXCompiler.cmake;C:\Development\wireshark\CMakeFiles\3.13.2\CMakeRCCompiler.cmake;C:\Development\wireshark\CMakeFiles\3.13.2\CMakeSystem.cmake;C:\Development\wireshark\CMakeLists.txt;C:\Development\wireshark\CMakeOptions.txt;C:\Development\wireshark\ConfigureChecks.cmake;C:\Development\wireshark\WiresharkConfig.cmake.in;C:\Development\wireshark\cmake\modules\CheckCLinkerFlag.cmake;C:\Development\wireshark\cmake\modules\FindAIRPCAP.cmake;C:\Development\wireshark\cmake\modules\FindBCG729.cmake;C:\Development\wireshark\cmake\modules\FindCARES.cmake;C:\Development\wireshark\cmake\modules\FindChocolatey.cmake;C:\Development\wireshark\cmake\modules\FindDOXYGEN.cmake;C:\Development\wireshark\cmake\modules\FindGCRYPT.cmake;C:\Development\wireshark\cmake\modules\FindGLIB2.cmake;C:\Development\wireshark\cmake\modules\FindGMODULE2.cmake;C:\Development\wireshark\cmake\modules\FindGNUTLS.cmake;C:\Development\wireshark\cmake\modules\FindGTHREAD2.cmake;C:\Development\wireshark\cmake\modules\FindKERBEROS.cmake;C:\Development\wireshark\cmake\modules\FindLEX.cmake;C:\Development\wireshark\cmake\modules\FindLIBSSH.cmake;C:\Development\wireshark\cmake\modules\FindLUA.cmake;C:\Development\wireshark\cmake\modules\FindLZ4.cmake;C:\Development\wireshark\cmake\modules\FindLibXml2.cmake;C:\Development\wireshark\cmake\modules\FindMSVC_REDIST.cmake;C:\Development\wireshark\cmake\modules\FindMaxMindDB.cmake;C:\Development\wireshark\cmake\modules\FindNGHTTP2.cmake;C:\Development\wireshark\cmake\modules\FindNSIS.cmake;C:\Development\wireshark\cmake\modules\FindPCAP.cmake;C:\Development\wireshark\cmake\modules\FindPOD.cmake;C:\Development\wireshark\cmake\modules\FindPortableApps.cmake;C:\Development\wireshark\cmake\modules\FindPowerShell.cmake;C:\Development\wireshark\cmake\modules\FindSBC.cmake;C:\Development\wireshark\cmake\modules\FindSMI.cmake;C:\Development\wireshark\cmake\modules\FindSNAPPY.cmake;C:\Development\wireshark\cmake\modules\FindSPANDSP.cmake;C:\Development\wireshark\cmake\modules\FindWSWinLibs.cmake;C:\Development\wireshark\cmake\modules\FindWiX.cmake;C:\Development\wireshark\cmake\modules\FindWinSparkle.cmake;C:\Development\wireshark\cmake\modules\FindYACC.cmake;C:\Development\wireshark\cmake\modules\FindZLIB.cmake;C:\Development\wireshark\cmake\modules\UseAsn2Wrs.cmake;C:\Development\wireshark\cmake\modules\UseCheckAPI.cmake;C:\Development\wireshark\cmake\modules\UseCustomIncludes.cmake;C:\Development\wireshark\cmake\modules\UseExecutableResources.cmake;C:\Development\wireshark\cmake\modules\UseLemon.cmake;C:\Development\wireshark\cmake\modules\UseMakePluginReg.cmake;C:\Development\wireshark\cmake\modules\UseMakeTaps.cmake;C:\Development\wireshark\cmake\modules\gmxTestLargeFiles.cmake;C:\Development\wireshark\cmakeconfig.h.in;C:\Development\wireshark\doxygen.cfg.in;C:\Development\wireshark\image\cli_template.rc.in;C:\Development\wireshark\image\dumpcap.rc.in;C:\Development\wireshark\image\libwireshark.rc.in;C:\Development\wireshark\image\libwscodecs.rc.in;C:\Development\wireshark\image\libwsutil.rc.in;C:\Development\wireshark\image\tshark.rc.in;C:\Development\wireshark\image\wireshark.exe.manifest.in;C:\Development\wireshark\image\wireshark.rc.in;C:\Development\wireshark\image\wiretap.rc.in;C:\Development\wireshark\packaging\macosx\Info.plist.in;C:\Development\wireshark\packaging\macosx\Read_me_first.rtf.in;C:\Development\wireshark\packaging\macosx\Wireshark_package.pmdoc\index.xml.in;C:\Development\wireshark\packaging\macosx\osx-app.sh.in;C:\Development\wireshark\packaging\macosx\osx-dmg.sh.in;C:\Development\wireshark\packaging\rpm\wireshark.spec.in;C:\Development\wireshark\packaging\source\git-export-release.sh.in;C:\Development\wireshark\wireshark.pc.in;C:\Development\wireshark\ws_version.h.in;C:\Program Files\CMake\share\cmake-3.13\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckCSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckVariableExists.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FeatureSummary.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindCygwin.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindPerl.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindPython\Support.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindPython3.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\InstallRequiredSystemLibraries.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\WriteBasicConfigVersionFile.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsConfig.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsConfigVersion.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsMacros.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Multimedia\Qt5MultimediaConfig.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Multimedia\Qt5MultimediaConfigVersion.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Multimedia\Qt5Multimedia_AudioCaptureServicePlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Multimedia\Qt5Multimedia_DSServicePlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Multimedia\Qt5Multimedia_QM3uPlaylistPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Multimedia\Qt5Multimedia_QWasapiPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Multimedia\Qt5Multimedia_QWindowsAudioPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Multimedia\Qt5Multimedia_WMFServicePlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Network\Qt5NetworkConfig.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Network\Qt5NetworkConfigVersion.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Network\Qt5Network_QGenericEnginePlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfig.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfigVersion.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupport_QWindowsPrinterSupportPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Svg\Qt5SvgConfig.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Svg\Qt5SvgConfigVersion.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Svg\Qt5Svg_QSvgIconPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Svg\Qt5Svg_QSvgPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5WinExtras\Qt5WinExtrasConfig.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5WinExtras\Qt5WinExtrasConfigVersion.cmake;C:\Development\wireshark\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Development\wireshark\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Development/wireshark/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Development/wireshark -BC:/Development/wireshark --check-stamp-file C:/Development/wireshark/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Development/wireshark/CMakeLists.txt;C:\Development\wireshark\CMakeFiles\3.13.2\CMakeCCompiler.cmake;C:\Development\wireshark\CMakeFiles\3.13.2\CMakeCXXCompiler.cmake;C:\Development\wireshark\CMakeFiles\3.13.2\CMakeRCCompiler.cmake;C:\Development\wireshark\CMakeFiles\3.13.2\CMakeSystem.cmake;C:\Development\wireshark\CMakeLists.txt;C:\Development\wireshark\CMakeOptions.txt;C:\Development\wireshark\ConfigureChecks.cmake;C:\Development\wireshark\WiresharkConfig.cmake.in;C:\Development\wireshark\cmake\modules\CheckCLinkerFlag.cmake;C:\Development\wireshark\cmake\modules\FindAIRPCAP.cmake;C:\Development\wireshark\cmake\modules\FindBCG729.cmake;C:\Development\wireshark\cmake\modules\FindCARES.cmake;C:\Development\wireshark\cmake\modules\FindChocolatey.cmake;C:\Development\wireshark\cmake\modules\FindDOXYGEN.cmake;C:\Development\wireshark\cmake\modules\FindGCRYPT.cmake;C:\Development\wireshark\cmake\modules\FindGLIB2.cmake;C:\Development\wireshark\cmake\modules\FindGMODULE2.cmake;C:\Development\wireshark\cmake\modules\FindGNUTLS.cmake;C:\Development\wireshark\cmake\modules\FindGTHREAD2.cmake;C:\Development\wireshark\cmake\modules\FindKERBEROS.cmake;C:\Development\wireshark\cmake\modules\FindLEX.cmake;C:\Development\wireshark\cmake\modules\FindLIBSSH.cmake;C:\Development\wireshark\cmake\modules\FindLUA.cmake;C:\Development\wireshark\cmake\modules\FindLZ4.cmake;C:\Development\wireshark\cmake\modules\FindLibXml2.cmake;C:\Development\wireshark\cmake\modules\FindMSVC_REDIST.cmake;C:\Development\wireshark\cmake\modules\FindMaxMindDB.cmake;C:\Development\wireshark\cmake\modules\FindNGHTTP2.cmake;C:\Development\wireshark\cmake\modules\FindNSIS.cmake;C:\Development\wireshark\cmake\modules\FindPCAP.cmake;C:\Development\wireshark\cmake\modules\FindPOD.cmake;C:\Development\wireshark\cmake\modules\FindPortableApps.cmake;C:\Development\wireshark\cmake\modules\FindPowerShell.cmake;C:\Development\wireshark\cmake\modules\FindSBC.cmake;C:\Development\wireshark\cmake\modules\FindSMI.cmake;C:\Development\wireshark\cmake\modules\FindSNAPPY.cmake;C:\Development\wireshark\cmake\modules\FindSPANDSP.cmake;C:\Development\wireshark\cmake\modules\FindWSWinLibs.cmake;C:\Development\wireshark\cmake\modules\FindWiX.cmake;C:\Development\wireshark\cmake\modules\FindWinSparkle.cmake;C:\Development\wireshark\cmake\modules\FindYACC.cmake;C:\Development\wireshark\cmake\modules\FindZLIB.cmake;C:\Development\wireshark\cmake\modules\UseAsn2Wrs.cmake;C:\Development\wireshark\cmake\modules\UseCheckAPI.cmake;C:\Development\wireshark\cmake\modules\UseCustomIncludes.cmake;C:\Development\wireshark\cmake\modules\UseExecutableResources.cmake;C:\Development\wireshark\cmake\modules\UseLemon.cmake;C:\Development\wireshark\cmake\modules\UseMakePluginReg.cmake;C:\Development\wireshark\cmake\modules\UseMakeTaps.cmake;C:\Development\wireshark\cmake\modules\gmxTestLargeFiles.cmake;C:\Development\wireshark\cmakeconfig.h.in;C:\Development\wireshark\doxygen.cfg.in;C:\Development\wireshark\image\cli_template.rc.in;C:\Development\wireshark\image\dumpcap.rc.in;C:\Development\wireshark\image\libwireshark.rc.in;C:\Development\wireshark\image\libwscodecs.rc.in;C:\Development\wireshark\image\libwsutil.rc.in;C:\Development\wireshark\image\tshark.rc.in;C:\Development\wireshark\image\wireshark.exe.manifest.in;C:\Development\wireshark\image\wireshark.rc.in;C:\Development\wireshark\image\wiretap.rc.in;C:\Development\wireshark\packaging\macosx\Info.plist.in;C:\Development\wireshark\packaging\macosx\Read_me_first.rtf.in;C:\Development\wireshark\packaging\macosx\Wireshark_package.pmdoc\index.xml.in;C:\Development\wireshark\packaging\macosx\osx-app.sh.in;C:\Development\wireshark\packaging\macosx\osx-dmg.sh.in;C:\Development\wireshark\packaging\rpm\wireshark.spec.in;C:\Development\wireshark\packaging\source\git-export-release.sh.in;C:\Development\wireshark\wireshark.pc.in;C:\Development\wireshark\ws_version.h.in;C:\Program Files\CMake\share\cmake-3.13\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckCSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckVariableExists.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FeatureSummary.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindCygwin.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindPerl.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindPython\Support.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindPython3.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\InstallRequiredSystemLibraries.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\WriteBasicConfigVersionFile.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsConfig.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsConfigVersion.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsMacros.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Multimedia\Qt5MultimediaConfig.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Multimedia\Qt5MultimediaConfigVersion.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Multimedia\Qt5Multimedia_AudioCaptureServicePlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Multimedia\Qt5Multimedia_DSServicePlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Multimedia\Qt5Multimedia_QM3uPlaylistPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Multimedia\Qt5Multimedia_QWasapiPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Multimedia\Qt5Multimedia_QWindowsAudioPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Multimedia\Qt5Multimedia_WMFServicePlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Network\Qt5NetworkConfig.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Network\Qt5NetworkConfigVersion.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Network\Qt5Network_QGenericEnginePlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfig.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfigVersion.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupport_QWindowsPrinterSupportPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Svg\Qt5SvgConfig.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Svg\Qt5SvgConfigVersion.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Svg\Qt5Svg_QSvgIconPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Svg\Qt5Svg_QSvgPlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5WinExtras\Qt5WinExtrasConfig.cmake;D:\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5WinExtras\Qt5WinExtrasConfigVersion.cmake;C:\Development\wireshark\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Development\wireshark\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Development\wireshark\ZERO_CHECK.vcxproj">
+      <Project>{B765B3E1-9AF0-39DF-BCC2-760F120CAE35}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\caputils\checkAPI_caputils-base.vcxproj">
+      <Project>{BBDA8A7C-5FA7-3534-B571-9861B60D6925}</Project>
+      <Name>checkAPI_caputils-base</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\caputils\checkAPI_caputils-todo.vcxproj">
+      <Project>{3A8C5313-6391-32BC-9B66-9BA6FFBAE744}</Project>
+      <Name>checkAPI_caputils-todo</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\codecs\checkAPI_codecs.vcxproj">
+      <Project>{9874312E-6C6E-3D86-B8F1-A28425230ABA}</Project>
+      <Name>checkAPI_codecs</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\crypt\checkAPI_crypt.vcxproj">
+      <Project>{5F413587-940A-3E26-90EE-226421F111B0}</Project>
+      <Name>checkAPI_crypt</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dfilter\checkAPI_dfilter.vcxproj">
+      <Project>{B96094E6-E78D-306D-82DB-1C9510E9C4E9}</Project>
+      <Name>checkAPI_dfilter</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\checkAPI_dissectors.vcxproj">
+      <Project>{34BFFD04-531B-3D3B-9D26-BDD62DBF1DA4}</Project>
+      <Name>checkAPI_dissectors</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\checkAPI_epan.vcxproj">
+      <Project>{C33D8433-1795-3125-822D-A21A5FDFC2CF}</Project>
+      <Name>checkAPI_epan</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\plugins\epan\ethercat\checkAPI_ethercat.vcxproj">
+      <Project>{5B4BACB7-0C26-3119-B26F-6F47DDA647E2}</Project>
+      <Name>checkAPI_ethercat</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\ftypes\checkAPI_ftypes.vcxproj">
+      <Project>{C9CD1AE4-1EB5-37A4-87E3-42BC1A8158C2}</Project>
+      <Name>checkAPI_ftypes</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\plugins\epan\gryphon\checkAPI_gryphon.vcxproj">
+      <Project>{A7B72329-9BB1-31B1-A17F-E68C40DA369C}</Project>
+      <Name>checkAPI_gryphon</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\plugins\epan\irda\checkAPI_irda.vcxproj">
+      <Project>{32E5D59C-5DD0-3C44-97C7-9B62486CAB42}</Project>
+      <Name>checkAPI_irda</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\plugins\codecs\l16_mono\checkAPI_l16mono.vcxproj">
+      <Project>{F3F831A8-7AB4-375E-A084-8036C28566B0}</Project>
+      <Name>checkAPI_l16mono</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\checkAPI_main.vcxproj">
+      <Project>{1D2131D4-E20D-397E-AD88-24D62D1F9B7A}</Project>
+      <Name>checkAPI_main</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\plugins\epan\mate\checkAPI_mate.vcxproj">
+      <Project>{7AA00458-37D2-3382-9389-992ED09B0F3E}</Project>
+      <Name>checkAPI_mate</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\plugins\epan\opcua\checkAPI_opcua.vcxproj">
+      <Project>{CAC5EEE0-12BA-3DC2-A71E-FF49D93021B7}</Project>
+      <Name>checkAPI_opcua</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\plugins\epan\profinet\checkAPI_profinet.vcxproj">
+      <Project>{86003652-1B96-3B89-867F-6881BC24A997}</Project>
+      <Name>checkAPI_profinet</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\randpkt_core\checkAPI_randpkt_core-base.vcxproj">
+      <Project>{6E77F875-C802-3C6E-965E-64698B1343D1}</Project>
+      <Name>checkAPI_randpkt_core-base</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\randpkt_core\checkAPI_randpkt_core-todo.vcxproj">
+      <Project>{97720659-421D-38FA-9258-DA87C15049FF}</Project>
+      <Name>checkAPI_randpkt_core-todo</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\plugins\epan\stats_tree\checkAPI_stats_tree.vcxproj">
+      <Project>{00B71A83-801E-318B-9BFF-28A90B02BB9A}</Project>
+      <Name>checkAPI_stats_tree</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\plugins\epan\transum\checkAPI_transum.vcxproj">
+      <Project>{6C673419-CAF8-3F80-A497-9F16EC97A677}</Project>
+      <Name>checkAPI_transum</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\ui\checkAPI_ui-base.vcxproj">
+      <Project>{D8F0FC63-AFBD-3712-AADA-A5E07ED2CA32}</Project>
+      <Name>checkAPI_ui-base</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\ui\checkAPI_ui-todo.vcxproj">
+      <Project>{751199FA-F905-3052-B613-8EF934E41F85}</Project>
+      <Name>checkAPI_ui-todo</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\plugins\epan\unistim\checkAPI_unistim.vcxproj">
+      <Project>{44FE663C-E48C-3F18-8A63-42AA11A60740}</Project>
+      <Name>checkAPI_unistim</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\plugins\wiretap\usbdump\checkAPI_usbdump.vcxproj">
+      <Project>{F0DC5D3F-3CF4-30A3-B7EE-AD954CDEC8FD}</Project>
+      <Name>checkAPI_usbdump</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\plugins\epan\wimax\checkAPI_wimax.vcxproj">
+      <Project>{C50BAEE3-7068-3441-ABF4-C670FCB1BF44}</Project>
+      <Name>checkAPI_wimax</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\plugins\epan\wimaxasncp\checkAPI_wimaxasncp.vcxproj">
+      <Project>{A8C028D4-D339-3409-99FD-C9A5C5A8B9C9}</Project>
+      <Name>checkAPI_wimaxasncp</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\plugins\epan\wimaxmacphy\checkAPI_wimaxmacphy.vcxproj">
+      <Project>{B8049245-AD5D-3DFB-AFFB-F8122CA41A7F}</Project>
+      <Name>checkAPI_wimaxmacphy</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\wiretap\checkAPI_wiretap.vcxproj">
+      <Project>{0C14006A-FC9B-3B48-8605-1F2178C1998B}</Project>
+      <Name>checkAPI_wiretap</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\wmem\checkAPI_wmem.vcxproj">
+      <Project>{5ED9B5FB-3970-306E-88E1-029C6AEB6E71}</Project>
+      <Name>checkAPI_wmem</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\wslua\checkAPI_wslua.vcxproj">
+      <Project>{81D038A9-70EC-3944-BDC9-946BE4884A43}</Project>
+      <Name>checkAPI_wslua</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\wsutil\checkAPI_wsutil.vcxproj">
+      <Project>{CDEFCACD-12F6-338F-87CF-972D039A08AF}</Project>
+      <Name>checkAPI_wsutil</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

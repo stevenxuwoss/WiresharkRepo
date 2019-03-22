@@ -1,0 +1,1684 @@
+﻿BKRP_Opnum0_BackuprKey.cap
+Frame 1: 417 bytes on wire (3336 bits), 417 bytes captured (3336 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Jun 25, 2014 17:12:03.340138300 China Standard Time
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1403687523.340138300 seconds
+    [Time delta from previous captured frame: 0.000000000 seconds]
+    [Time delta from previous displayed frame: 0.000000000 seconds]
+    [Time since reference or first frame: 0.000000000 seconds]
+    Frame Number: 1
+    Frame Length: 417 bytes (3336 bits)
+    Capture Length: 417 bytes (3336 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:nbss:smb2:dcerpc:spnego:ntlmssp]
+Ethernet II, Src: Microsof_f2:d9:a6 (00:15:5d:f2:d9:a6), Dst: Microsof_f2:d9:a5 (00:15:5d:f2:d9:a5)
+    Destination: Microsof_f2:d9:a5 (00:15:5d:f2:d9:a5)
+        Address: Microsof_f2:d9:a5 (00:15:5d:f2:d9:a5)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Microsof_f2:d9:a6 (00:15:5d:f2:d9:a6)
+        Address: Microsof_f2:d9:a6 (00:15:5d:f2:d9:a6)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.0.10, Dst: 192.168.0.1
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x02 (DSCP: CS0, ECN: ECT(0))
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..10 = Explicit Congestion Notification: ECN-Capable Transport codepoint '10' (2)
+    Total Length: 403
+    Identification: 0x5f5b (24411)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 128
+    Protocol: TCP (6)
+    Header checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.0.10
+    Destination: 192.168.0.1
+Transmission Control Protocol, Src Port: 20857, Dst Port: 445, Seq: 1, Ack: 1, Len: 363
+    Source Port: 20857
+    Destination Port: 445
+    [Stream index: 0]
+    [TCP Segment Len: 363]
+    Sequence number: 1    (relative sequence number)
+    [Next sequence number: 364    (relative sequence number)]
+    Acknowledgment number: 1    (relative ack number)
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window size value: 4101
+    [Calculated window size: 4101]
+    [Window size scaling factor: -1 (unknown)]
+    Checksum: 0x82e1 [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [Bytes in flight: 363]
+        [Bytes sent since last PSH flag: 363]
+    [Timestamps]
+        [Time since first frame in this TCP stream: 0.000000000 seconds]
+        [Time since previous frame in this TCP stream: 0.000000000 seconds]
+    TCP payload (363 bytes)
+NetBIOS Session Service
+    Message Type: Session message (0x00)
+    Length: 359
+SMB2 (Server Message Block Protocol version 2)
+    SMB2 Header
+        Server Component: SMB2
+        Header Length: 64
+        Credit Charge: 1
+        Channel Sequence: 0
+        Reserved: 0000
+        Command: Write (9)
+        Credits requested: 1
+        Flags: 0x00000008, Signing
+            .... .... .... .... .... .... .... ...0 = Response: This is a REQUEST
+            .... .... .... .... .... .... .... ..0. = Async command: This is a SYNC command
+            .... .... .... .... .... .... .... .0.. = Chained: This pdu is NOT a chained command
+            .... .... .... .... .... .... .... 1... = Signing: This pdu is SIGNED
+            .... .... .... .... .... .... .000 .... = Priority: This pdu does NOT contain a PRIORITY
+            ...0 .... .... .... .... .... .... .... = DFS operation: This is a normal operation
+            ..0. .... .... .... .... .... .... .... = Replay operation: This is NOT a replay operation
+        Chain Offset: 0x00000000
+        Message ID: Unknown (6)
+        Process Id: 0x0000feff
+        Tree Id: 0x00000001
+        Session Id: 0x00005402e0000001
+        Signature: bf6f6fc81004ce76b0a37d5431a23296
+    Write Request (0x09)
+        StructureSize: 0x0031
+            0000 0000 0011 000. = Fixed Part Length: 24
+            .... .... .... ...1 = Dynamic Part: True
+        Data Offset: 0x0070
+        Write Length: 247
+        File Offset: 0
+        GUID handle
+            File Id: 00000e2f-0015-0000-0100-000015000000
+        Channel: None (0x00000000)
+        Remaining Bytes: 0
+        Write Flags: 0x00000000
+            .... .... .... .... .... .... .... ...0 = Write through: False
+        Blob Offset: 0x00000000
+        Blob Length: 0
+        Channel Info Blob: NO DATA
+Distributed Computing Environment / Remote Procedure Call (DCE/RPC) Bind, Fragment: Single, FragLen: 247, Call: 2
+    Version: 5
+    Version (minor): 0
+    Packet type: Bind (11)
+    Packet Flags: 0x07
+        0... .... = Object: Not set
+        .0.. .... = Maybe: Not set
+        ..0. .... = Did Not Execute: Not set
+        ...0 .... = Multiplex: Not set
+        .... 0... = Reserved: Not set
+        .... .1.. = Cancel Pending: Set
+        .... ..1. = Last Frag: Set
+        .... ...1 = First Frag: Set
+    Data Representation: 10000000 (Order: Little-endian, Char: ASCII, Float: IEEE)
+        Byte order: Little-endian (1)
+        Character: ASCII (0)
+        Floating-point: IEEE (0)
+    Frag Length: 247
+    Auth Length: 123
+    Call ID: 2
+    Max Xmit Frag: 4280
+    Max Recv Frag: 4280
+    Assoc Group: 0x00000000
+    Num Ctx Items: 2
+    Ctx Item[1]: Context ID:0, BACKUPKEY, 32bit NDR
+        Context ID: 0
+        Num Trans Items: 1
+        Abstract Syntax: BACKUPKEY V1.0
+            Interface: BACKUPKEY UUID: 3dde7c30-165d-11d1-ab8f-00805f14db40
+            Interface Ver: 1
+            Interface Ver Minor: 0
+        Transfer Syntax[1]: 32bit NDR V2
+            Transfer Syntax: 32bit NDR UUID:8a885d04-1ceb-11c9-9fe8-08002b104860
+            ver: 2
+    Ctx Item[2]: Context ID:1, BACKUPKEY, Bind Time Feature Negotiation
+        Context ID: 1
+        Num Trans Items: 1
+        Abstract Syntax: BACKUPKEY V1.0
+            Interface: BACKUPKEY UUID: 3dde7c30-165d-11d1-ab8f-00805f14db40
+            Interface Ver: 1
+            Interface Ver Minor: 0
+        Transfer Syntax[1]: Bind Time Feature Negotiation V1
+            Transfer Syntax: Bind Time Feature Negotiation UUID:6cb71c2c-9812-4540-0300-000000000000
+            Bind Time Features: 0x0003, Security Context Multiplexing Supported, Keep Connection On Orphan Supported
+                .... .... .... ...1 = Security Context Multiplexing Supported: True
+                .... .... .... ..1. = Keep Connection On Orphan Supported: True
+            ver: 1
+    Auth Info: SPNEGO, Packet integrity, AuthContextId(0)
+        Auth type: SPNEGO (9)
+        Auth level: Packet integrity (5)
+        Auth pad len: 0
+        Auth Rsrvd: 0
+        Auth Context ID: 0
+        GSS-API Generic Security Service Application Program Interface
+            OID: 1.3.6.1.5.5.2 (SPNEGO - Simple Protected Negotiation)
+            Simple Protected Negotiation
+                negTokenInit
+                    mechTypes: 4 items
+                        MechType: 1.3.6.1.4.1.311.2.2.10 (NTLMSSP - Microsoft NTLM Security Support Provider)
+                        MechType: 1.2.840.48018.1.2.2 (MS KRB5 - Microsoft Kerberos 5)
+                        MechType: 1.2.840.113554.1.2.2 (KRB5 - Kerberos 5)
+                        MechType: 1.3.6.1.4.1.311.2.2.30 (NEGOEX - SPNEGO Extended Negotiation Security Mechanism)
+                    mechToken: 4e544c4d535350000100000097b208e20700070030000000…
+                    NTLM Secure Service Provider
+                        NTLMSSP identifier: NTLMSSP
+                        NTLM Message Type: NTLMSSP_NEGOTIATE (0x00000001)
+                        Negotiate Flags: 0xe208b297, Negotiate 56, Negotiate Key Exchange, Negotiate 128, Negotiate Version, Negotiate Extended Security, Negotiate Always Sign, Negotiate OEM Workstation Supplied, Negotiate OEM Domain Supplied, Negotiate NTLM key,
+                            1... .... .... .... .... .... .... .... = Negotiate 56: Set
+                            .1.. .... .... .... .... .... .... .... = Negotiate Key Exchange: Set
+                            ..1. .... .... .... .... .... .... .... = Negotiate 128: Set
+                            ...0 .... .... .... .... .... .... .... = Negotiate 0x10000000: Not set
+                            .... 0... .... .... .... .... .... .... = Negotiate 0x08000000: Not set
+                            .... .0.. .... .... .... .... .... .... = Negotiate 0x04000000: Not set
+                            .... ..1. .... .... .... .... .... .... = Negotiate Version: Set
+                            .... ...0 .... .... .... .... .... .... = Negotiate 0x01000000: Not set
+                            .... .... 0... .... .... .... .... .... = Negotiate Target Info: Not set
+                            .... .... .0.. .... .... .... .... .... = Request Non-NT Session: Not set
+                            .... .... ..0. .... .... .... .... .... = Negotiate 0x00200000: Not set
+                            .... .... ...0 .... .... .... .... .... = Negotiate Identify: Not set
+                            .... .... .... 1... .... .... .... .... = Negotiate Extended Security: Set
+                            .... .... .... .0.. .... .... .... .... = Target Type Share: Not set
+                            .... .... .... ..0. .... .... .... .... = Target Type Server: Not set
+                            .... .... .... ...0 .... .... .... .... = Target Type Domain: Not set
+                            .... .... .... .... 1... .... .... .... = Negotiate Always Sign: Set
+                            .... .... .... .... .0.. .... .... .... = Negotiate 0x00004000: Not set
+                            .... .... .... .... ..1. .... .... .... = Negotiate OEM Workstation Supplied: Set
+                            .... .... .... .... ...1 .... .... .... = Negotiate OEM Domain Supplied: Set
+                            .... .... .... .... .... 0... .... .... = Negotiate Anonymous: Not set
+                            .... .... .... .... .... .0.. .... .... = Negotiate NT Only: Not set
+                            .... .... .... .... .... ..1. .... .... = Negotiate NTLM key: Set
+                            .... .... .... .... .... ...0 .... .... = Negotiate 0x00000100: Not set
+                            .... .... .... .... .... .... 1... .... = Negotiate Lan Manager Key: Set
+                            .... .... .... .... .... .... .0.. .... = Negotiate Datagram: Not set
+                            .... .... .... .... .... .... ..0. .... = Negotiate Seal: Not set
+                            .... .... .... .... .... .... ...1 .... = Negotiate Sign: Set
+                            .... .... .... .... .... .... .... 0... = Request 0x00000008: Not set
+                            .... .... .... .... .... .... .... .1.. = Request Target: Set
+                            .... .... .... .... .... .... .... ..1. = Negotiate OEM: Set
+                            .... .... .... .... .... .... .... ...1 = Negotiate UNICODE: Set
+                        Calling workstation domain: CONTOSO
+                            Length: 7
+                            Maxlen: 7
+                            Offset: 48
+                        Calling workstation name: DRIVER01
+                            Length: 8
+                            Maxlen: 8
+                            Offset: 40
+                        Version 6.3 (Build 9600); NTLM Current Revision 15
+                            Major Version: 6
+                            Minor Version: 3
+                            Build Number: 9600
+                            NTLM Current Revision: 15
+
+Frame 2: 473 bytes on wire (3784 bits), 473 bytes captured (3784 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Jun 25, 2014 17:12:03.340919800 China Standard Time
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1403687523.340919800 seconds
+    [Time delta from previous captured frame: 0.000781500 seconds]
+    [Time delta from previous displayed frame: 0.000781500 seconds]
+    [Time since reference or first frame: 0.000781500 seconds]
+    Frame Number: 2
+    Frame Length: 473 bytes (3784 bits)
+    Capture Length: 473 bytes (3784 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:nbss:smb2:dcerpc:spnego:ntlmssp]
+Ethernet II, Src: Microsof_f2:d9:a5 (00:15:5d:f2:d9:a5), Dst: Microsof_f2:d9:a6 (00:15:5d:f2:d9:a6)
+    Destination: Microsof_f2:d9:a6 (00:15:5d:f2:d9:a6)
+        Address: Microsof_f2:d9:a6 (00:15:5d:f2:d9:a6)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Microsof_f2:d9:a5 (00:15:5d:f2:d9:a5)
+        Address: Microsof_f2:d9:a5 (00:15:5d:f2:d9:a5)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.0.1, Dst: 192.168.0.10
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x02 (DSCP: CS0, ECN: ECT(0))
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..10 = Explicit Congestion Notification: ECN-Capable Transport codepoint '10' (2)
+    Total Length: 459
+    Identification: 0x36a8 (13992)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 128
+    Protocol: TCP (6)
+    Header checksum: 0x4127 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.0.1
+    Destination: 192.168.0.10
+Transmission Control Protocol, Src Port: 445, Dst Port: 20857, Seq: 85, Ack: 481, Len: 419
+    Source Port: 445
+    Destination Port: 20857
+    [Stream index: 0]
+    [TCP Segment Len: 419]
+    Sequence number: 85    (relative sequence number)
+    [Next sequence number: 504    (relative sequence number)]
+    Acknowledgment number: 481    (relative ack number)
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window size value: 4102
+    [Calculated window size: 4102]
+    [Window size scaling factor: -1 (unknown)]
+    Checksum: 0x0df2 [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [Bytes in flight: 419]
+        [Bytes sent since last PSH flag: 419]
+        [TCP Analysis Flags]
+            [Expert Info (Warning/Sequence): ACKed segment that wasn't captured (common at capture start)]
+                [ACKed segment that wasn't captured (common at capture start)]
+                [Severity level: Warning]
+                [Group: Sequence]
+    [Timestamps]
+        [Time since first frame in this TCP stream: 0.000781500 seconds]
+        [Time since previous frame in this TCP stream: 0.000781500 seconds]
+    TCP payload (419 bytes)
+NetBIOS Session Service
+    Message Type: Session message (0x00)
+    Length: 415
+SMB2 (Server Message Block Protocol version 2)
+    SMB2 Header
+        Server Component: SMB2
+        Header Length: 64
+        Credit Charge: 1
+        NT Status: STATUS_SUCCESS (0x00000000)
+        Command: Read (8)
+        Credits granted: 1
+        Flags: 0x00000009, Response, Signing
+            .... .... .... .... .... .... .... ...1 = Response: This is a RESPONSE
+            .... .... .... .... .... .... .... ..0. = Async command: This is a SYNC command
+            .... .... .... .... .... .... .... .0.. = Chained: This pdu is NOT a chained command
+            .... .... .... .... .... .... .... 1... = Signing: This pdu is SIGNED
+            .... .... .... .... .... .... .000 .... = Priority: This pdu does NOT contain a PRIORITY
+            ...0 .... .... .... .... .... .... .... = DFS operation: This is a normal operation
+            ..0. .... .... .... .... .... .... .... = Replay operation: This is NOT a replay operation
+        Chain Offset: 0x00000000
+        Message ID: Unknown (7)
+        Process Id: 0x0000feff
+        Tree Id: 0x00000001
+        Session Id: 0x00005402e0000001
+        Signature: b163756b587e4832d7e2bd408858456e
+    Read Response (0x08)
+        StructureSize: 0x0011
+            0000 0000 0001 000. = Fixed Part Length: 8
+            .... .... .... ...1 = Dynamic Part: True
+        Data Offset: 0x0050
+        Read Length: 335
+        Read Remaining: 0
+        Reserved: 00000000
+Distributed Computing Environment / Remote Procedure Call (DCE/RPC) Bind_ack, Fragment: Single, FragLen: 335, Call: 2
+    Version: 5
+    Version (minor): 0
+    Packet type: Bind_ack (12)
+    Packet Flags: 0x07
+        0... .... = Object: Not set
+        .0.. .... = Maybe: Not set
+        ..0. .... = Did Not Execute: Not set
+        ...0 .... = Multiplex: Not set
+        .... 0... = Reserved: Not set
+        .... .1.. = Cancel Pending: Set
+        .... ..1. = Last Frag: Set
+        .... ...1 = First Frag: Set
+    Data Representation: 10000000 (Order: Little-endian, Char: ASCII, Float: IEEE)
+        Byte order: Little-endian (1)
+        Character: ASCII (0)
+        Floating-point: IEEE (0)
+    Frag Length: 335
+    Auth Length: 235
+    Call ID: 2
+    Max Xmit Frag: 4280
+    Max Recv Frag: 4280
+    Assoc Group: 0x00007a37
+    Scndry Addr len: 12
+    Scndry Addr: \pipe\lsass
+    Num results: 2
+    Ctx Item[1]: Acceptance, 32bit NDR
+        Ack result: Acceptance (0)
+        Transfer Syntax: 32bit NDR
+        Syntax ver: 2
+    Ctx Item[2]: Negotiate ACK, PNIO (Implicit Ar)
+        Ack result: Negotiate ACK (3)
+        Bind Time Features: 0x0003, Security Context Multiplexing Supported, Keep Connection On Orphan Supported
+            .... .... .... ...1 = Security Context Multiplexing Supported: True
+            .... .... .... ..1. = Keep Connection On Orphan Supported: True
+        Transfer Syntax: PNIO (Implicit Ar)
+        Syntax ver: 0
+    Auth Info: SPNEGO, Packet integrity, AuthContextId(0)
+        Auth type: SPNEGO (9)
+        Auth level: Packet integrity (5)
+        Auth pad len: 0
+        Auth Rsrvd: 0
+        Auth Context ID: 0
+        GSS-API Generic Security Service Application Program Interface
+            Simple Protected Negotiation
+                negTokenTarg
+                    negResult: accept-incomplete (1)
+                    supportedMech: 1.3.6.1.4.1.311.2.2.10 (NTLMSSP - Microsoft NTLM Security Support Provider)
+                    responseToken: 4e544c4d53535000020000000e000e0038000000158289e2…
+                    NTLM Secure Service Provider
+                        NTLMSSP identifier: NTLMSSP
+                        NTLM Message Type: NTLMSSP_CHALLENGE (0x00000002)
+                        Target Name: contoso
+                            Length: 14
+                            Maxlen: 14
+                            Offset: 56
+                        Negotiate Flags: 0xe2898215, Negotiate 56, Negotiate Key Exchange, Negotiate 128, Negotiate Version, Negotiate Target Info, Negotiate Extended Security, Target Type Domain, Negotiate Always Sign, Negotiate NTLM key, Negotiate Sign, Request
+                            1... .... .... .... .... .... .... .... = Negotiate 56: Set
+                            .1.. .... .... .... .... .... .... .... = Negotiate Key Exchange: Set
+                            ..1. .... .... .... .... .... .... .... = Negotiate 128: Set
+                            ...0 .... .... .... .... .... .... .... = Negotiate 0x10000000: Not set
+                            .... 0... .... .... .... .... .... .... = Negotiate 0x08000000: Not set
+                            .... .0.. .... .... .... .... .... .... = Negotiate 0x04000000: Not set
+                            .... ..1. .... .... .... .... .... .... = Negotiate Version: Set
+                            .... ...0 .... .... .... .... .... .... = Negotiate 0x01000000: Not set
+                            .... .... 1... .... .... .... .... .... = Negotiate Target Info: Set
+                            .... .... .0.. .... .... .... .... .... = Request Non-NT Session: Not set
+                            .... .... ..0. .... .... .... .... .... = Negotiate 0x00200000: Not set
+                            .... .... ...0 .... .... .... .... .... = Negotiate Identify: Not set
+                            .... .... .... 1... .... .... .... .... = Negotiate Extended Security: Set
+                            .... .... .... .0.. .... .... .... .... = Target Type Share: Not set
+                            .... .... .... ..0. .... .... .... .... = Target Type Server: Not set
+                            .... .... .... ...1 .... .... .... .... = Target Type Domain: Set
+                            .... .... .... .... 1... .... .... .... = Negotiate Always Sign: Set
+                            .... .... .... .... .0.. .... .... .... = Negotiate 0x00004000: Not set
+                            .... .... .... .... ..0. .... .... .... = Negotiate OEM Workstation Supplied: Not set
+                            .... .... .... .... ...0 .... .... .... = Negotiate OEM Domain Supplied: Not set
+                            .... .... .... .... .... 0... .... .... = Negotiate Anonymous: Not set
+                            .... .... .... .... .... .0.. .... .... = Negotiate NT Only: Not set
+                            .... .... .... .... .... ..1. .... .... = Negotiate NTLM key: Set
+                            .... .... .... .... .... ...0 .... .... = Negotiate 0x00000100: Not set
+                            .... .... .... .... .... .... 0... .... = Negotiate Lan Manager Key: Not set
+                            .... .... .... .... .... .... .0.. .... = Negotiate Datagram: Not set
+                            .... .... .... .... .... .... ..0. .... = Negotiate Seal: Not set
+                            .... .... .... .... .... .... ...1 .... = Negotiate Sign: Set
+                            .... .... .... .... .... .... .... 0... = Request 0x00000008: Not set
+                            .... .... .... .... .... .... .... .1.. = Request Target: Set
+                            .... .... .... .... .... .... .... ..0. = Negotiate OEM: Not set
+                            .... .... .... .... .... .... .... ...1 = Negotiate UNICODE: Set
+                        NTLM Server Challenge: 9325715c17f7f7cd
+                        Reserved: 0000000000000000
+                        Target Info
+                            Length: 134
+                            Maxlen: 134
+                            Offset: 70
+                            Attribute: NetBIOS domain name: contoso
+                                Target Info Item Type: NetBIOS domain name (0x0002)
+                                Target Info Item Length: 14
+                                NetBIOS Domain Name: contoso
+                            Attribute: NetBIOS computer name: DC01
+                                Target Info Item Type: NetBIOS computer name (0x0001)
+                                Target Info Item Length: 8
+                                NetBIOS Computer Name: DC01
+                            Attribute: DNS domain name: contoso.com
+                                Target Info Item Type: DNS domain name (0x0004)
+                                Target Info Item Length: 22
+                                DNS Domain Name: contoso.com
+                            Attribute: DNS computer name: DC01.contoso.com
+                                Target Info Item Type: DNS computer name (0x0003)
+                                Target Info Item Length: 32
+                                DNS Computer Name: DC01.contoso.com
+                            Attribute: DNS tree name: contoso.com
+                                Target Info Item Type: DNS tree name (0x0005)
+                                Target Info Item Length: 22
+                                DNS Tree Name: contoso.com
+                            Attribute: Timestamp
+                                Target Info Item Type: Timestamp (0x0007)
+                                Target Info Item Length: 8
+                                Timestamp: Jun 25, 2014 17:12:03.336999400 China Standard Time
+                            Attribute: End of list
+                                Target Info Item Type: End of list (0x0000)
+                                Target Info Item Length: 0
+                        Version 6.3 (Build 9600); NTLM Current Revision 15
+                            Major Version: 6
+                            Minor Version: 3
+                            Build Number: 9600
+                            NTLM Current Revision: 15
+
+Frame 3: 322 bytes on wire (2576 bits), 322 bytes captured (2576 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Jun 25, 2014 17:12:03.343939000 China Standard Time
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1403687523.343939000 seconds
+    [Time delta from previous captured frame: 0.003019200 seconds]
+    [Time delta from previous displayed frame: 0.003019200 seconds]
+    [Time since reference or first frame: 0.003800700 seconds]
+    Frame Number: 3
+    Frame Length: 322 bytes (2576 bits)
+    Capture Length: 322 bytes (2576 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:nbss:smb2:dcerpc:ntlmssp]
+Ethernet II, Src: Microsof_f2:d9:a6 (00:15:5d:f2:d9:a6), Dst: Microsof_f2:d9:a5 (00:15:5d:f2:d9:a5)
+    Destination: Microsof_f2:d9:a5 (00:15:5d:f2:d9:a5)
+        Address: Microsof_f2:d9:a5 (00:15:5d:f2:d9:a5)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Microsof_f2:d9:a6 (00:15:5d:f2:d9:a6)
+        Address: Microsof_f2:d9:a6 (00:15:5d:f2:d9:a6)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.0.10, Dst: 192.168.0.1
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x02 (DSCP: CS0, ECN: ECT(0))
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..10 = Explicit Congestion Notification: ECN-Capable Transport codepoint '10' (2)
+    Total Length: 308
+    Identification: 0x5f5f (24415)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 128
+    Protocol: TCP (6)
+    Header checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.0.10
+    Destination: 192.168.0.1
+Transmission Control Protocol, Src Port: 20857, Dst Port: 445, Seq: 1289, Ack: 765, Len: 268
+    Source Port: 20857
+    Destination Port: 445
+    [Stream index: 0]
+    [TCP Segment Len: 268]
+    Sequence number: 1289    (relative sequence number)
+    [Next sequence number: 1557    (relative sequence number)]
+    Acknowledgment number: 765    (relative ack number)
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window size value: 4105
+    [Calculated window size: 4105]
+    [Window size scaling factor: -1 (unknown)]
+    Checksum: 0x8282 [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [TCP Analysis Flags]
+            [Expert Info (Warning/Sequence): Previous segment(s) not captured (common at capture start)]
+                [Previous segment(s) not captured (common at capture start)]
+                [Severity level: Warning]
+                [Group: Sequence]
+            [Expert Info (Warning/Sequence): ACKed segment that wasn't captured (common at capture start)]
+                [ACKed segment that wasn't captured (common at capture start)]
+                [Severity level: Warning]
+                [Group: Sequence]
+    [Timestamps]
+        [Time since first frame in this TCP stream: 0.003800700 seconds]
+        [Time since previous frame in this TCP stream: 0.003019200 seconds]
+    TCP payload (268 bytes)
+NetBIOS Session Service
+    Message Type: Session message (0x00)
+    Length: 264
+SMB2 (Server Message Block Protocol version 2)
+    SMB2 Header
+        Server Component: SMB2
+        Header Length: 64
+        Credit Charge: 1
+        Channel Sequence: 0
+        Reserved: 0000
+        Command: Ioctl (11)
+        Credits requested: 1
+        Flags: 0x00000008, Signing
+            .... .... .... .... .... .... .... ...0 = Response: This is a REQUEST
+            .... .... .... .... .... .... .... ..0. = Async command: This is a SYNC command
+            .... .... .... .... .... .... .... .0.. = Chained: This pdu is NOT a chained command
+            .... .... .... .... .... .... .... 1... = Signing: This pdu is SIGNED
+            .... .... .... .... .... .... .000 .... = Priority: This pdu does NOT contain a PRIORITY
+            ...0 .... .... .... .... .... .... .... = DFS operation: This is a normal operation
+            ..0. .... .... .... .... .... .... .... = Replay operation: This is NOT a replay operation
+        Chain Offset: 0x00000000
+        Message ID: Unknown (10)
+        Process Id: 0x0000feff
+        Tree Id: 0x00000001
+        Session Id: 0x00005402e0000001
+        Signature: dadb35da042d35aabee5161baf375fbc
+    Ioctl Request (0x0b)
+        StructureSize: 0x0039
+            0000 0000 0011 100. = Fixed Part Length: 28
+            .... .... .... ...1 = Dynamic Part: True
+        Reserved: 0000
+        Function: FSCTL_PIPE_TRANSCEIVE (0x0011c017)
+            0000 0000 0001 0001 .... .... .... .... = Device: NAMED_PIPE (0x0011)
+            .... .... .... .... 11.. .... .... .... = Access: FILE_READ_WRITE_ACCESS (0x3)
+            .... .... .... .... ..00 0000 0001 01.. = Function: 0x005
+            .... .... .... .... .... .... .... ..11 = Method: METHOD_NEITHER (0x3)
+        GUID handle
+            File Id: 00000e2f-0015-0000-0100-000015000000
+        Max Ioctl In Size: 0
+        Max Ioctl Out Size: 1024
+        Flags: 0x00000001
+            .... .... .... .... .... .... .... ...1 = Is FSCTL: True
+        Reserved: 00000000
+        Blob Offset: 0x00000078
+        Blob Length: 144
+        In Data
+        Blob Offset: 0x00000078
+        Blob Length: 0
+        Out Data: NO DATA
+Distributed Computing Environment / Remote Procedure Call (DCE/RPC) Request, Fragment: Single, FragLen: 144, Call: 2, Ctx: 0
+    Version: 5
+    Version (minor): 0
+    Packet type: Request (0)
+    Packet Flags: 0x83
+        1... .... = Object: Set
+        .0.. .... = Maybe: Not set
+        ..0. .... = Did Not Execute: Not set
+        ...0 .... = Multiplex: Not set
+        .... 0... = Reserved: Not set
+        .... .0.. = Cancel Pending: Not set
+        .... ..1. = Last Frag: Set
+        .... ...1 = First Frag: Set
+    Data Representation: 10000000 (Order: Little-endian, Char: ASCII, Float: IEEE)
+        Byte order: Little-endian (1)
+        Character: ASCII (0)
+        Floating-point: IEEE (0)
+    Frag Length: 144
+    Auth Length: 16
+    Call ID: 2
+    Alloc hint: 80
+    Context ID: 0
+    Opnum: 0
+    Object UUID: 3dde7c30-165d-11d1-ab8f-00805f14db40
+    Complete stub data (80 bytes)
+        Payload stub data (28 bytes)
+        Verification Trailer
+            SEC_VT_SIGNATURE: 8ae3137102f43671
+            Command: PCONTEXT, END
+                Command: 0x4002, Cmd: PCONTEXT, SEC_VT_COMMAND_END
+                    ..00 0000 0000 0010 = Cmd: PCONTEXT (0x0002)
+                    .1.. .... .... .... = SEC_VT_COMMAND_END: True
+                    0... .... .... .... = SEC_VT_MUST_PROCESS_COMMAND: False
+                Length: 40
+                pcontext
+                    Abstract Syntax: BACKUPKEY
+                    Version: 0x00000001
+                    Transfer Syntax: 32bit NDR
+                    Version: 0x00000002
+    Auth Info: SPNEGO, Packet integrity, AuthContextId(0)
+        Auth type: SPNEGO (9)
+        Auth level: Packet integrity (5)
+        Auth pad len: 0
+        Auth Rsrvd: 0
+        Auth Context ID: 0
+        GSS-API Generic Security Service Application Program Interface
+            NTLMSSP Verifier
+                Version Number: 1
+                Verifier Body: 1ac8e8c417850b3801000000
+BACKUPKEY (pidl), BackuprKey
+    Operation: BackuprKey (0)
+    Pointer to PguidActionAgent (GUID)
+        PguidActionAgent: 018ff48a-eaba-40c6-8f6d-72370240e967
+    Pointer to PDataIn (uint8)
+        Max Count: 0
+    CbDataIn: 0
+    DwParam: 0
+
+Frame 4: 986 bytes on wire (7888 bits), 986 bytes captured (7888 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Jun 25, 2014 17:12:03.344312600 China Standard Time
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1403687523.344312600 seconds
+    [Time delta from previous captured frame: 0.000373600 seconds]
+    [Time delta from previous displayed frame: 0.000373600 seconds]
+    [Time since reference or first frame: 0.004174300 seconds]
+    Frame Number: 4
+    Frame Length: 986 bytes (7888 bits)
+    Capture Length: 986 bytes (7888 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:nbss:smb2:dcerpc:ntlmssp]
+Ethernet II, Src: Microsof_f2:d9:a5 (00:15:5d:f2:d9:a5), Dst: Microsof_f2:d9:a6 (00:15:5d:f2:d9:a6)
+    Destination: Microsof_f2:d9:a6 (00:15:5d:f2:d9:a6)
+        Address: Microsof_f2:d9:a6 (00:15:5d:f2:d9:a6)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Microsof_f2:d9:a5 (00:15:5d:f2:d9:a5)
+        Address: Microsof_f2:d9:a5 (00:15:5d:f2:d9:a5)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.0.1, Dst: 192.168.0.10
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x02 (DSCP: CS0, ECN: ECT(0))
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..10 = Explicit Congestion Notification: ECN-Capable Transport codepoint '10' (2)
+    Total Length: 972
+    Identification: 0x36ab (13995)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 128
+    Protocol: TCP (6)
+    Header checksum: 0x3f23 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.0.1
+    Destination: 192.168.0.10
+Transmission Control Protocol, Src Port: 445, Dst Port: 20857, Seq: 765, Ack: 1557, Len: 932
+    Source Port: 445
+    Destination Port: 20857
+    [Stream index: 0]
+    [TCP Segment Len: 932]
+    Sequence number: 765    (relative sequence number)
+    [Next sequence number: 1697    (relative sequence number)]
+    Acknowledgment number: 1557    (relative ack number)
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window size value: 4104
+    [Calculated window size: 4104]
+    [Window size scaling factor: -1 (unknown)]
+    Checksum: 0x12ec [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [This is an ACK to the segment in frame: 3]
+        [The RTT to ACK the segment was: 0.000373600 seconds]
+        [TCP Analysis Flags]
+            [Expert Info (Warning/Sequence): Previous segment(s) not captured (common at capture start)]
+                [Previous segment(s) not captured (common at capture start)]
+                [Severity level: Warning]
+                [Group: Sequence]
+            [Expert Info (Warning/Sequence): ACKed segment that wasn't captured (common at capture start)]
+                [ACKed segment that wasn't captured (common at capture start)]
+                [Severity level: Warning]
+                [Group: Sequence]
+    [Timestamps]
+        [Time since first frame in this TCP stream: 0.004174300 seconds]
+        [Time since previous frame in this TCP stream: 0.000373600 seconds]
+    TCP payload (932 bytes)
+NetBIOS Session Service
+    Message Type: Session message (0x00)
+    Length: 928
+SMB2 (Server Message Block Protocol version 2)
+    SMB2 Header
+        Server Component: SMB2
+        Header Length: 64
+        Credit Charge: 1
+        NT Status: STATUS_SUCCESS (0x00000000)
+        Command: Ioctl (11)
+        Credits granted: 1
+        Flags: 0x00000009, Response, Signing
+            .... .... .... .... .... .... .... ...1 = Response: This is a RESPONSE
+            .... .... .... .... .... .... .... ..0. = Async command: This is a SYNC command
+            .... .... .... .... .... .... .... .0.. = Chained: This pdu is NOT a chained command
+            .... .... .... .... .... .... .... 1... = Signing: This pdu is SIGNED
+            .... .... .... .... .... .... .000 .... = Priority: This pdu does NOT contain a PRIORITY
+            ...0 .... .... .... .... .... .... .... = DFS operation: This is a normal operation
+            ..0. .... .... .... .... .... .... .... = Replay operation: This is NOT a replay operation
+        Chain Offset: 0x00000000
+        Message ID: Unknown (10)
+        Process Id: 0x0000feff
+        Tree Id: 0x00000001
+        Session Id: 0x00005402e0000001
+        Signature: b5638e0e0116a9924c9345aa7e730293
+        [Response to: 3]
+        [Time from request: 0.000373600 seconds]
+    Ioctl Response (0x0b)
+        StructureSize: 0x0031
+            0000 0000 0011 000. = Fixed Part Length: 24
+            .... .... .... ...1 = Dynamic Part: True
+        Unknown: 0000
+        Function: FSCTL_PIPE_TRANSCEIVE (0x0011c017)
+            0000 0000 0001 0001 .... .... .... .... = Device: NAMED_PIPE (0x0011)
+            .... .... .... .... 11.. .... .... .... = Access: FILE_READ_WRITE_ACCESS (0x3)
+            .... .... .... .... ..00 0000 0001 01.. = Function: 0x005
+            .... .... .... .... .... .... .... ..11 = Method: METHOD_NEITHER (0x3)
+        GUID handle
+            File Id: 00000e2f-0015-0000-0100-000015000000
+        Reserved: 00000000
+        Reserved: 00000000
+        Blob Offset: 0x00000070
+        Blob Length: 0
+        In Data: NO DATA
+        Blob Offset: 0x00000070
+        Blob Length: 816
+        Out Data
+Distributed Computing Environment / Remote Procedure Call (DCE/RPC) Response, Fragment: Single, FragLen: 816, Call: 2, Ctx: 0, [Req: #3]
+    Version: 5
+    Version (minor): 0
+    Packet type: Response (2)
+    Packet Flags: 0x03
+        0... .... = Object: Not set
+        .0.. .... = Maybe: Not set
+        ..0. .... = Did Not Execute: Not set
+        ...0 .... = Multiplex: Not set
+        .... 0... = Reserved: Not set
+        .... .0.. = Cancel Pending: Not set
+        .... ..1. = Last Frag: Set
+        .... ...1 = First Frag: Set
+    Data Representation: 10000000 (Order: Little-endian, Char: ASCII, Float: IEEE)
+        Byte order: Little-endian (1)
+        Character: ASCII (0)
+        Floating-point: IEEE (0)
+    Frag Length: 816
+    Auth Length: 16
+    Call ID: 2
+    Alloc hint: 768
+    Context ID: 0
+    Cancel count: 0
+    [Opnum: 0]
+    [Object UUID: 3dde7c30-165d-11d1-ab8f-00805f14db40]
+    [Request in frame: 3]
+    [Time from request: 0.000373600 seconds]
+    Complete stub data (768 bytes)
+        Payload stub data (768 bytes)
+    Auth Info: SPNEGO, Packet integrity, AuthContextId(0)
+        Auth type: SPNEGO (9)
+        Auth level: Packet integrity (5)
+        Auth pad len: 0
+        Auth Rsrvd: 0
+        Auth Context ID: 0
+        GSS-API Generic Security Service Application Program Interface
+            NTLMSSP Verifier
+                Version Number: 1
+                Verifier Body: 7abb24e7af74cc5301000000
+BACKUPKEY (pidl), BackuprKey
+    Operation: BackuprKey (0)
+    [Request in frame: 3]
+    Pointer to PpDataOut (uint8)
+        Pointer to PpDataOut (uint8)
+            Referent ID: 0x00020000
+            Max Count: 752
+            PpDataOut: 48
+            PpDataOut: 130
+            PpDataOut: 2
+            PpDataOut: 236
+            PpDataOut: 48
+            PpDataOut: 130
+            PpDataOut: 1
+            PpDataOut: 216
+            PpDataOut: 160
+            PpDataOut: 3
+            PpDataOut: 2
+            PpDataOut: 1
+            PpDataOut: 2
+            PpDataOut: 2
+            PpDataOut: 16
+            PpDataOut: 109
+            PpDataOut: 48
+            PpDataOut: 229
+            PpDataOut: 93
+            PpDataOut: 24
+            PpDataOut: 85
+            PpDataOut: 111
+            PpDataOut: 188
+            PpDataOut: 77
+            PpDataOut: 241
+            PpDataOut: 91
+            PpDataOut: 93
+            PpDataOut: 208
+            PpDataOut: 98
+            PpDataOut: 202
+            PpDataOut: 217
+            PpDataOut: 48
+            PpDataOut: 9
+            PpDataOut: 6
+            PpDataOut: 5
+            PpDataOut: 43
+            PpDataOut: 14
+            PpDataOut: 3
+            PpDataOut: 2
+            PpDataOut: 29
+            PpDataOut: 5
+            PpDataOut: 0
+            PpDataOut: 48
+            PpDataOut: 35
+            PpDataOut: 49
+            PpDataOut: 33
+            PpDataOut: 48
+            PpDataOut: 31
+            PpDataOut: 6
+            PpDataOut: 3
+            PpDataOut: 85
+            PpDataOut: 4
+            PpDataOut: 3
+            PpDataOut: 19
+            PpDataOut: 24
+            PpDataOut: 99
+            PpDataOut: 0
+            PpDataOut: 111
+            PpDataOut: 0
+            PpDataOut: 110
+            PpDataOut: 0
+            PpDataOut: 116
+            PpDataOut: 0
+            PpDataOut: 111
+            PpDataOut: 0
+            PpDataOut: 115
+            PpDataOut: 0
+            PpDataOut: 111
+            PpDataOut: 0
+            PpDataOut: 46
+            PpDataOut: 0
+            PpDataOut: 99
+            PpDataOut: 0
+            PpDataOut: 111
+            PpDataOut: 0
+            PpDataOut: 109
+            PpDataOut: 0
+            PpDataOut: 0
+            PpDataOut: 0
+            PpDataOut: 48
+            PpDataOut: 30
+            PpDataOut: 23
+            PpDataOut: 13
+            PpDataOut: 49
+            PpDataOut: 52
+            PpDataOut: 48
+            PpDataOut: 53
+            PpDataOut: 50
+            PpDataOut: 56
+            PpDataOut: 49
+            PpDataOut: 49
+            PpDataOut: 51
+            PpDataOut: 56
+            PpDataOut: 50
+            PpDataOut: 49
+            PpDataOut: 90
+            PpDataOut: 23
+            PpDataOut: 13
+            PpDataOut: 49
+            PpDataOut: 53
+            PpDataOut: 48
+            PpDataOut: 53
+            PpDataOut: 50
+            PpDataOut: 56
+            PpDataOut: 49
+            PpDataOut: 49
+            PpDataOut: 51
+            PpDataOut: 56
+            PpDataOut: 50
+            PpDataOut: 49
+            PpDataOut: 90
+            PpDataOut: 48
+            PpDataOut: 35
+            PpDataOut: 49
+            PpDataOut: 33
+            PpDataOut: 48
+            PpDataOut: 31
+            PpDataOut: 6
+            PpDataOut: 3
+            PpDataOut: 85
+            PpDataOut: 4
+            PpDataOut: 3
+            PpDataOut: 19
+            PpDataOut: 24
+            PpDataOut: 99
+            PpDataOut: 0
+            PpDataOut: 111
+            PpDataOut: 0
+            PpDataOut: 110
+            PpDataOut: 0
+            PpDataOut: 116
+            PpDataOut: 0
+            PpDataOut: 111
+            PpDataOut: 0
+            PpDataOut: 115
+            PpDataOut: 0
+            PpDataOut: 111
+            PpDataOut: 0
+            PpDataOut: 46
+            PpDataOut: 0
+            PpDataOut: 99
+            PpDataOut: 0
+            PpDataOut: 111
+            PpDataOut: 0
+            PpDataOut: 109
+            PpDataOut: 0
+            PpDataOut: 0
+            PpDataOut: 0
+            PpDataOut: 48
+            PpDataOut: 130
+            PpDataOut: 1
+            PpDataOut: 34
+            PpDataOut: 48
+            PpDataOut: 13
+            PpDataOut: 6
+            PpDataOut: 9
+            PpDataOut: 42
+            PpDataOut: 134
+            PpDataOut: 72
+            PpDataOut: 134
+            PpDataOut: 247
+            PpDataOut: 13
+            PpDataOut: 1
+            PpDataOut: 1
+            PpDataOut: 1
+            PpDataOut: 5
+            PpDataOut: 0
+            PpDataOut: 3
+            PpDataOut: 130
+            PpDataOut: 1
+            PpDataOut: 15
+            PpDataOut: 0
+            PpDataOut: 48
+            PpDataOut: 130
+            PpDataOut: 1
+            PpDataOut: 10
+            PpDataOut: 2
+            PpDataOut: 130
+            PpDataOut: 1
+            PpDataOut: 1
+            PpDataOut: 0
+            PpDataOut: 196
+            PpDataOut: 160
+            PpDataOut: 97
+            PpDataOut: 28
+            PpDataOut: 237
+            PpDataOut: 176
+            PpDataOut: 55
+            PpDataOut: 198
+            PpDataOut: 64
+            PpDataOut: 107
+            PpDataOut: 124
+            PpDataOut: 188
+            PpDataOut: 216
+            PpDataOut: 128
+            PpDataOut: 82
+            PpDataOut: 232
+            PpDataOut: 139
+            PpDataOut: 213
+            PpDataOut: 6
+            PpDataOut: 98
+            PpDataOut: 94
+            PpDataOut: 229
+            PpDataOut: 166
+            PpDataOut: 126
+            PpDataOut: 221
+            PpDataOut: 73
+            PpDataOut: 178
+            PpDataOut: 86
+            PpDataOut: 113
+            PpDataOut: 228
+            PpDataOut: 154
+            PpDataOut: 224
+            PpDataOut: 60
+            PpDataOut: 204
+            PpDataOut: 8
+            PpDataOut: 37
+            PpDataOut: 95
+            PpDataOut: 50
+            PpDataOut: 219
+            PpDataOut: 54
+            PpDataOut: 96
+            PpDataOut: 47
+            PpDataOut: 28
+            PpDataOut: 155
+            PpDataOut: 132
+            PpDataOut: 168
+            PpDataOut: 236
+            PpDataOut: 100
+            PpDataOut: 22
+            PpDataOut: 232
+            PpDataOut: 61
+            PpDataOut: 54
+            PpDataOut: 84
+            PpDataOut: 164
+            PpDataOut: 87
+            PpDataOut: 120
+            PpDataOut: 228
+            PpDataOut: 15
+            PpDataOut: 236
+            PpDataOut: 14
+            PpDataOut: 113
+            PpDataOut: 143
+            PpDataOut: 153
+            PpDataOut: 226
+            PpDataOut: 169
+            PpDataOut: 111
+            PpDataOut: 37
+            PpDataOut: 6
+            PpDataOut: 6
+            PpDataOut: 94
+            PpDataOut: 117
+            PpDataOut: 227
+            PpDataOut: 216
+            PpDataOut: 15
+            PpDataOut: 14
+            PpDataOut: 254
+            PpDataOut: 165
+            PpDataOut: 31
+            PpDataOut: 114
+            PpDataOut: 238
+            PpDataOut: 138
+            PpDataOut: 217
+            PpDataOut: 33
+            PpDataOut: 113
+            PpDataOut: 52
+            PpDataOut: 185
+            PpDataOut: 255
+            PpDataOut: 90
+            PpDataOut: 174
+            PpDataOut: 160
+            PpDataOut: 9
+            PpDataOut: 172
+            PpDataOut: 61
+            PpDataOut: 105
+            PpDataOut: 13
+            PpDataOut: 62
+            PpDataOut: 125
+            PpDataOut: 145
+            PpDataOut: 228
+            PpDataOut: 110
+            PpDataOut: 250
+            PpDataOut: 229
+            PpDataOut: 56
+            PpDataOut: 172
+            PpDataOut: 114
+            PpDataOut: 224
+            PpDataOut: 104
+            PpDataOut: 123
+            PpDataOut: 27
+            PpDataOut: 249
+            PpDataOut: 177
+            PpDataOut: 161
+            PpDataOut: 27
+            PpDataOut: 118
+            PpDataOut: 110
+            PpDataOut: 238
+            PpDataOut: 149
+            PpDataOut: 156
+            PpDataOut: 245
+            PpDataOut: 182
+            PpDataOut: 226
+            PpDataOut: 174
+            PpDataOut: 123
+            PpDataOut: 83
+            PpDataOut: 144
+            PpDataOut: 110
+            PpDataOut: 38
+            PpDataOut: 236
+            PpDataOut: 239
+            PpDataOut: 53
+            PpDataOut: 42
+            PpDataOut: 208
+            PpDataOut: 27
+            PpDataOut: 232
+            PpDataOut: 226
+            PpDataOut: 69
+            PpDataOut: 20
+            PpDataOut: 174
+            PpDataOut: 153
+            PpDataOut: 153
+            PpDataOut: 254
+            PpDataOut: 180
+            PpDataOut: 4
+            PpDataOut: 186
+            PpDataOut: 175
+            PpDataOut: 175
+            PpDataOut: 107
+            PpDataOut: 119
+            PpDataOut: 90
+            PpDataOut: 188
+            PpDataOut: 198
+            PpDataOut: 202
+            PpDataOut: 130
+            PpDataOut: 191
+            PpDataOut: 171
+            PpDataOut: 178
+            PpDataOut: 192
+            PpDataOut: 117
+            PpDataOut: 124
+            PpDataOut: 133
+            PpDataOut: 33
+            PpDataOut: 210
+            PpDataOut: 169
+            PpDataOut: 254
+            PpDataOut: 52
+            PpDataOut: 117
+            PpDataOut: 218
+            PpDataOut: 215
+            PpDataOut: 74
+            PpDataOut: 158
+            PpDataOut: 243
+            PpDataOut: 8
+            PpDataOut: 107
+            PpDataOut: 13
+            PpDataOut: 186
+            PpDataOut: 218
+            PpDataOut: 241
+            PpDataOut: 5
+            PpDataOut: 128
+            PpDataOut: 194
+            PpDataOut: 104
+            PpDataOut: 151
+            PpDataOut: 142
+            PpDataOut: 176
+            PpDataOut: 125
+            PpDataOut: 52
+            PpDataOut: 194
+            PpDataOut: 192
+            PpDataOut: 179
+            PpDataOut: 240
+            PpDataOut: 93
+            PpDataOut: 28
+            PpDataOut: 104
+            PpDataOut: 3
+            PpDataOut: 0
+            PpDataOut: 51
+            PpDataOut: 77
+            PpDataOut: 255
+            PpDataOut: 200
+            PpDataOut: 168
+            PpDataOut: 102
+            PpDataOut: 134
+            PpDataOut: 157
+            PpDataOut: 248
+            PpDataOut: 87
+            PpDataOut: 50
+            PpDataOut: 2
+            PpDataOut: 217
+            PpDataOut: 127
+            PpDataOut: 157
+            PpDataOut: 161
+            PpDataOut: 199
+            PpDataOut: 175
+            PpDataOut: 17
+            PpDataOut: 115
+            PpDataOut: 125
+            PpDataOut: 182
+            PpDataOut: 254
+            PpDataOut: 239
+            PpDataOut: 241
+            PpDataOut: 103
+            PpDataOut: 244
+            PpDataOut: 216
+            PpDataOut: 236
+            PpDataOut: 60
+            PpDataOut: 148
+            PpDataOut: 218
+            PpDataOut: 45
+            PpDataOut: 77
+            PpDataOut: 184
+            PpDataOut: 69
+            PpDataOut: 125
+            PpDataOut: 240
+            PpDataOut: 4
+            PpDataOut: 36
+            PpDataOut: 51
+            PpDataOut: 182
+            PpDataOut: 20
+            PpDataOut: 66
+            PpDataOut: 191
+            PpDataOut: 21
+            PpDataOut: 97
+            PpDataOut: 49
+            PpDataOut: 127
+            PpDataOut: 239
+            PpDataOut: 156
+            PpDataOut: 99
+            PpDataOut: 229
+            PpDataOut: 112
+            PpDataOut: 178
+            PpDataOut: 192
+            PpDataOut: 78
+            PpDataOut: 19
+            PpDataOut: 224
+            PpDataOut: 181
+            PpDataOut: 177
+            PpDataOut: 2
+            PpDataOut: 3
+            PpDataOut: 1
+            PpDataOut: 0
+            PpDataOut: 1
+            PpDataOut: 129
+            PpDataOut: 17
+            PpDataOut: 0
+            PpDataOut: 217
+            PpDataOut: 202
+            PpDataOut: 98
+            PpDataOut: 208
+            PpDataOut: 93
+            PpDataOut: 91
+            PpDataOut: 241
+            PpDataOut: 77
+            PpDataOut: 188
+            PpDataOut: 111
+            PpDataOut: 85
+            PpDataOut: 24
+            PpDataOut: 93
+            PpDataOut: 229
+            PpDataOut: 48
+            PpDataOut: 109
+            PpDataOut: 130
+            PpDataOut: 17
+            PpDataOut: 0
+            PpDataOut: 217
+            PpDataOut: 202
+            PpDataOut: 98
+            PpDataOut: 208
+            PpDataOut: 93
+            PpDataOut: 91
+            PpDataOut: 241
+            PpDataOut: 77
+            PpDataOut: 188
+            PpDataOut: 111
+            PpDataOut: 85
+            PpDataOut: 24
+            PpDataOut: 93
+            PpDataOut: 229
+            PpDataOut: 48
+            PpDataOut: 109
+            PpDataOut: 48
+            PpDataOut: 9
+            PpDataOut: 6
+            PpDataOut: 5
+            PpDataOut: 43
+            PpDataOut: 14
+            PpDataOut: 3
+            PpDataOut: 2
+            PpDataOut: 29
+            PpDataOut: 5
+            PpDataOut: 0
+            PpDataOut: 3
+            PpDataOut: 130
+            PpDataOut: 1
+            PpDataOut: 1
+            PpDataOut: 0
+            PpDataOut: 91
+            PpDataOut: 231
+            PpDataOut: 203
+            PpDataOut: 79
+            PpDataOut: 76
+            PpDataOut: 212
+            PpDataOut: 47
+            PpDataOut: 82
+            PpDataOut: 193
+            PpDataOut: 222
+            PpDataOut: 227
+            PpDataOut: 208
+            PpDataOut: 253
+            PpDataOut: 84
+            PpDataOut: 70
+            PpDataOut: 117
+            PpDataOut: 185
+            PpDataOut: 94
+            PpDataOut: 179
+            PpDataOut: 109
+            PpDataOut: 143
+            PpDataOut: 133
+            PpDataOut: 133
+            PpDataOut: 69
+            PpDataOut: 158
+            PpDataOut: 189
+            PpDataOut: 89
+            PpDataOut: 212
+            PpDataOut: 229
+            PpDataOut: 8
+            PpDataOut: 208
+            PpDataOut: 39
+            PpDataOut: 91
+            PpDataOut: 75
+            PpDataOut: 249
+            PpDataOut: 127
+            PpDataOut: 141
+            PpDataOut: 32
+            PpDataOut: 221
+            PpDataOut: 34
+            PpDataOut: 195
+            PpDataOut: 222
+            PpDataOut: 251
+            PpDataOut: 197
+            PpDataOut: 159
+            PpDataOut: 172
+            PpDataOut: 245
+            PpDataOut: 189
+            PpDataOut: 100
+            PpDataOut: 189
+            PpDataOut: 119
+            PpDataOut: 43
+            PpDataOut: 250
+            PpDataOut: 87
+            PpDataOut: 248
+            PpDataOut: 85
+            PpDataOut: 98
+            PpDataOut: 69
+            PpDataOut: 117
+            PpDataOut: 53
+            PpDataOut: 94
+            PpDataOut: 251
+            PpDataOut: 255
+            PpDataOut: 34
+            PpDataOut: 55
+            PpDataOut: 91
+            PpDataOut: 245
+            PpDataOut: 87
+            PpDataOut: 40
+            PpDataOut: 165
+            PpDataOut: 99
+            PpDataOut: 29
+            PpDataOut: 49
+            PpDataOut: 158
+            PpDataOut: 137
+            PpDataOut: 172
+            PpDataOut: 8
+            PpDataOut: 194
+            PpDataOut: 92
+            PpDataOut: 89
+            PpDataOut: 254
+            PpDataOut: 130
+            PpDataOut: 171
+            PpDataOut: 179
+            PpDataOut: 131
+            PpDataOut: 101
+            PpDataOut: 239
+            PpDataOut: 36
+            PpDataOut: 11
+            PpDataOut: 43
+            PpDataOut: 110
+            PpDataOut: 114
+            PpDataOut: 227
+            PpDataOut: 216
+            PpDataOut: 55
+            PpDataOut: 238
+            PpDataOut: 186
+            PpDataOut: 222
+            PpDataOut: 81
+            PpDataOut: 31
+            PpDataOut: 249
+            PpDataOut: 110
+            PpDataOut: 48
+            PpDataOut: 189
+            PpDataOut: 30
+            PpDataOut: 47
+            PpDataOut: 4
+            PpDataOut: 33
+            PpDataOut: 137
+            PpDataOut: 216
+            PpDataOut: 174
+            PpDataOut: 17
+            PpDataOut: 94
+            PpDataOut: 17
+            PpDataOut: 130
+            PpDataOut: 143
+            PpDataOut: 61
+            PpDataOut: 136
+            PpDataOut: 156
+            PpDataOut: 12
+            PpDataOut: 110
+            PpDataOut: 211
+            PpDataOut: 34
+            PpDataOut: 29
+            PpDataOut: 49
+            PpDataOut: 169
+            PpDataOut: 226
+            PpDataOut: 66
+            PpDataOut: 190
+            PpDataOut: 237
+            PpDataOut: 25
+            PpDataOut: 186
+            PpDataOut: 155
+            PpDataOut: 253
+            PpDataOut: 144
+            PpDataOut: 250
+            PpDataOut: 185
+            PpDataOut: 131
+            PpDataOut: 151
+            PpDataOut: 128
+            PpDataOut: 215
+            PpDataOut: 235
+            PpDataOut: 202
+            PpDataOut: 245
+            PpDataOut: 91
+            PpDataOut: 236
+            PpDataOut: 92
+            PpDataOut: 139
+            PpDataOut: 7
+            PpDataOut: 192
+            PpDataOut: 81
+            PpDataOut: 142
+            PpDataOut: 202
+            PpDataOut: 19
+            PpDataOut: 182
+            PpDataOut: 135
+            PpDataOut: 160
+            PpDataOut: 254
+            PpDataOut: 254
+            PpDataOut: 195
+            PpDataOut: 178
+            PpDataOut: 227
+            PpDataOut: 36
+            PpDataOut: 104
+            PpDataOut: 68
+            PpDataOut: 157
+            PpDataOut: 202
+            PpDataOut: 126
+            PpDataOut: 152
+            PpDataOut: 30
+            PpDataOut: 254
+            PpDataOut: 61
+            PpDataOut: 22
+            PpDataOut: 103
+            PpDataOut: 18
+            PpDataOut: 178
+            PpDataOut: 165
+            PpDataOut: 170
+            PpDataOut: 121
+            PpDataOut: 33
+            PpDataOut: 41
+            PpDataOut: 9
+            PpDataOut: 224
+            PpDataOut: 51
+            PpDataOut: 14
+            PpDataOut: 7
+            PpDataOut: 114
+            PpDataOut: 124
+            PpDataOut: 51
+            PpDataOut: 15
+            PpDataOut: 133
+            PpDataOut: 185
+            PpDataOut: 206
+            PpDataOut: 215
+            PpDataOut: 243
+            PpDataOut: 230
+            PpDataOut: 174
+            PpDataOut: 50
+            PpDataOut: 82
+            PpDataOut: 153
+            PpDataOut: 160
+            PpDataOut: 120
+            PpDataOut: 226
+            PpDataOut: 20
+            PpDataOut: 68
+            PpDataOut: 223
+            PpDataOut: 194
+            PpDataOut: 235
+            PpDataOut: 241
+            PpDataOut: 76
+            PpDataOut: 25
+            PpDataOut: 143
+            PpDataOut: 205
+            PpDataOut: 225
+            PpDataOut: 81
+            PpDataOut: 237
+            PpDataOut: 134
+            PpDataOut: 192
+            PpDataOut: 41
+            PpDataOut: 95
+            PpDataOut: 194
+            PpDataOut: 6
+            PpDataOut: 39
+            PpDataOut: 53
+            PpDataOut: 61
+            PpDataOut: 60
+            PpDataOut: 67
+            PpDataOut: 196
+            PpDataOut: 98
+            PpDataOut: 236
+            PpDataOut: 133
+            PpDataOut: 213
+            PpDataOut: 216
+            PpDataOut: 176
+            PpDataOut: 225
+            PpDataOut: 76
+            PpDataOut: 204
+            PpDataOut: 188
+            PpDataOut: 82
+            PpDataOut: 31
+            PpDataOut: 103
+            PpDataOut: 181
+            PpDataOut: 161
+            PpDataOut: 4
+            PpDataOut: 130
+            PpDataOut: 68
+            PpDataOut: 146
+            PpDataOut: 223
+            PpDataOut: 162
+            PpDataOut: 87
+            PpDataOut: 247
+            PpDataOut: 216
+            PpDataOut: 26
+            PpDataOut: 90
+            PpDataOut: 237
+            PpDataOut: 246
+    Pointer to PcbDataOut (uint32)
+        PcbDataOut: 752
+    NT Error: STATUS_SUCCESS (0x00000000)
+
+Frame 5: 54 bytes on wire (432 bits), 54 bytes captured (432 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Jun 25, 2014 17:12:03.353204700 China Standard Time
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1403687523.353204700 seconds
+    [Time delta from previous captured frame: 0.008892100 seconds]
+    [Time delta from previous displayed frame: 0.008892100 seconds]
+    [Time since reference or first frame: 0.013066400 seconds]
+    Frame Number: 5
+    Frame Length: 54 bytes (432 bits)
+    Capture Length: 54 bytes (432 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp]
+Ethernet II, Src: Microsof_f2:d9:a6 (00:15:5d:f2:d9:a6), Dst: Microsof_f2:d9:a5 (00:15:5d:f2:d9:a5)
+    Destination: Microsof_f2:d9:a5 (00:15:5d:f2:d9:a5)
+        Address: Microsof_f2:d9:a5 (00:15:5d:f2:d9:a5)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Microsof_f2:d9:a6 (00:15:5d:f2:d9:a6)
+        Address: Microsof_f2:d9:a6 (00:15:5d:f2:d9:a6)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.0.10, Dst: 192.168.0.1
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 40
+    Identification: 0x5f60 (24416)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 128
+    Protocol: TCP (6)
+    Header checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.0.10
+    Destination: 192.168.0.1
+Transmission Control Protocol, Src Port: 20857, Dst Port: 445, Seq: 1557, Ack: 1697, Len: 0
+    Source Port: 20857
+    Destination Port: 445
+    [Stream index: 0]
+    [TCP Segment Len: 0]
+    Sequence number: 1557    (relative sequence number)
+    [Next sequence number: 1557    (relative sequence number)]
+    Acknowledgment number: 1697    (relative ack number)
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 0... = Push: Not set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······A····]
+    Window size value: 4102
+    [Calculated window size: 4101]
+    [Window size scaling factor: -1 (unknown)]
+    Checksum: 0x8176 [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [This is an ACK to the segment in frame: 4]
+        [The RTT to ACK the segment was: 0.008892100 seconds]
+        [TCP Analysis Flags]
+            [Expert Info (Warning/Sequence): ACKed segment that wasn't captured (common at capture start)]
+                [ACKed segment that wasn't captured (common at capture start)]
+                [Severity level: Warning]
+                [Group: Sequence]
+    [Timestamps]
+        [Time since first frame in this TCP stream: 0.013066400 seconds]
+        [Time since previous frame in this TCP stream: 0.008892100 seconds]
+

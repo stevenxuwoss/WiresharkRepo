@@ -1,0 +1,8 @@
+# CMake generation dependency list for this directory.
+C:/Development/wireshark/cmake/modules/FindAsciidoctor.cmake
+C:/Development/wireshark/cmake/modules/FindChocolatey.cmake
+C:/Development/wireshark/cmake/modules/FindHTMLHelp.cmake
+C:/Development/wireshark/cmake/modules/FindXSLTPROC.cmake
+C:/Development/wireshark/docbook/CMakeLists.txt
+C:/Program Files/CMake/share/cmake-3.13/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/FindPackageMessage.cmake

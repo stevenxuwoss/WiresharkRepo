@@ -1,0 +1,4 @@
+# CMake generation dependency list for this directory.
+C:/Development/wireshark/abi-descriptor.template
+C:/Development/wireshark/cmake/modules/UseABICheck.cmake
+C:/Development/wireshark/wiretap/CMakeLists.txt

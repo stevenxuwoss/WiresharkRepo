@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{57060D99-2131-39C0-8D2B-FB9EBD2383AC}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>dumpabi-libwsutil</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Development\wireshark;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\include\glib-2.0;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\lib\glib-2.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Development\wireshark;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\include\glib-2.0;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\lib\glib-2.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Development\wireshark;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\include\glib-2.0;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\lib\glib-2.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Development\wireshark;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\include\glib-2.0;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\lib\glib-2.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\fd246caf21930d2ead94a76deeaaa9e2\libwsutil.abi.tar.gz.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating libwsutil.abi.tar.gz</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E remove_directory C:/Development/wireshark/wsutil/abi-check-headers
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Development/wireshark/wsutil/abi-check-headers
+if %errorlevel% neq 0 goto :cmEnd
+xcopy ../config.h C:/Development/wireshark/wsutil/abi-check-headers/ /d
+if %errorlevel% neq 0 goto :cmEnd
+xcopy adler32.h base32.h bits_count_ones.h bits_ctz.h bitswap.h buffer.h cfutils.h color.h copyright_info.h cpu_info.h crash_info.h crc10.h crc11.h crc16-plain.h crc16.h crc32.h crc6.h crc7.h crc8.h curve25519.h eax.h file_util.h filesystem.h frequency-utils.h g711.h getopt_long.h inet_addr.h inet_ipv4.h inet_ipv6.h interface.h jsmn.h json_dumper.h mpeg-audio.h netlink.h nstime.h os_version_info.h pint.h plugins.h pow2.h privileges.h processes.h report_message.h rsa.h sign_ext.h sober128.h socket.h str_util.h strnatcmp.h strptime.h strtoi.h tempfile.h time_util.h type_util.h unicode-utils.h utf8_entities.h win32-utils.h ws_cpuid.h ws_mempbrk.h ws_mempbrk_int.h ws_pipe.h ws_printf.h wsgcrypt.h wsgetopt.h wsjson.h wspcap.h xtea.h C:/Development/wireshark/ws_symbol_export.h C:/Development/wireshark/wsutil/abi-check-headers/ /d
+if %errorlevel% neq 0 goto :cmEnd
+abi-compliance-checker -l libwsutil -v2 -relpath C:/Development/wireshark/wsutil -dump-abi abi-descriptor.xml || cat C:/Development/wireshark/wsutil/logs/libwsutil/[0-9]*/log.txt
+if %errorlevel% neq 0 goto :cmEnd
+cp C:/Development/wireshark/wsutil/abi_dumps/libwsutil/libwsutil_* C:/Development/wireshark/wsutil/libwsutil.abi.tar.gz
+if %errorlevel% neq 0 goto :cmEnd
+rm -rf C:/Development/wireshark/wsutil/abi-check-headers C:/Development/wireshark/wsutil/abi_dumps
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Development/wireshark/CMakeFiles/fd246caf21930d2ead94a76deeaaa9e2/libwsutil.abi.tar.gz.rule;C:\Development\wireshark\run\Debug\libwsutil.dll;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Development\wireshark\wsutil\libwsutil.abi.tar.gz</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating libwsutil.abi.tar.gz</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E remove_directory C:/Development/wireshark/wsutil/abi-check-headers
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Development/wireshark/wsutil/abi-check-headers
+if %errorlevel% neq 0 goto :cmEnd
+xcopy ../config.h C:/Development/wireshark/wsutil/abi-check-headers/ /d
+if %errorlevel% neq 0 goto :cmEnd
+xcopy adler32.h base32.h bits_count_ones.h bits_ctz.h bitswap.h buffer.h cfutils.h color.h copyright_info.h cpu_info.h crash_info.h crc10.h crc11.h crc16-plain.h crc16.h crc32.h crc6.h crc7.h crc8.h curve25519.h eax.h file_util.h filesystem.h frequency-utils.h g711.h getopt_long.h inet_addr.h inet_ipv4.h inet_ipv6.h interface.h jsmn.h json_dumper.h mpeg-audio.h netlink.h nstime.h os_version_info.h pint.h plugins.h pow2.h privileges.h processes.h report_message.h rsa.h sign_ext.h sober128.h socket.h str_util.h strnatcmp.h strptime.h strtoi.h tempfile.h time_util.h type_util.h unicode-utils.h utf8_entities.h win32-utils.h ws_cpuid.h ws_mempbrk.h ws_mempbrk_int.h ws_pipe.h ws_printf.h wsgcrypt.h wsgetopt.h wsjson.h wspcap.h xtea.h C:/Development/wireshark/ws_symbol_export.h C:/Development/wireshark/wsutil/abi-check-headers/ /d
+if %errorlevel% neq 0 goto :cmEnd
+abi-compliance-checker -l libwsutil -v2 -relpath C:/Development/wireshark/wsutil -dump-abi abi-descriptor.xml || cat C:/Development/wireshark/wsutil/logs/libwsutil/[0-9]*/log.txt
+if %errorlevel% neq 0 goto :cmEnd
+cp C:/Development/wireshark/wsutil/abi_dumps/libwsutil/libwsutil_* C:/Development/wireshark/wsutil/libwsutil.abi.tar.gz
+if %errorlevel% neq 0 goto :cmEnd
+rm -rf C:/Development/wireshark/wsutil/abi-check-headers C:/Development/wireshark/wsutil/abi_dumps
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Development/wireshark/CMakeFiles/fd246caf21930d2ead94a76deeaaa9e2/libwsutil.abi.tar.gz.rule;C:\Development\wireshark\run\Release\libwsutil.dll;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Development\wireshark\wsutil\libwsutil.abi.tar.gz</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating libwsutil.abi.tar.gz</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E remove_directory C:/Development/wireshark/wsutil/abi-check-headers
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Development/wireshark/wsutil/abi-check-headers
+if %errorlevel% neq 0 goto :cmEnd
+xcopy ../config.h C:/Development/wireshark/wsutil/abi-check-headers/ /d
+if %errorlevel% neq 0 goto :cmEnd
+xcopy adler32.h base32.h bits_count_ones.h bits_ctz.h bitswap.h buffer.h cfutils.h color.h copyright_info.h cpu_info.h crash_info.h crc10.h crc11.h crc16-plain.h crc16.h crc32.h crc6.h crc7.h crc8.h curve25519.h eax.h file_util.h filesystem.h frequency-utils.h g711.h getopt_long.h inet_addr.h inet_ipv4.h inet_ipv6.h interface.h jsmn.h json_dumper.h mpeg-audio.h netlink.h nstime.h os_version_info.h pint.h plugins.h pow2.h privileges.h processes.h report_message.h rsa.h sign_ext.h sober128.h socket.h str_util.h strnatcmp.h strptime.h strtoi.h tempfile.h time_util.h type_util.h unicode-utils.h utf8_entities.h win32-utils.h ws_cpuid.h ws_mempbrk.h ws_mempbrk_int.h ws_pipe.h ws_printf.h wsgcrypt.h wsgetopt.h wsjson.h wspcap.h xtea.h C:/Development/wireshark/ws_symbol_export.h C:/Development/wireshark/wsutil/abi-check-headers/ /d
+if %errorlevel% neq 0 goto :cmEnd
+abi-compliance-checker -l libwsutil -v2 -relpath C:/Development/wireshark/wsutil -dump-abi abi-descriptor.xml || cat C:/Development/wireshark/wsutil/logs/libwsutil/[0-9]*/log.txt
+if %errorlevel% neq 0 goto :cmEnd
+cp C:/Development/wireshark/wsutil/abi_dumps/libwsutil/libwsutil_* C:/Development/wireshark/wsutil/libwsutil.abi.tar.gz
+if %errorlevel% neq 0 goto :cmEnd
+rm -rf C:/Development/wireshark/wsutil/abi-check-headers C:/Development/wireshark/wsutil/abi_dumps
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Development/wireshark/CMakeFiles/fd246caf21930d2ead94a76deeaaa9e2/libwsutil.abi.tar.gz.rule;C:\Development\wireshark\run\MinSizeRel\libwsutil.dll;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Development\wireshark\wsutil\libwsutil.abi.tar.gz</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating libwsutil.abi.tar.gz</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E remove_directory C:/Development/wireshark/wsutil/abi-check-headers
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Development/wireshark/wsutil/abi-check-headers
+if %errorlevel% neq 0 goto :cmEnd
+xcopy ../config.h C:/Development/wireshark/wsutil/abi-check-headers/ /d
+if %errorlevel% neq 0 goto :cmEnd
+xcopy adler32.h base32.h bits_count_ones.h bits_ctz.h bitswap.h buffer.h cfutils.h color.h copyright_info.h cpu_info.h crash_info.h crc10.h crc11.h crc16-plain.h crc16.h crc32.h crc6.h crc7.h crc8.h curve25519.h eax.h file_util.h filesystem.h frequency-utils.h g711.h getopt_long.h inet_addr.h inet_ipv4.h inet_ipv6.h interface.h jsmn.h json_dumper.h mpeg-audio.h netlink.h nstime.h os_version_info.h pint.h plugins.h pow2.h privileges.h processes.h report_message.h rsa.h sign_ext.h sober128.h socket.h str_util.h strnatcmp.h strptime.h strtoi.h tempfile.h time_util.h type_util.h unicode-utils.h utf8_entities.h win32-utils.h ws_cpuid.h ws_mempbrk.h ws_mempbrk_int.h ws_pipe.h ws_printf.h wsgcrypt.h wsgetopt.h wsjson.h wspcap.h xtea.h C:/Development/wireshark/ws_symbol_export.h C:/Development/wireshark/wsutil/abi-check-headers/ /d
+if %errorlevel% neq 0 goto :cmEnd
+abi-compliance-checker -l libwsutil -v2 -relpath C:/Development/wireshark/wsutil -dump-abi abi-descriptor.xml || cat C:/Development/wireshark/wsutil/logs/libwsutil/[0-9]*/log.txt
+if %errorlevel% neq 0 goto :cmEnd
+cp C:/Development/wireshark/wsutil/abi_dumps/libwsutil/libwsutil_* C:/Development/wireshark/wsutil/libwsutil.abi.tar.gz
+if %errorlevel% neq 0 goto :cmEnd
+rm -rf C:/Development/wireshark/wsutil/abi-check-headers C:/Development/wireshark/wsutil/abi_dumps
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Development/wireshark/CMakeFiles/fd246caf21930d2ead94a76deeaaa9e2/libwsutil.abi.tar.gz.rule;C:\Development\wireshark\run\RelWithDebInfo\libwsutil.dll;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Development\wireshark\wsutil\libwsutil.abi.tar.gz</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\7f725e0d409b9b4cf3ce91ee0236d9d0\dumpabi-libwsutil.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Development/wireshark/CMakeFiles/7f725e0d409b9b4cf3ce91ee0236d9d0/dumpabi-libwsutil.rule;C:\Development\wireshark\wsutil\libwsutil.abi.tar.gz;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Development\wireshark\wsutil\CMakeFiles\dumpabi-libwsutil</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Development/wireshark/CMakeFiles/7f725e0d409b9b4cf3ce91ee0236d9d0/dumpabi-libwsutil.rule;C:\Development\wireshark\wsutil\libwsutil.abi.tar.gz;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Development\wireshark\wsutil\CMakeFiles\dumpabi-libwsutil</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Development/wireshark/CMakeFiles/7f725e0d409b9b4cf3ce91ee0236d9d0/dumpabi-libwsutil.rule;C:\Development\wireshark\wsutil\libwsutil.abi.tar.gz;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Development\wireshark\wsutil\CMakeFiles\dumpabi-libwsutil</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Development/wireshark/CMakeFiles/7f725e0d409b9b4cf3ce91ee0236d9d0/dumpabi-libwsutil.rule;C:\Development\wireshark\wsutil\libwsutil.abi.tar.gz;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Development\wireshark\wsutil\CMakeFiles\dumpabi-libwsutil</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Development\wireshark\wsutil\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Development/wireshark/wsutil/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Development/wireshark -BC:/Development/wireshark --check-stamp-file C:/Development/wireshark/wsutil/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Development/wireshark/wsutil/CMakeLists.txt;C:\Development\wireshark\abi-descriptor.template;C:\Development\wireshark\cmake\modules\UseABICheck.cmake;C:\Development\wireshark\wsutil\CMakeLists.txt;C:\Development\wireshark\wsutil\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Development\wireshark\wsutil\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Development/wireshark/wsutil/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Development/wireshark -BC:/Development/wireshark --check-stamp-file C:/Development/wireshark/wsutil/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Development/wireshark/wsutil/CMakeLists.txt;C:\Development\wireshark\abi-descriptor.template;C:\Development\wireshark\cmake\modules\UseABICheck.cmake;C:\Development\wireshark\wsutil\CMakeLists.txt;C:\Development\wireshark\wsutil\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Development\wireshark\wsutil\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Development/wireshark/wsutil/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Development/wireshark -BC:/Development/wireshark --check-stamp-file C:/Development/wireshark/wsutil/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Development/wireshark/wsutil/CMakeLists.txt;C:\Development\wireshark\abi-descriptor.template;C:\Development\wireshark\cmake\modules\UseABICheck.cmake;C:\Development\wireshark\wsutil\CMakeLists.txt;C:\Development\wireshark\wsutil\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Development\wireshark\wsutil\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Development/wireshark/wsutil/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Development/wireshark -BC:/Development/wireshark --check-stamp-file C:/Development/wireshark/wsutil/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Development/wireshark/wsutil/CMakeLists.txt;C:\Development\wireshark\abi-descriptor.template;C:\Development\wireshark\cmake\modules\UseABICheck.cmake;C:\Development\wireshark\wsutil\CMakeLists.txt;C:\Development\wireshark\wsutil\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Development\wireshark\wsutil\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Development\wireshark\wsutil\CMakeFiles\dumpabi-libwsutil" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Development\wireshark\ZERO_CHECK.vcxproj">
+      <Project>{B765B3E1-9AF0-39DF-BCC2-760F120CAE35}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\wsutil\wsutil.vcxproj">
+      <Project>{6092A133-B50F-33C0-AF9E-F6F3B0F16450}</Project>
+      <Name>wsutil</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

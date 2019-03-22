@@ -1,0 +1,20 @@
+#include "idl_types.h"
+/*
+* BackupKey Remote Protocol
+*/
+[
+  uuid("3dde7c30-165d-11d1-ab8f-00805f14db40"),
+  endpoint("ncacn_np:[\\pipe\protected_storage, \\pipe\ntsvcs]"),
+  pointer_default(unique),
+  version(1.0)
+] interface backupkey
+{
+   NTSTATUS backupkey_BackuprKey(
+      [in] GUID *pguidActionAgent,
+      [in, size_is(cbDataIn)] uint8 *pDataIn,
+      [in] uint32 cbDataIn,
+      [out, size_is(,*pcbDataOut)] uint8 **ppDataOut,
+      [out] uint32 *pcbDataOut,
+      [in] uint32 dwParam
+  );
+}

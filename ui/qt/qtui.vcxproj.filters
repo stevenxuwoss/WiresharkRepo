@@ -1,0 +1,1559 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\about_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\accordion_frame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\address_editor_frame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\bluetooth_att_server_attributes_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\bluetooth_device_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\bluetooth_devices_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\bluetooth_hci_summary_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\byte_view_tab.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\capture_file.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\capture_file_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\capture_file_properties_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\capture_filter_syntax_worker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\capture_info_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\capture_interfaces_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\capture_preferences_frame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\coloring_rules_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\column_preferences_frame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\column_editor_frame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\compiled_filter_output.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\conversation_colorize_action.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\conversation_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\conversation_hash_tables_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\decode_as_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\display_filter_expression_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\dissector_tables_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\enabled_protocols_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\endpoint_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\export_dissection_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\export_object_action.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\export_object_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\export_pdu_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\extcap_argument.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\extcap_argument_file.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\extcap_argument_multiselect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\extcap_options_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\file_set_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\filter_action.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\filter_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\filter_expression_frame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\firewall_rules_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\follow_stream_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\font_color_preferences_frame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\funnel_string_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\funnel_text_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\geometry_state_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\iax2_analysis_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\import_text_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\interface_frame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\interface_toolbar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\interface_toolbar_reader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\layout_preferences_frame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\lbm_lbtrm_transport_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\lbm_lbtru_transport_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\lbm_stream_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\lte_mac_statistics_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\lte_rlc_graph_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\lte_rlc_statistics_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\main_status_bar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\welcome_page.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\main_window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\main_window_preferences_frame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\main_window_layout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\main_window_slots.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\manage_interfaces_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\module_preferences_scroll_area.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\packet_comment_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\packet_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\packet_format_group_box.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\packet_list.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\packet_range_group_box.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\preference_editor_frame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\preferences_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\print_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\profile_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\progress_frame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\proto_tree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\protocol_hierarchy_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\protocol_preferences_menu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\recent_file_status.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\resolved_addresses_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\response_time_delay_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\rpc_service_response_time_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\rsa_keys_frame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\rtp_analysis_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\rtp_audio_stream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\rtp_player_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\rtp_stream_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\scsi_service_response_time_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\sctp_all_assocs_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\sctp_assoc_analyse_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\sctp_chunk_statistics_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\sctp_graph_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\sctp_graph_arwnd_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\sctp_graph_byte_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\search_frame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\sequence_diagram.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\sequence_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\service_response_time_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\show_packet_bytes_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\simple_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\simple_statistics_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\splash_overlay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\supported_protocols_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\tabnav_tree_widget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\tap_parameter_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\tcp_stream_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\time_shift_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\traffic_table_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\uat_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\uat_frame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\voip_calls_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\wireless_frame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\wireless_timeline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\wireshark_application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\wireshark_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\remote_capture_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\remote_settings_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\widgets\additional_toolbar.cpp">
+      <Filter>ui\Widget Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\widgets\apply_line_edit.cpp">
+      <Filter>ui\Widget Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\widgets\byte_view_text.cpp">
+      <Filter>ui\Widget Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\widgets\capture_filter_combo.cpp">
+      <Filter>ui\Widget Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\widgets\capture_filter_edit.cpp">
+      <Filter>ui\Widget Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\widgets\clickable_label.cpp">
+      <Filter>ui\Widget Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\widgets\copy_from_profile_menu.cpp">
+      <Filter>ui\Widget Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\widgets\display_filter_combo.cpp">
+      <Filter>ui\Widget Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\widgets\display_filter_edit.cpp">
+      <Filter>ui\Widget Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\widgets\dissector_tables_view.cpp">
+      <Filter>ui\Widget Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\widgets\drag_drop_toolbar.cpp">
+      <Filter>ui\Widget Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\widgets\drag_label.cpp">
+      <Filter>ui\Widget Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\widgets\editor_file_dialog.cpp">
+      <Filter>ui\Widget Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\widgets\elided_label.cpp">
+      <Filter>ui\Widget Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\widgets\expert_info_view.cpp">
+      <Filter>ui\Widget Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\widgets\export_objects_view.cpp">
+      <Filter>ui\Widget Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\widgets\field_filter_edit.cpp">
+      <Filter>ui\Widget Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\widgets\filter_expression_toolbar.cpp">
+      <Filter>ui\Widget Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\widgets\find_line_edit.cpp">
+      <Filter>ui\Widget Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\widgets\follow_stream_text.cpp">
+      <Filter>ui\Widget Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\widgets\interface_toolbar_lineedit.cpp">
+      <Filter>ui\Widget Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\widgets\label_stack.cpp">
+      <Filter>ui\Widget Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\widgets\overlay_scroll_bar.cpp">
+      <Filter>ui\Widget Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\widgets\pref_module_view.cpp">
+      <Filter>ui\Widget Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\widgets\qcustomplot.cpp">
+      <Filter>ui\Widget Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\widgets\range_syntax_lineedit.cpp">
+      <Filter>ui\Widget Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\widgets\stock_icon_tool_button.cpp">
+      <Filter>ui\Widget Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\widgets\syntax_line_edit.cpp">
+      <Filter>ui\Widget Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\widgets\tabnav_tree_view.cpp">
+      <Filter>ui\Widget Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\widgets\wireshark_file_dialog.cpp">
+      <Filter>ui\Widget Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\manager\preference_manager.cpp">
+      <Filter>ui\Manager Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\manager\wireshark_preference.cpp">
+      <Filter>ui\Manager Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\utils\color_utils.cpp">
+      <Filter>ui\Utils Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\utils\data_printer.cpp">
+      <Filter>ui\Utils Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\utils\field_information.cpp">
+      <Filter>ui\Utils Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\utils\frame_information.cpp">
+      <Filter>ui\Utils Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\utils\proto_node.cpp">
+      <Filter>ui\Utils Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\utils\qt_ui_utils.cpp">
+      <Filter>ui\Utils Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\utils\stock_icon.cpp">
+      <Filter>ui\Utils Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\utils\wireshark_mime_data.cpp">
+      <Filter>ui\Utils Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\models\astringlist_list_model.cpp">
+      <Filter>ui\Models Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\models\cache_proxy_model.cpp">
+      <Filter>ui\Models Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\models\coloring_rules_delegate.cpp">
+      <Filter>ui\Models Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\models\coloring_rules_model.cpp">
+      <Filter>ui\Models Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\models\decode_as_delegate.cpp">
+      <Filter>ui\Models Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\models\decode_as_model.cpp">
+      <Filter>ui\Models Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\models\dissector_tables_model.cpp">
+      <Filter>ui\Models Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\models\enabled_protocols_model.cpp">
+      <Filter>ui\Models Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\models\expert_info_model.cpp">
+      <Filter>ui\Models Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\models\expert_info_proxy_model.cpp">
+      <Filter>ui\Models Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\models\export_objects_model.cpp">
+      <Filter>ui\Models Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\models\fileset_entry_model.cpp">
+      <Filter>ui\Models Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\models\info_proxy_model.cpp">
+      <Filter>ui\Models Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\models\interface_sort_filter_model.cpp">
+      <Filter>ui\Models Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\models\interface_tree_cache_model.cpp">
+      <Filter>ui\Models Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\models\interface_tree_model.cpp">
+      <Filter>ui\Models Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\models\numeric_value_chooser_delegate.cpp">
+      <Filter>ui\Models Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\models\packet_list_model.cpp">
+      <Filter>ui\Models Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\models\packet_list_record.cpp">
+      <Filter>ui\Models Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\models\path_chooser_delegate.cpp">
+      <Filter>ui\Models Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\models\percent_bar_delegate.cpp">
+      <Filter>ui\Models Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\models\pref_delegate.cpp">
+      <Filter>ui\Models Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\models\pref_models.cpp">
+      <Filter>ui\Models Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\models\proto_tree_model.cpp">
+      <Filter>ui\Models Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\models\related_packet_delegate.cpp">
+      <Filter>ui\Models Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\models\sparkline_delegate.cpp">
+      <Filter>ui\Models Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\models\supported_protocols_model.cpp">
+      <Filter>ui\Models Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\models\timeline_delegate.cpp">
+      <Filter>ui\Models Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\models\uat_delegate.cpp">
+      <Filter>ui\Models Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\models\uat_model.cpp">
+      <Filter>ui\Models Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\models\url_link_delegate.cpp">
+      <Filter>ui\Models Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\models\voip_calls_info_model.cpp">
+      <Filter>ui\Models Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\expert_info_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\funnel_statistics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\gsm_map_summary_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\io_graph_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\mtp3_summary_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\multicast_statistics_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\stats_tree_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\wlan_statistics_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\wireshark-tap-register.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\qtui_autogen\mocs_compilation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\qtui_autogen\EF4ICWSDIF\qrc_about.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\qtui_autogen\NQCY4LEWD2\qrc_languages.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\qtui_autogen\EF4ICWSDIF\qrc_layout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\qtui_autogen\EF4ICWSDIF\qrc_stock_icons.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\qtui_autogen\EF4ICWSDIF\qrc_wsicon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\qt\qtui_autogen\EWIEGA46WW\qrc_i18n.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\about_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\accordion_frame.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\address_editor_frame.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\bluetooth_att_server_attributes_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\bluetooth_device_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\bluetooth_devices_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\bluetooth_hci_summary_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\byte_view_tab.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\capture_file.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\capture_file_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\capture_file_properties_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\capture_filter_syntax_worker.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\capture_info_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\capture_interfaces_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\capture_preferences_frame.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\coloring_rules_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\column_preferences_frame.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\column_editor_frame.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\compiled_filter_output.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\conversation_colorize_action.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\conversation_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\conversation_hash_tables_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\decode_as_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\display_filter_expression_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\dissector_tables_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\enabled_protocols_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\endpoint_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\expert_info_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\export_dissection_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\export_object_action.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\export_object_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\export_pdu_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\extcap_argument.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\extcap_argument_file.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\extcap_argument_multiselect.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\extcap_options_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\file_set_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\filter_action.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\filter_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\filter_expression_frame.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\firewall_rules_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\follow_stream_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\font_color_preferences_frame.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\funnel_string_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\funnel_text_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\funnel_statistics.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\geometry_state_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\gsm_map_summary_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\iax2_analysis_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\import_text_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\interface_toolbar.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\interface_toolbar_reader.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\interface_frame.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\io_graph_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\layout_preferences_frame.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\lbm_lbtrm_transport_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\lbm_lbtru_transport_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\lbm_stream_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\lte_rlc_graph_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\lte_mac_statistics_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\lte_rlc_statistics_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\main_status_bar.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\welcome_page.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\main_window.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\main_window_preferences_frame.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\manage_interfaces_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\module_preferences_scroll_area.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\mtp3_summary_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\multicast_statistics_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\packet_comment_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\packet_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\packet_format_group_box.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\packet_list.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\packet_range_group_box.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\preference_editor_frame.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\preferences_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\print_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\profile_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\progress_frame.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\proto_tree.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\protocol_hierarchy_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\protocol_preferences_menu.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\recent_file_status.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\resolved_addresses_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\response_time_delay_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\rpc_service_response_time_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\rsa_keys_frame.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\rtp_analysis_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\rtp_audio_stream.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\rtp_player_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\rtp_stream_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\scsi_service_response_time_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\sctp_all_assocs_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\sctp_assoc_analyse_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\sctp_chunk_statistics_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\sctp_graph_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\sctp_graph_arwnd_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\sctp_graph_byte_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\search_frame.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\sequence_diagram.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\sequence_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\show_packet_bytes_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\splash_overlay.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\stats_tree_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\service_response_time_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\simple_statistics_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\supported_protocols_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\tabnav_tree_widget.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\tap_parameter_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\tcp_stream_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\time_shift_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\traffic_table_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\uat_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\uat_frame.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\voip_calls_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\wireless_frame.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\wireless_timeline.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\wireshark_application.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\wireshark_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\wlan_statistics_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\remote_capture_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\remote_settings_dialog.h">
+      <Filter>ui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\widgets\additional_toolbar.h">
+      <Filter>ui\Widget Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\widgets\apply_line_edit.h">
+      <Filter>ui\Widget Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\widgets\byte_view_text.h">
+      <Filter>ui\Widget Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\widgets\capture_filter_combo.h">
+      <Filter>ui\Widget Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\widgets\capture_filter_edit.h">
+      <Filter>ui\Widget Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\widgets\clickable_label.h">
+      <Filter>ui\Widget Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\widgets\copy_from_profile_menu.h">
+      <Filter>ui\Widget Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\widgets\display_filter_combo.h">
+      <Filter>ui\Widget Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\widgets\display_filter_edit.h">
+      <Filter>ui\Widget Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\widgets\dissector_tables_view.h">
+      <Filter>ui\Widget Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\widgets\drag_drop_toolbar.h">
+      <Filter>ui\Widget Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\widgets\drag_label.h">
+      <Filter>ui\Widget Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\widgets\editor_file_dialog.h">
+      <Filter>ui\Widget Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\widgets\expert_info_view.h">
+      <Filter>ui\Widget Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\widgets\export_objects_view.h">
+      <Filter>ui\Widget Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\widgets\elided_label.h">
+      <Filter>ui\Widget Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\widgets\field_filter_edit.h">
+      <Filter>ui\Widget Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\widgets\filter_expression_toolbar.h">
+      <Filter>ui\Widget Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\widgets\find_line_edit.h">
+      <Filter>ui\Widget Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\widgets\follow_stream_text.h">
+      <Filter>ui\Widget Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\widgets\interface_toolbar_lineedit.h">
+      <Filter>ui\Widget Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\widgets\label_stack.h">
+      <Filter>ui\Widget Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\widgets\overlay_scroll_bar.h">
+      <Filter>ui\Widget Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\widgets\pref_module_view.h">
+      <Filter>ui\Widget Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\widgets\qcustomplot.h">
+      <Filter>ui\Widget Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\widgets\range_syntax_lineedit.h">
+      <Filter>ui\Widget Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\widgets\stock_icon_tool_button.h">
+      <Filter>ui\Widget Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\widgets\syntax_line_edit.h">
+      <Filter>ui\Widget Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\widgets\tabnav_tree_view.h">
+      <Filter>ui\Widget Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\widgets\wireshark_file_dialog.h">
+      <Filter>ui\Widget Header</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\manager\preference_manager.h">
+      <Filter>ui\Manager Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\manager\wireshark_preference.h">
+      <Filter>ui\Manager Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\utils\color_utils.h">
+      <Filter>ui\Utils Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\utils\data_printer.h">
+      <Filter>ui\Utils Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\utils\field_information.h">
+      <Filter>ui\Utils Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\utils\frame_information.h">
+      <Filter>ui\Utils Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\utils\idata_printable.h">
+      <Filter>ui\Utils Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\utils\proto_node.h">
+      <Filter>ui\Utils Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\utils\qt_ui_utils.h">
+      <Filter>ui\Utils Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\utils\stock_icon.h">
+      <Filter>ui\Utils Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\utils\tango_colors.h">
+      <Filter>ui\Utils Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\utils\variant_pointer.h">
+      <Filter>ui\Utils Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\utils\wireshark_mime_data.h">
+      <Filter>ui\Utils Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\models\astringlist_list_model.h">
+      <Filter>ui\Models Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\models\cache_proxy_model.h">
+      <Filter>ui\Models Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\models\coloring_rules_delegate.h">
+      <Filter>ui\Models Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\models\coloring_rules_model.h">
+      <Filter>ui\Models Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\models\decode_as_delegate.h">
+      <Filter>ui\Models Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\models\decode_as_model.h">
+      <Filter>ui\Models Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\models\dissector_tables_model.h">
+      <Filter>ui\Models Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\models\enabled_protocols_model.h">
+      <Filter>ui\Models Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\models\expert_info_model.h">
+      <Filter>ui\Models Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\models\expert_info_proxy_model.h">
+      <Filter>ui\Models Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\models\export_objects_model.h">
+      <Filter>ui\Models Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\models\fileset_entry_model.h">
+      <Filter>ui\Models Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\models\info_proxy_model.h">
+      <Filter>ui\Models Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\models\interface_sort_filter_model.h">
+      <Filter>ui\Models Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\models\interface_tree_cache_model.h">
+      <Filter>ui\Models Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\models\interface_tree_model.h">
+      <Filter>ui\Models Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\models\numeric_value_chooser_delegate.h">
+      <Filter>ui\Models Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\models\packet_list_model.h">
+      <Filter>ui\Models Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\models\packet_list_record.h">
+      <Filter>ui\Models Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\models\path_chooser_delegate.h">
+      <Filter>ui\Models Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\models\percent_bar_delegate.h">
+      <Filter>ui\Models Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\models\pref_delegate.h">
+      <Filter>ui\Models Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\models\pref_models.h">
+      <Filter>ui\Models Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\models\proto_tree_model.h">
+      <Filter>ui\Models Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\models\related_packet_delegate.h">
+      <Filter>ui\Models Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\models\sparkline_delegate.h">
+      <Filter>ui\Models Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\models\supported_protocols_model.h">
+      <Filter>ui\Models Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\models\timeline_delegate.h">
+      <Filter>ui\Models Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\models\tree_model_helpers.h">
+      <Filter>ui\Models Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\models\uat_delegate.h">
+      <Filter>ui\Models Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\models\uat_model.h">
+      <Filter>ui\Models Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\models\url_link_delegate.h">
+      <Filter>ui\Models Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\ui\qt\models\voip_calls_info_model.h">
+      <Filter>ui\Models Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\f5772180f4124a34da7a5aad4c4777a2\wireshark-tap-register.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\cdbbd317a01266195d7afb9c0a52f416\qrc_about.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\f43d4dcd8a1eee4c3340e5c64c1a7b82\qrc_languages.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\cdbbd317a01266195d7afb9c0a52f416\qrc_layout.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\cdbbd317a01266195d7afb9c0a52f416\qrc_stock_icons.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\cdbbd317a01266195d7afb9c0a52f416\qrc_wsicon.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\12a0b19218a75a845cf7317f7bcb92bf\qrc_i18n.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Development\wireshark\ui\qt\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Development\wireshark\ui\qt\about_dialog.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\address_editor_frame.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\bluetooth_att_server_attributes_dialog.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\bluetooth_device_dialog.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\bluetooth_devices_dialog.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\bluetooth_hci_summary_dialog.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\capture_file_properties_dialog.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\capture_info_dialog.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\capture_interfaces_dialog.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\capture_preferences_frame.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\coloring_rules_dialog.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\column_preferences_frame.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\column_editor_frame.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\compiled_filter_output.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\conversation_hash_tables_dialog.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\decode_as_dialog.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\display_filter_expression_dialog.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\dissector_tables_dialog.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\enabled_protocols_dialog.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\expert_info_dialog.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\export_object_dialog.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\export_pdu_dialog.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\extcap_options_dialog.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\file_set_dialog.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\filter_dialog.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\filter_expression_frame.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\firewall_rules_dialog.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\follow_stream_dialog.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\font_color_preferences_frame.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\funnel_string_dialog.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\funnel_text_dialog.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\gsm_map_summary_dialog.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\iax2_analysis_dialog.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\import_text_dialog.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\interface_frame.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\interface_toolbar.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\io_graph_dialog.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\layout_preferences_frame.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\lbm_lbtrm_transport_dialog.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\lbm_lbtru_transport_dialog.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\lbm_stream_dialog.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\lte_rlc_graph_dialog.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\welcome_page.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\main_window.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\main_window_preferences_frame.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\manage_interfaces_dialog.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\module_preferences_scroll_area.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\mtp3_summary_dialog.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\packet_comment_dialog.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\packet_dialog.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\packet_format_group_box.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\packet_range_group_box.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\preference_editor_frame.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\preferences_dialog.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\print_dialog.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\profile_dialog.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\progress_frame.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\protocol_hierarchy_dialog.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\resolved_addresses_dialog.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\rsa_keys_frame.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\rtp_analysis_dialog.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\rtp_player_dialog.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\rtp_stream_dialog.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\sctp_all_assocs_dialog.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\sctp_assoc_analyse_dialog.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\sctp_chunk_statistics_dialog.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\sctp_graph_dialog.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\sctp_graph_arwnd_dialog.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\sctp_graph_byte_dialog.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\search_frame.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\sequence_dialog.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\show_packet_bytes_dialog.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\splash_overlay.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\supported_protocols_dialog.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\tap_parameter_dialog.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\tcp_stream_dialog.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\time_shift_dialog.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\traffic_table_dialog.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\uat_dialog.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\uat_frame.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\voip_calls_dialog.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\wireless_frame.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\remote_capture_dialog.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\remote_settings_dialog.ui">
+      <Filter>ui\UIC Files</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\image\about.qrc">
+      <Filter>ui\qrc</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\image\languages\languages.qrc">
+      <Filter>ui\qrc</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\image\layout.qrc">
+      <Filter>ui\qrc</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\image\stock_icons.qrc">
+      <Filter>ui\qrc</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\image\wsicon.qrc">
+      <Filter>ui\qrc</Filter>
+    </None>
+    <None Include="C:\Development\wireshark\ui\qt\i18n.qrc">
+      <Filter>ui\qrc</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{15AD5180-863D-3736-8DCF-AD1A045E840D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{32DF5DB2-499A-3971-AE80-FFC1FEF2EED5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui">
+      <UniqueIdentifier>{3921B99E-3837-31D6-B37C-16BF2A089490}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\Header">
+      <UniqueIdentifier>{3BA1C506-6742-34FA-B3EF-C18DE8926EED}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\Manager Headers">
+      <UniqueIdentifier>{3E60D7F3-7BD1-38B0-856A-FCBFA34103EB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\Manager Source">
+      <UniqueIdentifier>{393098D7-3B2F-3D6C-9582-669FBAD438C4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\Models Headers">
+      <UniqueIdentifier>{92BC63D9-284F-3507-9C44-B1303992A1F6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\Models Source">
+      <UniqueIdentifier>{12E7B7FC-9822-3F51-8ADC-2C270FEACE41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\UIC Files">
+      <UniqueIdentifier>{93C2574B-99AC-388F-83DF-40A179A436E4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\Utils Headers Files">
+      <UniqueIdentifier>{C84B5E3C-2E1D-3E65-BBC3-2C911773FCD3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\Utils Source">
+      <UniqueIdentifier>{0C2EC29F-3589-3561-B1CC-F9732A881116}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\Widget Header">
+      <UniqueIdentifier>{07928F29-B07F-346F-A7E4-DD5C1FDF462F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\Widget Source">
+      <UniqueIdentifier>{8D5FA9B8-BA85-3DBD-B490-F0EB58E67000}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\qrc">
+      <UniqueIdentifier>{F7541660-06F5-3505-8E20-49AA13B997D3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

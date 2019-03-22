@@ -1,0 +1,523 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8DC07985-1823-3DEA-8F6E-65045CEA032D}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>dfilter</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+    <SpectreMitigation>Spectre</SpectreMitigation>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+    <SpectreMitigation>Spectre</SpectreMitigation>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+    <SpectreMitigation>Spectre</SpectreMitigation>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+    <SpectreMitigation>Spectre</SpectreMitigation>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">dfilter.dir\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">dfilter.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">dfilter</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">dfilter.dir\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">dfilter.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">dfilter</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">dfilter.dir\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">dfilter.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">dfilter</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">dfilter.dir\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">dfilter.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">dfilter</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Development\wireshark;C:\Development\wireshark-win64-libs\c-ares-1.15.0-win64ws\installed\x64-windows\include;C:\Development\wireshark-win64-libs\libgcrypt-1.8.3-win64ws\include;C:\Development\wireshark-win64-libs\gnutls-3.6.3-1-win64ws\include;C:\Development\wireshark-win64-libs\krb5-1.17-1-win64ws\installed\x64-windows\include;C:\Development\wireshark-win64-libs\lua-5.2.4-unicode-win64-vc14\include;C:\Development\wireshark-win64-libs\lz4-1.7.5-win64ws\include;C:\Development\wireshark-win64-libs\nghttp2-1.14.0-win64ws\include;C:\Development\wireshark-win64-libs\WpdPack\Include;C:\Development\wireshark-win64-libs\libsmi-svn-40773-win64ws\include;C:\Development\wireshark-win64-libs\snappy-1.1.3-win64ws\include;C:\Development\wireshark-win64-libs\zlib-1.2.11-2-ws;C:\Development\wireshark\zlib;C:\Development\wireshark-win64-libs\libxml2-2.9.9-win64ws\include\libxml2;C:\Development\wireshark\epan\dfilter;C:\Development\wireshark\epan;C:\Development\wireshark\tools\lemon;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\include\glib-2.0;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\lib\glib-2.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zo /utf-8 /w34295 /w34189</AdditionalOptions>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <ControlFlowGuard>Guard</ControlFlowGuard>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4200</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;WS_BUILD_DLL;WIN32_LEAN_AND_MEAN;_CRT_SECURE_NO_DEPRECATE;NOMINMAX;PSAPI_VERSION=1;_ALLOW_KEYWORD_MACROS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;WS_BUILD_DLL;WIN32_LEAN_AND_MEAN;_CRT_SECURE_NO_DEPRECATE;NOMINMAX;PSAPI_VERSION=1;_ALLOW_KEYWORD_MACROS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Development\wireshark;C:\Development\wireshark-win64-libs\c-ares-1.15.0-win64ws\installed\x64-windows\include;C:\Development\wireshark-win64-libs\libgcrypt-1.8.3-win64ws\include;C:\Development\wireshark-win64-libs\gnutls-3.6.3-1-win64ws\include;C:\Development\wireshark-win64-libs\krb5-1.17-1-win64ws\installed\x64-windows\include;C:\Development\wireshark-win64-libs\lua-5.2.4-unicode-win64-vc14\include;C:\Development\wireshark-win64-libs\lz4-1.7.5-win64ws\include;C:\Development\wireshark-win64-libs\nghttp2-1.14.0-win64ws\include;C:\Development\wireshark-win64-libs\WpdPack\Include;C:\Development\wireshark-win64-libs\libsmi-svn-40773-win64ws\include;C:\Development\wireshark-win64-libs\snappy-1.1.3-win64ws\include;C:\Development\wireshark-win64-libs\zlib-1.2.11-2-ws;C:\Development\wireshark\zlib;C:\Development\wireshark-win64-libs\libxml2-2.9.9-win64ws\include\libxml2;C:\Development\wireshark\epan\dfilter;C:\Development\wireshark\epan;C:\Development\wireshark\tools\lemon;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\include\glib-2.0;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\lib\glib-2.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Development\wireshark;C:\Development\wireshark-win64-libs\c-ares-1.15.0-win64ws\installed\x64-windows\include;C:\Development\wireshark-win64-libs\libgcrypt-1.8.3-win64ws\include;C:\Development\wireshark-win64-libs\gnutls-3.6.3-1-win64ws\include;C:\Development\wireshark-win64-libs\krb5-1.17-1-win64ws\installed\x64-windows\include;C:\Development\wireshark-win64-libs\lua-5.2.4-unicode-win64-vc14\include;C:\Development\wireshark-win64-libs\lz4-1.7.5-win64ws\include;C:\Development\wireshark-win64-libs\nghttp2-1.14.0-win64ws\include;C:\Development\wireshark-win64-libs\WpdPack\Include;C:\Development\wireshark-win64-libs\libsmi-svn-40773-win64ws\include;C:\Development\wireshark-win64-libs\snappy-1.1.3-win64ws\include;C:\Development\wireshark-win64-libs\zlib-1.2.11-2-ws;C:\Development\wireshark\zlib;C:\Development\wireshark-win64-libs\libxml2-2.9.9-win64ws\include\libxml2;C:\Development\wireshark\epan\dfilter;C:\Development\wireshark\epan;C:\Development\wireshark\tools\lemon;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\include\glib-2.0;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\lib\glib-2.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Development\wireshark;C:\Development\wireshark-win64-libs\c-ares-1.15.0-win64ws\installed\x64-windows\include;C:\Development\wireshark-win64-libs\libgcrypt-1.8.3-win64ws\include;C:\Development\wireshark-win64-libs\gnutls-3.6.3-1-win64ws\include;C:\Development\wireshark-win64-libs\krb5-1.17-1-win64ws\installed\x64-windows\include;C:\Development\wireshark-win64-libs\lua-5.2.4-unicode-win64-vc14\include;C:\Development\wireshark-win64-libs\lz4-1.7.5-win64ws\include;C:\Development\wireshark-win64-libs\nghttp2-1.14.0-win64ws\include;C:\Development\wireshark-win64-libs\WpdPack\Include;C:\Development\wireshark-win64-libs\libsmi-svn-40773-win64ws\include;C:\Development\wireshark-win64-libs\snappy-1.1.3-win64ws\include;C:\Development\wireshark-win64-libs\zlib-1.2.11-2-ws;C:\Development\wireshark\zlib;C:\Development\wireshark-win64-libs\libxml2-2.9.9-win64ws\include\libxml2;C:\Development\wireshark\epan\dfilter;C:\Development\wireshark\epan;C:\Development\wireshark\tools\lemon;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\include\glib-2.0;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\lib\glib-2.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zo /utf-8 /w34295 /w34189</AdditionalOptions>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ControlFlowGuard>Guard</ControlFlowGuard>
+      <DisableSpecificWarnings>4200</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WS_BUILD_DLL;WIN32_LEAN_AND_MEAN;_CRT_SECURE_NO_DEPRECATE;NOMINMAX;PSAPI_VERSION=1;_ALLOW_KEYWORD_MACROS;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WS_BUILD_DLL;WIN32_LEAN_AND_MEAN;_CRT_SECURE_NO_DEPRECATE;NOMINMAX;PSAPI_VERSION=1;_ALLOW_KEYWORD_MACROS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Development\wireshark;C:\Development\wireshark-win64-libs\c-ares-1.15.0-win64ws\installed\x64-windows\include;C:\Development\wireshark-win64-libs\libgcrypt-1.8.3-win64ws\include;C:\Development\wireshark-win64-libs\gnutls-3.6.3-1-win64ws\include;C:\Development\wireshark-win64-libs\krb5-1.17-1-win64ws\installed\x64-windows\include;C:\Development\wireshark-win64-libs\lua-5.2.4-unicode-win64-vc14\include;C:\Development\wireshark-win64-libs\lz4-1.7.5-win64ws\include;C:\Development\wireshark-win64-libs\nghttp2-1.14.0-win64ws\include;C:\Development\wireshark-win64-libs\WpdPack\Include;C:\Development\wireshark-win64-libs\libsmi-svn-40773-win64ws\include;C:\Development\wireshark-win64-libs\snappy-1.1.3-win64ws\include;C:\Development\wireshark-win64-libs\zlib-1.2.11-2-ws;C:\Development\wireshark\zlib;C:\Development\wireshark-win64-libs\libxml2-2.9.9-win64ws\include\libxml2;C:\Development\wireshark\epan\dfilter;C:\Development\wireshark\epan;C:\Development\wireshark\tools\lemon;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\include\glib-2.0;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\lib\glib-2.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Development\wireshark;C:\Development\wireshark-win64-libs\c-ares-1.15.0-win64ws\installed\x64-windows\include;C:\Development\wireshark-win64-libs\libgcrypt-1.8.3-win64ws\include;C:\Development\wireshark-win64-libs\gnutls-3.6.3-1-win64ws\include;C:\Development\wireshark-win64-libs\krb5-1.17-1-win64ws\installed\x64-windows\include;C:\Development\wireshark-win64-libs\lua-5.2.4-unicode-win64-vc14\include;C:\Development\wireshark-win64-libs\lz4-1.7.5-win64ws\include;C:\Development\wireshark-win64-libs\nghttp2-1.14.0-win64ws\include;C:\Development\wireshark-win64-libs\WpdPack\Include;C:\Development\wireshark-win64-libs\libsmi-svn-40773-win64ws\include;C:\Development\wireshark-win64-libs\snappy-1.1.3-win64ws\include;C:\Development\wireshark-win64-libs\zlib-1.2.11-2-ws;C:\Development\wireshark\zlib;C:\Development\wireshark-win64-libs\libxml2-2.9.9-win64ws\include\libxml2;C:\Development\wireshark\epan\dfilter;C:\Development\wireshark\epan;C:\Development\wireshark\tools\lemon;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\include\glib-2.0;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\lib\glib-2.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Development\wireshark;C:\Development\wireshark-win64-libs\c-ares-1.15.0-win64ws\installed\x64-windows\include;C:\Development\wireshark-win64-libs\libgcrypt-1.8.3-win64ws\include;C:\Development\wireshark-win64-libs\gnutls-3.6.3-1-win64ws\include;C:\Development\wireshark-win64-libs\krb5-1.17-1-win64ws\installed\x64-windows\include;C:\Development\wireshark-win64-libs\lua-5.2.4-unicode-win64-vc14\include;C:\Development\wireshark-win64-libs\lz4-1.7.5-win64ws\include;C:\Development\wireshark-win64-libs\nghttp2-1.14.0-win64ws\include;C:\Development\wireshark-win64-libs\WpdPack\Include;C:\Development\wireshark-win64-libs\libsmi-svn-40773-win64ws\include;C:\Development\wireshark-win64-libs\snappy-1.1.3-win64ws\include;C:\Development\wireshark-win64-libs\zlib-1.2.11-2-ws;C:\Development\wireshark\zlib;C:\Development\wireshark-win64-libs\libxml2-2.9.9-win64ws\include\libxml2;C:\Development\wireshark\epan\dfilter;C:\Development\wireshark\epan;C:\Development\wireshark\tools\lemon;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\include\glib-2.0;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\lib\glib-2.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zo /utf-8 /w34295 /w34189</AdditionalOptions>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ControlFlowGuard>Guard</ControlFlowGuard>
+      <DisableSpecificWarnings>4200</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WS_BUILD_DLL;WIN32_LEAN_AND_MEAN;_CRT_SECURE_NO_DEPRECATE;NOMINMAX;PSAPI_VERSION=1;_ALLOW_KEYWORD_MACROS;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WS_BUILD_DLL;WIN32_LEAN_AND_MEAN;_CRT_SECURE_NO_DEPRECATE;NOMINMAX;PSAPI_VERSION=1;_ALLOW_KEYWORD_MACROS;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Development\wireshark;C:\Development\wireshark-win64-libs\c-ares-1.15.0-win64ws\installed\x64-windows\include;C:\Development\wireshark-win64-libs\libgcrypt-1.8.3-win64ws\include;C:\Development\wireshark-win64-libs\gnutls-3.6.3-1-win64ws\include;C:\Development\wireshark-win64-libs\krb5-1.17-1-win64ws\installed\x64-windows\include;C:\Development\wireshark-win64-libs\lua-5.2.4-unicode-win64-vc14\include;C:\Development\wireshark-win64-libs\lz4-1.7.5-win64ws\include;C:\Development\wireshark-win64-libs\nghttp2-1.14.0-win64ws\include;C:\Development\wireshark-win64-libs\WpdPack\Include;C:\Development\wireshark-win64-libs\libsmi-svn-40773-win64ws\include;C:\Development\wireshark-win64-libs\snappy-1.1.3-win64ws\include;C:\Development\wireshark-win64-libs\zlib-1.2.11-2-ws;C:\Development\wireshark\zlib;C:\Development\wireshark-win64-libs\libxml2-2.9.9-win64ws\include\libxml2;C:\Development\wireshark\epan\dfilter;C:\Development\wireshark\epan;C:\Development\wireshark\tools\lemon;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\include\glib-2.0;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\lib\glib-2.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Development\wireshark;C:\Development\wireshark-win64-libs\c-ares-1.15.0-win64ws\installed\x64-windows\include;C:\Development\wireshark-win64-libs\libgcrypt-1.8.3-win64ws\include;C:\Development\wireshark-win64-libs\gnutls-3.6.3-1-win64ws\include;C:\Development\wireshark-win64-libs\krb5-1.17-1-win64ws\installed\x64-windows\include;C:\Development\wireshark-win64-libs\lua-5.2.4-unicode-win64-vc14\include;C:\Development\wireshark-win64-libs\lz4-1.7.5-win64ws\include;C:\Development\wireshark-win64-libs\nghttp2-1.14.0-win64ws\include;C:\Development\wireshark-win64-libs\WpdPack\Include;C:\Development\wireshark-win64-libs\libsmi-svn-40773-win64ws\include;C:\Development\wireshark-win64-libs\snappy-1.1.3-win64ws\include;C:\Development\wireshark-win64-libs\zlib-1.2.11-2-ws;C:\Development\wireshark\zlib;C:\Development\wireshark-win64-libs\libxml2-2.9.9-win64ws\include\libxml2;C:\Development\wireshark\epan\dfilter;C:\Development\wireshark\epan;C:\Development\wireshark\tools\lemon;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\include\glib-2.0;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\lib\glib-2.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Development\wireshark;C:\Development\wireshark-win64-libs\c-ares-1.15.0-win64ws\installed\x64-windows\include;C:\Development\wireshark-win64-libs\libgcrypt-1.8.3-win64ws\include;C:\Development\wireshark-win64-libs\gnutls-3.6.3-1-win64ws\include;C:\Development\wireshark-win64-libs\krb5-1.17-1-win64ws\installed\x64-windows\include;C:\Development\wireshark-win64-libs\lua-5.2.4-unicode-win64-vc14\include;C:\Development\wireshark-win64-libs\lz4-1.7.5-win64ws\include;C:\Development\wireshark-win64-libs\nghttp2-1.14.0-win64ws\include;C:\Development\wireshark-win64-libs\WpdPack\Include;C:\Development\wireshark-win64-libs\libsmi-svn-40773-win64ws\include;C:\Development\wireshark-win64-libs\snappy-1.1.3-win64ws\include;C:\Development\wireshark-win64-libs\zlib-1.2.11-2-ws;C:\Development\wireshark\zlib;C:\Development\wireshark-win64-libs\libxml2-2.9.9-win64ws\include\libxml2;C:\Development\wireshark\epan\dfilter;C:\Development\wireshark\epan;C:\Development\wireshark\tools\lemon;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\include\glib-2.0;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\lib\glib-2.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zo /utf-8 /w34295 /w34189</AdditionalOptions>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ControlFlowGuard>Guard</ControlFlowGuard>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4200</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WS_BUILD_DLL;WIN32_LEAN_AND_MEAN;_CRT_SECURE_NO_DEPRECATE;NOMINMAX;PSAPI_VERSION=1;_ALLOW_KEYWORD_MACROS;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WS_BUILD_DLL;WIN32_LEAN_AND_MEAN;_CRT_SECURE_NO_DEPRECATE;NOMINMAX;PSAPI_VERSION=1;_ALLOW_KEYWORD_MACROS;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Development\wireshark;C:\Development\wireshark-win64-libs\c-ares-1.15.0-win64ws\installed\x64-windows\include;C:\Development\wireshark-win64-libs\libgcrypt-1.8.3-win64ws\include;C:\Development\wireshark-win64-libs\gnutls-3.6.3-1-win64ws\include;C:\Development\wireshark-win64-libs\krb5-1.17-1-win64ws\installed\x64-windows\include;C:\Development\wireshark-win64-libs\lua-5.2.4-unicode-win64-vc14\include;C:\Development\wireshark-win64-libs\lz4-1.7.5-win64ws\include;C:\Development\wireshark-win64-libs\nghttp2-1.14.0-win64ws\include;C:\Development\wireshark-win64-libs\WpdPack\Include;C:\Development\wireshark-win64-libs\libsmi-svn-40773-win64ws\include;C:\Development\wireshark-win64-libs\snappy-1.1.3-win64ws\include;C:\Development\wireshark-win64-libs\zlib-1.2.11-2-ws;C:\Development\wireshark\zlib;C:\Development\wireshark-win64-libs\libxml2-2.9.9-win64ws\include\libxml2;C:\Development\wireshark\epan\dfilter;C:\Development\wireshark\epan;C:\Development\wireshark\tools\lemon;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\include\glib-2.0;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\lib\glib-2.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Development\wireshark;C:\Development\wireshark-win64-libs\c-ares-1.15.0-win64ws\installed\x64-windows\include;C:\Development\wireshark-win64-libs\libgcrypt-1.8.3-win64ws\include;C:\Development\wireshark-win64-libs\gnutls-3.6.3-1-win64ws\include;C:\Development\wireshark-win64-libs\krb5-1.17-1-win64ws\installed\x64-windows\include;C:\Development\wireshark-win64-libs\lua-5.2.4-unicode-win64-vc14\include;C:\Development\wireshark-win64-libs\lz4-1.7.5-win64ws\include;C:\Development\wireshark-win64-libs\nghttp2-1.14.0-win64ws\include;C:\Development\wireshark-win64-libs\WpdPack\Include;C:\Development\wireshark-win64-libs\libsmi-svn-40773-win64ws\include;C:\Development\wireshark-win64-libs\snappy-1.1.3-win64ws\include;C:\Development\wireshark-win64-libs\zlib-1.2.11-2-ws;C:\Development\wireshark\zlib;C:\Development\wireshark-win64-libs\libxml2-2.9.9-win64ws\include\libxml2;C:\Development\wireshark\epan\dfilter;C:\Development\wireshark\epan;C:\Development\wireshark\tools\lemon;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\include\glib-2.0;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\lib\glib-2.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\bac25e4f9253ab430482ca29660164a0\scanner.c.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating scanner.c, scanner_lex.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\ProgramData\chocolatey\bin\win_flex.exe -oC:/Development/wireshark/epan/dfilter/scanner.c --header-file=C:/Development/wireshark/epan/dfilter/scanner_lex.h C:/Development/wireshark/epan/dfilter/scanner.l
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Development/wireshark/CMakeFiles/bac25e4f9253ab430482ca29660164a0/scanner.c.rule;C:\Development\wireshark\epan\dfilter\scanner.l;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Development\wireshark\epan\dfilter\scanner.c;C:\Development\wireshark\epan\dfilter\scanner_lex.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating scanner.c, scanner_lex.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\ProgramData\chocolatey\bin\win_flex.exe -oC:/Development/wireshark/epan/dfilter/scanner.c --header-file=C:/Development/wireshark/epan/dfilter/scanner_lex.h C:/Development/wireshark/epan/dfilter/scanner.l
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Development/wireshark/CMakeFiles/bac25e4f9253ab430482ca29660164a0/scanner.c.rule;C:\Development\wireshark\epan\dfilter\scanner.l;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Development\wireshark\epan\dfilter\scanner.c;C:\Development\wireshark\epan\dfilter\scanner_lex.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating scanner.c, scanner_lex.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\ProgramData\chocolatey\bin\win_flex.exe -oC:/Development/wireshark/epan/dfilter/scanner.c --header-file=C:/Development/wireshark/epan/dfilter/scanner_lex.h C:/Development/wireshark/epan/dfilter/scanner.l
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Development/wireshark/CMakeFiles/bac25e4f9253ab430482ca29660164a0/scanner.c.rule;C:\Development\wireshark\epan\dfilter\scanner.l;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Development\wireshark\epan\dfilter\scanner.c;C:\Development\wireshark\epan\dfilter\scanner_lex.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating scanner.c, scanner_lex.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\ProgramData\chocolatey\bin\win_flex.exe -oC:/Development/wireshark/epan/dfilter/scanner.c --header-file=C:/Development/wireshark/epan/dfilter/scanner_lex.h C:/Development/wireshark/epan/dfilter/scanner.l
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Development/wireshark/CMakeFiles/bac25e4f9253ab430482ca29660164a0/scanner.c.rule;C:\Development\wireshark\epan\dfilter\scanner.l;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Development\wireshark\epan\dfilter\scanner.c;C:\Development\wireshark\epan\dfilter\scanner_lex.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\bac25e4f9253ab430482ca29660164a0\grammar.c.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating grammar.c, grammar.h, grammar.out</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+..\..\run\Debug\lemon.exe -TC:/Development/wireshark/tools/lemon/lempar.c -d. C:/Development/wireshark/epan/dfilter/grammar.lemon
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Development/wireshark/CMakeFiles/bac25e4f9253ab430482ca29660164a0/grammar.c.rule;C:\Development\wireshark\epan\dfilter\grammar.lemon;C:\Development\wireshark\run\Debug\lemon.exe;C:\Development\wireshark\tools\lemon\lempar.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Development\wireshark\epan\dfilter\grammar.c;C:\Development\wireshark\epan\dfilter\grammar.h;C:\Development\wireshark\epan\dfilter\grammar.out</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating grammar.c, grammar.h, grammar.out</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+..\..\run\Release\lemon.exe -TC:/Development/wireshark/tools/lemon/lempar.c -d. C:/Development/wireshark/epan/dfilter/grammar.lemon
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Development/wireshark/CMakeFiles/bac25e4f9253ab430482ca29660164a0/grammar.c.rule;C:\Development\wireshark\epan\dfilter\grammar.lemon;C:\Development\wireshark\run\Release\lemon.exe;C:\Development\wireshark\tools\lemon\lempar.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Development\wireshark\epan\dfilter\grammar.c;C:\Development\wireshark\epan\dfilter\grammar.h;C:\Development\wireshark\epan\dfilter\grammar.out</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating grammar.c, grammar.h, grammar.out</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+..\..\run\MinSizeRel\lemon.exe -TC:/Development/wireshark/tools/lemon/lempar.c -d. C:/Development/wireshark/epan/dfilter/grammar.lemon
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Development/wireshark/CMakeFiles/bac25e4f9253ab430482ca29660164a0/grammar.c.rule;C:\Development\wireshark\epan\dfilter\grammar.lemon;C:\Development\wireshark\run\MinSizeRel\lemon.exe;C:\Development\wireshark\tools\lemon\lempar.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Development\wireshark\epan\dfilter\grammar.c;C:\Development\wireshark\epan\dfilter\grammar.h;C:\Development\wireshark\epan\dfilter\grammar.out</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating grammar.c, grammar.h, grammar.out</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+..\..\run\RelWithDebInfo\lemon.exe -TC:/Development/wireshark/tools/lemon/lempar.c -d. C:/Development/wireshark/epan/dfilter/grammar.lemon
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Development/wireshark/CMakeFiles/bac25e4f9253ab430482ca29660164a0/grammar.c.rule;C:\Development\wireshark\epan\dfilter\grammar.lemon;C:\Development\wireshark\run\RelWithDebInfo\lemon.exe;C:\Development\wireshark\tools\lemon\lempar.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Development\wireshark\epan\dfilter\grammar.c;C:\Development\wireshark\epan\dfilter\grammar.h;C:\Development\wireshark\epan\dfilter\grammar.out</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Development\wireshark\epan\dfilter\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Development/wireshark/epan/dfilter/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Development/wireshark -BC:/Development/wireshark --check-stamp-file C:/Development/wireshark/epan/dfilter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Development/wireshark/epan/dfilter/CMakeLists.txt;C:\Development\wireshark\epan\dfilter\CMakeLists.txt;C:\Development\wireshark\epan\dfilter\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Development\wireshark\epan\dfilter\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Development/wireshark/epan/dfilter/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Development/wireshark -BC:/Development/wireshark --check-stamp-file C:/Development/wireshark/epan/dfilter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Development/wireshark/epan/dfilter/CMakeLists.txt;C:\Development\wireshark\epan\dfilter\CMakeLists.txt;C:\Development\wireshark\epan\dfilter\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Development\wireshark\epan\dfilter\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Development/wireshark/epan/dfilter/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Development/wireshark -BC:/Development/wireshark --check-stamp-file C:/Development/wireshark/epan/dfilter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Development/wireshark/epan/dfilter/CMakeLists.txt;C:\Development\wireshark\epan\dfilter\CMakeLists.txt;C:\Development\wireshark\epan\dfilter\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Development\wireshark\epan\dfilter\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Development/wireshark/epan/dfilter/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Development/wireshark -BC:/Development/wireshark --check-stamp-file C:/Development/wireshark/epan/dfilter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Development/wireshark/epan/dfilter/CMakeLists.txt;C:\Development\wireshark\epan\dfilter\CMakeLists.txt;C:\Development\wireshark\epan\dfilter\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Development\wireshark\epan\dfilter\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Development\wireshark\epan\dfilter\dfilter.h" />
+    <ClInclude Include="C:\Development\wireshark\epan\dfilter\drange.h" />
+    <ClInclude Include="C:\Development\wireshark\epan\dfilter\dfilter-int.h" />
+    <ClInclude Include="C:\Development\wireshark\epan\dfilter\dfilter-macro.h" />
+    <ClInclude Include="C:\Development\wireshark\epan\dfilter\dfunctions.h" />
+    <ClInclude Include="C:\Development\wireshark\epan\dfilter\dfvm.h" />
+    <ClInclude Include="C:\Development\wireshark\epan\dfilter\gencode.h" />
+    <ClInclude Include="C:\Development\wireshark\epan\dfilter\semcheck.h" />
+    <ClInclude Include="C:\Development\wireshark\epan\dfilter\sttype-function.h" />
+    <ClInclude Include="C:\Development\wireshark\epan\dfilter\sttype-range.h" />
+    <ClInclude Include="C:\Development\wireshark\epan\dfilter\sttype-set.h" />
+    <ClInclude Include="C:\Development\wireshark\epan\dfilter\sttype-test.h" />
+    <ClInclude Include="C:\Development\wireshark\epan\dfilter\syntax-tree.h" />
+    <ClCompile Include="C:\Development\wireshark\epan\dfilter\dfilter.c">
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</TreatWarningAsError>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</TreatWarningAsError>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</TreatWarningAsError>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</TreatWarningAsError>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\epan\dfilter\dfilter-macro.c">
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</TreatWarningAsError>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</TreatWarningAsError>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</TreatWarningAsError>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</TreatWarningAsError>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\epan\dfilter\dfunctions.c">
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</TreatWarningAsError>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</TreatWarningAsError>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</TreatWarningAsError>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</TreatWarningAsError>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\epan\dfilter\dfvm.c">
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</TreatWarningAsError>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</TreatWarningAsError>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</TreatWarningAsError>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</TreatWarningAsError>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\epan\dfilter\drange.c">
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</TreatWarningAsError>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</TreatWarningAsError>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</TreatWarningAsError>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</TreatWarningAsError>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\epan\dfilter\gencode.c">
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</TreatWarningAsError>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</TreatWarningAsError>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</TreatWarningAsError>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</TreatWarningAsError>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\epan\dfilter\semcheck.c">
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</TreatWarningAsError>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</TreatWarningAsError>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</TreatWarningAsError>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</TreatWarningAsError>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\epan\dfilter\sttype-function.c">
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</TreatWarningAsError>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</TreatWarningAsError>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</TreatWarningAsError>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</TreatWarningAsError>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\epan\dfilter\sttype-integer.c">
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</TreatWarningAsError>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</TreatWarningAsError>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</TreatWarningAsError>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</TreatWarningAsError>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\epan\dfilter\sttype-pointer.c">
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</TreatWarningAsError>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</TreatWarningAsError>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</TreatWarningAsError>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</TreatWarningAsError>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\epan\dfilter\sttype-range.c">
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</TreatWarningAsError>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</TreatWarningAsError>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</TreatWarningAsError>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</TreatWarningAsError>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\epan\dfilter\sttype-set.c">
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</TreatWarningAsError>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</TreatWarningAsError>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</TreatWarningAsError>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</TreatWarningAsError>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\epan\dfilter\sttype-string.c">
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</TreatWarningAsError>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</TreatWarningAsError>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</TreatWarningAsError>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</TreatWarningAsError>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\epan\dfilter\sttype-test.c">
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</TreatWarningAsError>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</TreatWarningAsError>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</TreatWarningAsError>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</TreatWarningAsError>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\epan\dfilter\syntax-tree.c">
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</TreatWarningAsError>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</TreatWarningAsError>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</TreatWarningAsError>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</TreatWarningAsError>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\epan\dfilter\scanner.c" />
+    <ClCompile Include="C:\Development\wireshark\epan\dfilter\grammar.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Development\wireshark\ZERO_CHECK.vcxproj">
+      <Project>{B765B3E1-9AF0-39DF-BCC2-760F120CAE35}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\tools\lemon\lemon.vcxproj">
+      <Project>{247AD2CE-1EC2-3458-988E-346F6A46785E}</Project>
+      <Name>lemon</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

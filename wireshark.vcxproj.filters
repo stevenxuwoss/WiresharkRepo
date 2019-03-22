@@ -1,0 +1,683 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Development\wireshark\capture_info.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\file.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\fileset.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\win32\console_win32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\ui\win32\file_dlg_win32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Development\wireshark\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="C:\Development\wireshark\capture_opts.dir\$(Configuration)\capture_opts.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\about_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\accordion_frame.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\address_editor_frame.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\bluetooth_att_server_attributes_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\bluetooth_device_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\bluetooth_devices_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\bluetooth_hci_summary_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\byte_view_tab.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\capture_file.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\capture_file_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\capture_file_properties_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\capture_filter_syntax_worker.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\capture_info_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\capture_interfaces_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\capture_preferences_frame.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\coloring_rules_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\column_preferences_frame.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\column_editor_frame.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\compiled_filter_output.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\conversation_colorize_action.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\conversation_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\conversation_hash_tables_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\decode_as_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\display_filter_expression_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\dissector_tables_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\enabled_protocols_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\endpoint_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\export_dissection_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\export_object_action.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\export_object_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\export_pdu_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\extcap_argument.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\extcap_argument_file.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\extcap_argument_multiselect.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\extcap_options_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\file_set_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\filter_action.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\filter_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\filter_expression_frame.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\firewall_rules_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\follow_stream_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\font_color_preferences_frame.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\funnel_string_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\funnel_text_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\geometry_state_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\iax2_analysis_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\import_text_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\interface_frame.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\interface_toolbar.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\interface_toolbar_reader.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\layout_preferences_frame.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\lbm_lbtrm_transport_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\lbm_lbtru_transport_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\lbm_stream_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\lte_mac_statistics_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\lte_rlc_graph_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\lte_rlc_statistics_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\main_status_bar.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\welcome_page.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\main.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\main_window.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\main_window_preferences_frame.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\main_window_layout.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\main_window_slots.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\manage_interfaces_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\module_preferences_scroll_area.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\packet_comment_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\packet_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\packet_format_group_box.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\packet_list.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\packet_range_group_box.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\preference_editor_frame.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\preferences_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\print_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\profile_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\progress_frame.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\proto_tree.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\protocol_hierarchy_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\protocol_preferences_menu.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\recent_file_status.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\resolved_addresses_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\response_time_delay_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\rpc_service_response_time_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\rsa_keys_frame.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\rtp_analysis_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\rtp_audio_stream.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\rtp_player_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\rtp_stream_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\scsi_service_response_time_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\sctp_all_assocs_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\sctp_assoc_analyse_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\sctp_chunk_statistics_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\sctp_graph_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\sctp_graph_arwnd_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\sctp_graph_byte_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\search_frame.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\sequence_diagram.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\sequence_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\service_response_time_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\show_packet_bytes_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\simple_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\simple_statistics_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\splash_overlay.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\supported_protocols_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\tabnav_tree_widget.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\tap_parameter_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\tcp_stream_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\time_shift_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\traffic_table_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\uat_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\uat_frame.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\voip_calls_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\wireless_frame.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\wireless_timeline.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\wireshark_application.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\wireshark_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\remote_capture_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\remote_settings_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\additional_toolbar.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\apply_line_edit.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\byte_view_text.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\capture_filter_combo.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\capture_filter_edit.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\clickable_label.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\copy_from_profile_menu.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\display_filter_combo.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\display_filter_edit.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\dissector_tables_view.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\drag_drop_toolbar.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\drag_label.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\editor_file_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\elided_label.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\expert_info_view.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\export_objects_view.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\field_filter_edit.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\filter_expression_toolbar.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\find_line_edit.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\follow_stream_text.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\interface_toolbar_lineedit.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\label_stack.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\overlay_scroll_bar.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\pref_module_view.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\qcustomplot.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\range_syntax_lineedit.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\stock_icon_tool_button.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\syntax_line_edit.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\tabnav_tree_view.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\wireshark_file_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\preference_manager.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\wireshark_preference.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\color_utils.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\data_printer.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\field_information.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\frame_information.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\proto_node.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\qt_ui_utils.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\stock_icon.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\wireshark_mime_data.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\astringlist_list_model.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\cache_proxy_model.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\coloring_rules_delegate.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\coloring_rules_model.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\decode_as_delegate.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\decode_as_model.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\dissector_tables_model.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\enabled_protocols_model.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\expert_info_model.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\expert_info_proxy_model.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\export_objects_model.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\fileset_entry_model.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\info_proxy_model.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\interface_sort_filter_model.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\interface_tree_cache_model.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\interface_tree_model.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\numeric_value_chooser_delegate.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\packet_list_model.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\packet_list_record.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\path_chooser_delegate.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\percent_bar_delegate.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\pref_delegate.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\pref_models.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\proto_tree_model.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\related_packet_delegate.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\sparkline_delegate.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\supported_protocols_model.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\timeline_delegate.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\uat_delegate.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\uat_model.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\url_link_delegate.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\voip_calls_info_model.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\expert_info_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\funnel_statistics.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\gsm_map_summary_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\io_graph_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\mtp3_summary_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\multicast_statistics_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\stats_tree_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\wlan_statistics_dialog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\wireshark-tap-register.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\mocs_compilation.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\qrc_about.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\qrc_languages.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\qrc_layout.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\qrc_stock_icons.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\qrc_wsicon.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\ui\qt\qtui.dir\$(Configuration)\qrc_i18n.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\shark_common.dir\$(Configuration)\cfile.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\shark_common.dir\$(Configuration)\extcap.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\shark_common.dir\$(Configuration)\extcap_parser.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\shark_common.dir\$(Configuration)\file_packet_provider.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\shark_common.dir\$(Configuration)\frame_tvbuff.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\shark_common.dir\$(Configuration)\sync_pipe_write.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\version_info.dir\$(Configuration)\version_info.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Development\wireshark\image\file_dlg_win32.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="C:\Development\wireshark\image\wireshark.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{2B62FEC1-30E0-3133-9EE0-2D8A18198EF0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{32DF5DB2-499A-3971-AE80-FFC1FEF2EED5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

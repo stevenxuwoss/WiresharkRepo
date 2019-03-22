@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C50BAEE3-7068-3441-ABF4-C670FCB1BF44}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>checkAPI_wimax</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Development\wireshark;C:\Development\wireshark\plugins\epan\wimax;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\include\glib-2.0;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\lib\glib-2.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Development\wireshark;C:\Development\wireshark\plugins\epan\wimax;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\include\glib-2.0;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\lib\glib-2.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Development\wireshark;C:\Development\wireshark\plugins\epan\wimax;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\include\glib-2.0;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\lib\glib-2.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Development\wireshark;C:\Development\wireshark\plugins\epan\wimax;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\include\glib-2.0;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\lib\glib-2.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\55b3b38984916d5d9952ed1b2f11553d\checkAPI_wimax.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Running checkAPI_wimax</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd C:\Development\wireshark\plugins\epan\wimax
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Perl64\bin\perl.exe C:/Development/wireshark/tools/checkAPIs.pl -g abort -g termoutput -build packet-m2m.c packet-wmx.c wimax_ffb_decoder.c wimax_fch_decoder.c wimax_pdu_decoder.c wimax_cdma_code_decoder.c wimax_hack_decoder.c wimax_phy_attributes_decoder.c mac_hd_generic_decoder.c mac_hd_type1_decoder.c mac_hd_type2_decoder.c mac_mgmt_msg_decoder.c msg_dcd.c msg_ucd.c msg_dlmap.c msg_ulmap.c msg_rng_req.c msg_rng_rsp.c msg_reg_req.c msg_reg_rsp.c msg_dreg.c msg_dsa.c msg_dsc.c msg_dsd.c msg_arq.c msg_sbc.c msg_pkm.c msg_aas_fbck.c msg_fpc.c msg_pmc.c msg_prc_lt_ctrl.c msg_aas_beam.c msg_res_cmd.c msg_rep.c msg_clk_cmp.c msg_dsx_rvd.c wimax_harq_map_decoder.c wimax_compact_dlmap_ie_decoder.c wimax_compact_ulmap_ie_decoder.c wimax_utils.c crc.c crc_data.c wimax_tlv.c crc.h wimax-int.h wimax_bits.h wimax_compact_dlmap_ie_decoder.h wimax_compact_ulmap_ie_decoder.h wimax_mac.h wimax_tlv.h wimax_utils.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Development/wireshark/CMakeFiles/55b3b38984916d5d9952ed1b2f11553d/checkAPI_wimax.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Development\wireshark\plugins\epan\wimax\CMakeFiles\checkAPI_wimax</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Running checkAPI_wimax</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd C:\Development\wireshark\plugins\epan\wimax
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Perl64\bin\perl.exe C:/Development/wireshark/tools/checkAPIs.pl -g abort -g termoutput -build packet-m2m.c packet-wmx.c wimax_ffb_decoder.c wimax_fch_decoder.c wimax_pdu_decoder.c wimax_cdma_code_decoder.c wimax_hack_decoder.c wimax_phy_attributes_decoder.c mac_hd_generic_decoder.c mac_hd_type1_decoder.c mac_hd_type2_decoder.c mac_mgmt_msg_decoder.c msg_dcd.c msg_ucd.c msg_dlmap.c msg_ulmap.c msg_rng_req.c msg_rng_rsp.c msg_reg_req.c msg_reg_rsp.c msg_dreg.c msg_dsa.c msg_dsc.c msg_dsd.c msg_arq.c msg_sbc.c msg_pkm.c msg_aas_fbck.c msg_fpc.c msg_pmc.c msg_prc_lt_ctrl.c msg_aas_beam.c msg_res_cmd.c msg_rep.c msg_clk_cmp.c msg_dsx_rvd.c wimax_harq_map_decoder.c wimax_compact_dlmap_ie_decoder.c wimax_compact_ulmap_ie_decoder.c wimax_utils.c crc.c crc_data.c wimax_tlv.c crc.h wimax-int.h wimax_bits.h wimax_compact_dlmap_ie_decoder.h wimax_compact_ulmap_ie_decoder.h wimax_mac.h wimax_tlv.h wimax_utils.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Development/wireshark/CMakeFiles/55b3b38984916d5d9952ed1b2f11553d/checkAPI_wimax.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Development\wireshark\plugins\epan\wimax\CMakeFiles\checkAPI_wimax</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Running checkAPI_wimax</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd C:\Development\wireshark\plugins\epan\wimax
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Perl64\bin\perl.exe C:/Development/wireshark/tools/checkAPIs.pl -g abort -g termoutput -build packet-m2m.c packet-wmx.c wimax_ffb_decoder.c wimax_fch_decoder.c wimax_pdu_decoder.c wimax_cdma_code_decoder.c wimax_hack_decoder.c wimax_phy_attributes_decoder.c mac_hd_generic_decoder.c mac_hd_type1_decoder.c mac_hd_type2_decoder.c mac_mgmt_msg_decoder.c msg_dcd.c msg_ucd.c msg_dlmap.c msg_ulmap.c msg_rng_req.c msg_rng_rsp.c msg_reg_req.c msg_reg_rsp.c msg_dreg.c msg_dsa.c msg_dsc.c msg_dsd.c msg_arq.c msg_sbc.c msg_pkm.c msg_aas_fbck.c msg_fpc.c msg_pmc.c msg_prc_lt_ctrl.c msg_aas_beam.c msg_res_cmd.c msg_rep.c msg_clk_cmp.c msg_dsx_rvd.c wimax_harq_map_decoder.c wimax_compact_dlmap_ie_decoder.c wimax_compact_ulmap_ie_decoder.c wimax_utils.c crc.c crc_data.c wimax_tlv.c crc.h wimax-int.h wimax_bits.h wimax_compact_dlmap_ie_decoder.h wimax_compact_ulmap_ie_decoder.h wimax_mac.h wimax_tlv.h wimax_utils.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Development/wireshark/CMakeFiles/55b3b38984916d5d9952ed1b2f11553d/checkAPI_wimax.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Development\wireshark\plugins\epan\wimax\CMakeFiles\checkAPI_wimax</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Running checkAPI_wimax</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd C:\Development\wireshark\plugins\epan\wimax
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Perl64\bin\perl.exe C:/Development/wireshark/tools/checkAPIs.pl -g abort -g termoutput -build packet-m2m.c packet-wmx.c wimax_ffb_decoder.c wimax_fch_decoder.c wimax_pdu_decoder.c wimax_cdma_code_decoder.c wimax_hack_decoder.c wimax_phy_attributes_decoder.c mac_hd_generic_decoder.c mac_hd_type1_decoder.c mac_hd_type2_decoder.c mac_mgmt_msg_decoder.c msg_dcd.c msg_ucd.c msg_dlmap.c msg_ulmap.c msg_rng_req.c msg_rng_rsp.c msg_reg_req.c msg_reg_rsp.c msg_dreg.c msg_dsa.c msg_dsc.c msg_dsd.c msg_arq.c msg_sbc.c msg_pkm.c msg_aas_fbck.c msg_fpc.c msg_pmc.c msg_prc_lt_ctrl.c msg_aas_beam.c msg_res_cmd.c msg_rep.c msg_clk_cmp.c msg_dsx_rvd.c wimax_harq_map_decoder.c wimax_compact_dlmap_ie_decoder.c wimax_compact_ulmap_ie_decoder.c wimax_utils.c crc.c crc_data.c wimax_tlv.c crc.h wimax-int.h wimax_bits.h wimax_compact_dlmap_ie_decoder.h wimax_compact_ulmap_ie_decoder.h wimax_mac.h wimax_tlv.h wimax_utils.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Development/wireshark/CMakeFiles/55b3b38984916d5d9952ed1b2f11553d/checkAPI_wimax.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Development\wireshark\plugins\epan\wimax\CMakeFiles\checkAPI_wimax</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Development\wireshark\plugins\epan\wimax\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Development/wireshark/plugins/epan/wimax/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Development/wireshark -BC:/Development/wireshark --check-stamp-file C:/Development/wireshark/plugins/epan/wimax/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Development/wireshark/plugins/epan/wimax/CMakeLists.txt;C:\Development\wireshark\cmake\modules\LocatePythonModule.cmake;C:\Development\wireshark\cmake\modules\WiresharkPlugin.cmake;C:\Development\wireshark\plugins\epan\wimax\CMakeLists.txt;C:\Development\wireshark\plugins\plugin.rc.in;C:\Development\wireshark\plugins\epan\wimax\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Development\wireshark\plugins\epan\wimax\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Development/wireshark/plugins/epan/wimax/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Development/wireshark -BC:/Development/wireshark --check-stamp-file C:/Development/wireshark/plugins/epan/wimax/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Development/wireshark/plugins/epan/wimax/CMakeLists.txt;C:\Development\wireshark\cmake\modules\LocatePythonModule.cmake;C:\Development\wireshark\cmake\modules\WiresharkPlugin.cmake;C:\Development\wireshark\plugins\epan\wimax\CMakeLists.txt;C:\Development\wireshark\plugins\plugin.rc.in;C:\Development\wireshark\plugins\epan\wimax\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Development\wireshark\plugins\epan\wimax\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Development/wireshark/plugins/epan/wimax/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Development/wireshark -BC:/Development/wireshark --check-stamp-file C:/Development/wireshark/plugins/epan/wimax/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Development/wireshark/plugins/epan/wimax/CMakeLists.txt;C:\Development\wireshark\cmake\modules\LocatePythonModule.cmake;C:\Development\wireshark\cmake\modules\WiresharkPlugin.cmake;C:\Development\wireshark\plugins\epan\wimax\CMakeLists.txt;C:\Development\wireshark\plugins\plugin.rc.in;C:\Development\wireshark\plugins\epan\wimax\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Development\wireshark\plugins\epan\wimax\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Development/wireshark/plugins/epan/wimax/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Development/wireshark -BC:/Development/wireshark --check-stamp-file C:/Development/wireshark/plugins/epan/wimax/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Development/wireshark/plugins/epan/wimax/CMakeLists.txt;C:\Development\wireshark\cmake\modules\LocatePythonModule.cmake;C:\Development\wireshark\cmake\modules\WiresharkPlugin.cmake;C:\Development\wireshark\plugins\epan\wimax\CMakeLists.txt;C:\Development\wireshark\plugins\plugin.rc.in;C:\Development\wireshark\plugins\epan\wimax\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Development\wireshark\plugins\epan\wimax\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Development\wireshark\plugins\epan\wimax\CMakeFiles\checkAPI_wimax" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Development\wireshark\ZERO_CHECK.vcxproj">
+      <Project>{B765B3E1-9AF0-39DF-BCC2-760F120CAE35}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

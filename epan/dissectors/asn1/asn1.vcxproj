@@ -1,0 +1,936 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{ECB3D4E3-2FB7-35F1-89FB-A53F8A34BE6D}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>asn1</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Development\wireshark;C:\Development\wireshark-win64-libs\c-ares-1.15.0-win64ws\installed\x64-windows\include;C:\Development\wireshark-win64-libs\libgcrypt-1.8.3-win64ws\include;C:\Development\wireshark-win64-libs\gnutls-3.6.3-1-win64ws\include;C:\Development\wireshark-win64-libs\krb5-1.17-1-win64ws\installed\x64-windows\include;C:\Development\wireshark-win64-libs\lua-5.2.4-unicode-win64-vc14\include;C:\Development\wireshark-win64-libs\lz4-1.7.5-win64ws\include;C:\Development\wireshark-win64-libs\nghttp2-1.14.0-win64ws\include;C:\Development\wireshark-win64-libs\WpdPack\Include;C:\Development\wireshark-win64-libs\libsmi-svn-40773-win64ws\include;C:\Development\wireshark-win64-libs\snappy-1.1.3-win64ws\include;C:\Development\wireshark-win64-libs\zlib-1.2.11-2-ws;C:\Development\wireshark\zlib;C:\Development\wireshark-win64-libs\libxml2-2.9.9-win64ws\include\libxml2;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\include\glib-2.0;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\lib\glib-2.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Development\wireshark;C:\Development\wireshark-win64-libs\c-ares-1.15.0-win64ws\installed\x64-windows\include;C:\Development\wireshark-win64-libs\libgcrypt-1.8.3-win64ws\include;C:\Development\wireshark-win64-libs\gnutls-3.6.3-1-win64ws\include;C:\Development\wireshark-win64-libs\krb5-1.17-1-win64ws\installed\x64-windows\include;C:\Development\wireshark-win64-libs\lua-5.2.4-unicode-win64-vc14\include;C:\Development\wireshark-win64-libs\lz4-1.7.5-win64ws\include;C:\Development\wireshark-win64-libs\nghttp2-1.14.0-win64ws\include;C:\Development\wireshark-win64-libs\WpdPack\Include;C:\Development\wireshark-win64-libs\libsmi-svn-40773-win64ws\include;C:\Development\wireshark-win64-libs\snappy-1.1.3-win64ws\include;C:\Development\wireshark-win64-libs\zlib-1.2.11-2-ws;C:\Development\wireshark\zlib;C:\Development\wireshark-win64-libs\libxml2-2.9.9-win64ws\include\libxml2;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\include\glib-2.0;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\lib\glib-2.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Development\wireshark;C:\Development\wireshark-win64-libs\c-ares-1.15.0-win64ws\installed\x64-windows\include;C:\Development\wireshark-win64-libs\libgcrypt-1.8.3-win64ws\include;C:\Development\wireshark-win64-libs\gnutls-3.6.3-1-win64ws\include;C:\Development\wireshark-win64-libs\krb5-1.17-1-win64ws\installed\x64-windows\include;C:\Development\wireshark-win64-libs\lua-5.2.4-unicode-win64-vc14\include;C:\Development\wireshark-win64-libs\lz4-1.7.5-win64ws\include;C:\Development\wireshark-win64-libs\nghttp2-1.14.0-win64ws\include;C:\Development\wireshark-win64-libs\WpdPack\Include;C:\Development\wireshark-win64-libs\libsmi-svn-40773-win64ws\include;C:\Development\wireshark-win64-libs\snappy-1.1.3-win64ws\include;C:\Development\wireshark-win64-libs\zlib-1.2.11-2-ws;C:\Development\wireshark\zlib;C:\Development\wireshark-win64-libs\libxml2-2.9.9-win64ws\include\libxml2;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\include\glib-2.0;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\lib\glib-2.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Development\wireshark;C:\Development\wireshark-win64-libs\c-ares-1.15.0-win64ws\installed\x64-windows\include;C:\Development\wireshark-win64-libs\libgcrypt-1.8.3-win64ws\include;C:\Development\wireshark-win64-libs\gnutls-3.6.3-1-win64ws\include;C:\Development\wireshark-win64-libs\krb5-1.17-1-win64ws\installed\x64-windows\include;C:\Development\wireshark-win64-libs\lua-5.2.4-unicode-win64-vc14\include;C:\Development\wireshark-win64-libs\lz4-1.7.5-win64ws\include;C:\Development\wireshark-win64-libs\nghttp2-1.14.0-win64ws\include;C:\Development\wireshark-win64-libs\WpdPack\Include;C:\Development\wireshark-win64-libs\libsmi-svn-40773-win64ws\include;C:\Development\wireshark-win64-libs\snappy-1.1.3-win64ws\include;C:\Development\wireshark-win64-libs\zlib-1.2.11-2-ws;C:\Development\wireshark\zlib;C:\Development\wireshark-win64-libs\libxml2-2.9.9-win64ws\include\libxml2;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\include\glib-2.0;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\lib\glib-2.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\5800758b62daed1758a54a24888aaa9f\asn1.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Development/wireshark/CMakeFiles/5800758b62daed1758a54a24888aaa9f/asn1.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Development\wireshark\epan\dissectors\asn1\CMakeFiles\asn1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Development/wireshark/CMakeFiles/5800758b62daed1758a54a24888aaa9f/asn1.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Development\wireshark\epan\dissectors\asn1\CMakeFiles\asn1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Development/wireshark/CMakeFiles/5800758b62daed1758a54a24888aaa9f/asn1.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Development\wireshark\epan\dissectors\asn1\CMakeFiles\asn1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Development/wireshark/CMakeFiles/5800758b62daed1758a54a24888aaa9f/asn1.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Development\wireshark\epan\dissectors\asn1\CMakeFiles\asn1</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Development\wireshark\epan\dissectors\asn1\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Development/wireshark/epan/dissectors/asn1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Development/wireshark -BC:/Development/wireshark --check-stamp-file C:/Development/wireshark/epan/dissectors/asn1/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Development/wireshark/epan/dissectors/asn1/CMakeLists.txt;C:\Development\wireshark\epan\dissectors\asn1\CMakeLists.txt;C:\Development\wireshark\epan\dissectors\asn1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Development\wireshark\epan\dissectors\asn1\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Development/wireshark/epan/dissectors/asn1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Development/wireshark -BC:/Development/wireshark --check-stamp-file C:/Development/wireshark/epan/dissectors/asn1/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Development/wireshark/epan/dissectors/asn1/CMakeLists.txt;C:\Development\wireshark\epan\dissectors\asn1\CMakeLists.txt;C:\Development\wireshark\epan\dissectors\asn1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Development\wireshark\epan\dissectors\asn1\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Development/wireshark/epan/dissectors/asn1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Development/wireshark -BC:/Development/wireshark --check-stamp-file C:/Development/wireshark/epan/dissectors/asn1/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Development/wireshark/epan/dissectors/asn1/CMakeLists.txt;C:\Development\wireshark\epan\dissectors\asn1\CMakeLists.txt;C:\Development\wireshark\epan\dissectors\asn1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Development\wireshark\epan\dissectors\asn1\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Development/wireshark/epan/dissectors/asn1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Development/wireshark -BC:/Development/wireshark --check-stamp-file C:/Development/wireshark/epan/dissectors/asn1/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Development/wireshark/epan/dissectors/asn1/CMakeLists.txt;C:\Development\wireshark\epan\dissectors\asn1\CMakeLists.txt;C:\Development\wireshark\epan\dissectors\asn1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Development\wireshark\epan\dissectors\asn1\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Development\wireshark\epan\dissectors\asn1\CMakeFiles\asn1" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Development\wireshark\ZERO_CHECK.vcxproj">
+      <Project>{B765B3E1-9AF0-39DF-BCC2-760F120CAE35}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\HI2Operations\generate_dissector-HI2Operations.vcxproj">
+      <Project>{49C653D6-B57A-3DE6-AC23-B9E944BE803F}</Project>
+      <Name>generate_dissector-HI2Operations</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\acp133\generate_dissector-acp133.vcxproj">
+      <Project>{CA6D4463-4158-304F-A457-B49A24F7E9FD}</Project>
+      <Name>generate_dissector-acp133</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\acse\generate_dissector-acse.vcxproj">
+      <Project>{8DF18855-0764-309C-BD15-4433E59A2A9E}</Project>
+      <Name>generate_dissector-acse</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\ain\generate_dissector-ain.vcxproj">
+      <Project>{5570629A-CC81-373A-9C51-18281870E62C}</Project>
+      <Name>generate_dissector-ain</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\ansi_map\generate_dissector-ansi_map.vcxproj">
+      <Project>{AD2C9A72-ADE7-336D-86BE-883A6A83533D}</Project>
+      <Name>generate_dissector-ansi_map</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\ansi_tcap\generate_dissector-ansi_tcap.vcxproj">
+      <Project>{C3B64792-4161-306A-A629-36B8CB0220B5}</Project>
+      <Name>generate_dissector-ansi_tcap</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\atn-cm\generate_dissector-atn-cm.vcxproj">
+      <Project>{77B948C2-7D64-3DD7-B9A1-AD23D9C70D0D}</Project>
+      <Name>generate_dissector-atn-cm</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\atn-cpdlc\generate_dissector-atn-cpdlc.vcxproj">
+      <Project>{94F365F2-C0C1-3246-A2E1-151607082560}</Project>
+      <Name>generate_dissector-atn-cpdlc</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\atn-ulcs\generate_dissector-atn-ulcs.vcxproj">
+      <Project>{033E3774-3A6D-3154-AD35-8FF0D093DD45}</Project>
+      <Name>generate_dissector-atn-ulcs</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\c1222\generate_dissector-c1222.vcxproj">
+      <Project>{FA547DCB-2FCA-345D-9456-455C5472FB6A}</Project>
+      <Name>generate_dissector-c1222</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\camel\generate_dissector-camel.vcxproj">
+      <Project>{46E0E3A4-DE8A-3757-92F3-15A91F005EEA}</Project>
+      <Name>generate_dissector-camel</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\cbrs-oids\generate_dissector-cbrs-oids.vcxproj">
+      <Project>{735E7193-DB39-30CE-A133-F44DC8B265DC}</Project>
+      <Name>generate_dissector-cbrs-oids</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\cdt\generate_dissector-cdt.vcxproj">
+      <Project>{553BAC58-660A-333F-897E-183926EBACFF}</Project>
+      <Name>generate_dissector-cdt</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\charging_ase\generate_dissector-charging_ase.vcxproj">
+      <Project>{9F9D4E3F-2C9E-3E35-98C0-BB7B75A2BEED}</Project>
+      <Name>generate_dissector-charging_ase</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\cmip\generate_dissector-cmip.vcxproj">
+      <Project>{DEC7E058-829E-3F3B-B727-1AB5E3FC50E4}</Project>
+      <Name>generate_dissector-cmip</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\cmp\generate_dissector-cmp.vcxproj">
+      <Project>{B224697B-D39A-36C4-BBCA-9AD782B2E0FF}</Project>
+      <Name>generate_dissector-cmp</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\cms\generate_dissector-cms.vcxproj">
+      <Project>{B153B897-8384-3591-9E1C-334F4B8F241F}</Project>
+      <Name>generate_dissector-cms</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\credssp\generate_dissector-credssp.vcxproj">
+      <Project>{5641DC02-4DBD-3718-AD0B-5F1443E4E570}</Project>
+      <Name>generate_dissector-credssp</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\crmf\generate_dissector-crmf.vcxproj">
+      <Project>{9562C1A8-978F-373D-BF15-1201A76400CB}</Project>
+      <Name>generate_dissector-crmf</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\dap\generate_dissector-dap.vcxproj">
+      <Project>{488F6559-09A3-346E-9C4D-26CFE477382D}</Project>
+      <Name>generate_dissector-dap</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\disp\generate_dissector-disp.vcxproj">
+      <Project>{9E10FF19-820C-3AD1-9541-B2AD93F59541}</Project>
+      <Name>generate_dissector-disp</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\dop\generate_dissector-dop.vcxproj">
+      <Project>{8A0C3119-3B95-3F54-86C8-A5B80EED4682}</Project>
+      <Name>generate_dissector-dop</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\dsp\generate_dissector-dsp.vcxproj">
+      <Project>{956D869B-7F55-3182-A474-543059A1483E}</Project>
+      <Name>generate_dissector-dsp</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\e1ap\generate_dissector-e1ap.vcxproj">
+      <Project>{BA5A5C30-DB79-361C-B122-CE800CDD2A9C}</Project>
+      <Name>generate_dissector-e1ap</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\ess\generate_dissector-ess.vcxproj">
+      <Project>{7B4A2DDE-CEFB-337B-9681-83049FAA43CC}</Project>
+      <Name>generate_dissector-ess</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\f1ap\generate_dissector-f1ap.vcxproj">
+      <Project>{3BCD1476-419A-3980-AC15-97329435470C}</Project>
+      <Name>generate_dissector-f1ap</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\ftam\generate_dissector-ftam.vcxproj">
+      <Project>{010B0EEE-F540-3C3F-BAEE-D36E8EC4F6D4}</Project>
+      <Name>generate_dissector-ftam</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\glow\generate_dissector-glow.vcxproj">
+      <Project>{454EE470-CC51-33DB-903A-2BD18AAC1D63}</Project>
+      <Name>generate_dissector-glow</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\goose\generate_dissector-goose.vcxproj">
+      <Project>{D74A318D-4EB2-3311-929A-02BC902DB9C5}</Project>
+      <Name>generate_dissector-goose</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\gprscdr\generate_dissector-gprscdr.vcxproj">
+      <Project>{EFA0F70A-526D-3AAE-BD5A-13A95C0C283F}</Project>
+      <Name>generate_dissector-gprscdr</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\gsm_map\generate_dissector-gsm_map.vcxproj">
+      <Project>{6A7E1E43-34B0-39FE-91DD-61F041E94FD2}</Project>
+      <Name>generate_dissector-gsm_map</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\h225\generate_dissector-h225.vcxproj">
+      <Project>{EBA72326-2A91-316E-9772-1ECA23947B2A}</Project>
+      <Name>generate_dissector-h225</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\h235\generate_dissector-h235.vcxproj">
+      <Project>{07396262-2465-3E5C-BF03-155A9116D9AA}</Project>
+      <Name>generate_dissector-h235</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\h245\generate_dissector-h245.vcxproj">
+      <Project>{B03364F8-DEC8-3543-97E2-AB468143D7CE}</Project>
+      <Name>generate_dissector-h245</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\h248\generate_dissector-h248.vcxproj">
+      <Project>{7D01E9ED-7648-3789-9BB3-F8B1F2B881CF}</Project>
+      <Name>generate_dissector-h248</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\h282\generate_dissector-h282.vcxproj">
+      <Project>{8609C933-A6FC-3CA9-89A1-F5587A486FBF}</Project>
+      <Name>generate_dissector-h282</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\h283\generate_dissector-h283.vcxproj">
+      <Project>{00BA4F3F-0842-30B6-9F59-A256A3B58180}</Project>
+      <Name>generate_dissector-h283</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\h323\generate_dissector-h323.vcxproj">
+      <Project>{0EE14EE9-FFF9-341B-8211-77A71AEA7407}</Project>
+      <Name>generate_dissector-h323</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\h450\generate_dissector-h450.vcxproj">
+      <Project>{C5848704-590C-3F9E-A90D-250430F16EFE}</Project>
+      <Name>generate_dissector-h450</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\h450-ros\generate_dissector-h450-ros.vcxproj">
+      <Project>{0F47168C-7503-3D70-AF79-1F92D986E582}</Project>
+      <Name>generate_dissector-h450-ros</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\h460\generate_dissector-h460.vcxproj">
+      <Project>{26417A9E-A663-3FDA-89C2-58F1F1A54A33}</Project>
+      <Name>generate_dissector-h460</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\h501\generate_dissector-h501.vcxproj">
+      <Project>{4F5A66B6-3743-3C40-9AA8-69310558F6BC}</Project>
+      <Name>generate_dissector-h501</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\hnbap\generate_dissector-hnbap.vcxproj">
+      <Project>{00CB9FB8-3D5C-3534-BE53-12F5DF75A51C}</Project>
+      <Name>generate_dissector-hnbap</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\idmp\generate_dissector-idmp.vcxproj">
+      <Project>{CF4F33C1-BBF1-3E6D-9C2B-471728528189}</Project>
+      <Name>generate_dissector-idmp</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\ieee1609dot2\generate_dissector-ieee1609dot2.vcxproj">
+      <Project>{2C4E7A6F-3211-358D-A830-6516333AF699}</Project>
+      <Name>generate_dissector-ieee1609dot2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\ilp\generate_dissector-ilp.vcxproj">
+      <Project>{3CE06464-76CB-31D5-A89A-063335033978}</Project>
+      <Name>generate_dissector-ilp</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\inap\generate_dissector-inap.vcxproj">
+      <Project>{99143481-4D99-3E83-9825-F958F1EDB388}</Project>
+      <Name>generate_dissector-inap</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\isdn-sup\generate_dissector-isdn-sup.vcxproj">
+      <Project>{5500950E-EE87-3C51-809D-525646446B80}</Project>
+      <Name>generate_dissector-isdn-sup</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\its\generate_dissector-its.vcxproj">
+      <Project>{A16A7DE1-A83D-3B68-B494-CAA20B0BBB22}</Project>
+      <Name>generate_dissector-its</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\kerberos\generate_dissector-kerberos.vcxproj">
+      <Project>{4C83FDA2-2E1E-3281-A278-112AAE14F507}</Project>
+      <Name>generate_dissector-kerberos</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\lcsap\generate_dissector-lcsap.vcxproj">
+      <Project>{9E2AC17B-83EF-3A53-96AF-4963520E49F5}</Project>
+      <Name>generate_dissector-lcsap</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\ldap\generate_dissector-ldap.vcxproj">
+      <Project>{FB370C10-B655-303F-90EA-25753116EE0A}</Project>
+      <Name>generate_dissector-ldap</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\lnpdqp\generate_dissector-lnpdqp.vcxproj">
+      <Project>{07EE64AF-D60F-30CD-8DB0-3E5D234A3535}</Project>
+      <Name>generate_dissector-lnpdqp</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\logotypecertextn\generate_dissector-logotypecertextn.vcxproj">
+      <Project>{851134AF-B41E-3F2A-A34E-CB87AC7FF4FB}</Project>
+      <Name>generate_dissector-logotypecertextn</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\lpp\generate_dissector-lpp.vcxproj">
+      <Project>{2DD1E7A3-7D1A-3BFE-A174-A35D813A895A}</Project>
+      <Name>generate_dissector-lpp</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\lppa\generate_dissector-lppa.vcxproj">
+      <Project>{0008F35B-E747-324B-918A-9FDF47546A33}</Project>
+      <Name>generate_dissector-lppa</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\lppe\generate_dissector-lppe.vcxproj">
+      <Project>{57AF54A3-A855-3FA5-BE3D-AEE969895824}</Project>
+      <Name>generate_dissector-lppe</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\lte-rrc\generate_dissector-lte-rrc.vcxproj">
+      <Project>{61167136-43CD-3048-A0C8-2EE5A52D8299}</Project>
+      <Name>generate_dissector-lte-rrc</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\m2ap\generate_dissector-m2ap.vcxproj">
+      <Project>{75E5F5B6-5FBF-3ADA-A12D-8471B268593E}</Project>
+      <Name>generate_dissector-m2ap</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\m3ap\generate_dissector-m3ap.vcxproj">
+      <Project>{A894E9B9-7D31-3FD8-AC2C-19B8883D5086}</Project>
+      <Name>generate_dissector-m3ap</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\mms\generate_dissector-mms.vcxproj">
+      <Project>{E08A1776-0D89-30EB-B2A9-80C53C7D4500}</Project>
+      <Name>generate_dissector-mms</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\mpeg-audio\generate_dissector-mpeg-audio.vcxproj">
+      <Project>{C83290A3-C541-31AF-BD25-C0745F480D90}</Project>
+      <Name>generate_dissector-mpeg-audio</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\mpeg-pes\generate_dissector-mpeg-pes.vcxproj">
+      <Project>{9D95003D-9476-35B0-A59E-EF634F43741A}</Project>
+      <Name>generate_dissector-mpeg-pes</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\mudurl\generate_dissector-mudurl.vcxproj">
+      <Project>{CB86AAE9-3241-3C88-AB66-706A617605B3}</Project>
+      <Name>generate_dissector-mudurl</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\nbap\generate_dissector-nbap.vcxproj">
+      <Project>{94249660-1CB7-3B9D-9A69-6901CAADC145}</Project>
+      <Name>generate_dissector-nbap</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\ngap\generate_dissector-ngap.vcxproj">
+      <Project>{4DA90BB9-15A9-3CF1-92EF-8C7E31938252}</Project>
+      <Name>generate_dissector-ngap</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\nist-csor\generate_dissector-nist-csor.vcxproj">
+      <Project>{D477D796-669E-3587-A031-3E5CA3304623}</Project>
+      <Name>generate_dissector-nist-csor</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\novell_pkis\generate_dissector-novell_pkis.vcxproj">
+      <Project>{1D81F60D-34A5-33A2-B2A6-62E47720C175}</Project>
+      <Name>generate_dissector-novell_pkis</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\nr-rrc\generate_dissector-nr-rrc.vcxproj">
+      <Project>{E984615A-B916-33DA-A323-B5975578074B}</Project>
+      <Name>generate_dissector-nr-rrc</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\ns_cert_exts\generate_dissector-ns_cert_exts.vcxproj">
+      <Project>{4E23D702-830D-34BE-BABF-8BA1D379ED90}</Project>
+      <Name>generate_dissector-ns_cert_exts</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\ocsp\generate_dissector-ocsp.vcxproj">
+      <Project>{1CA08772-D9A5-3972-8F2D-554BC1146EC2}</Project>
+      <Name>generate_dissector-ocsp</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\p1\generate_dissector-p1.vcxproj">
+      <Project>{FC8811DC-031C-34D5-A607-4D871FA74A8D}</Project>
+      <Name>generate_dissector-p1</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\p22\generate_dissector-p22.vcxproj">
+      <Project>{BE8D8DB3-F1B3-399F-819A-576E9634BD0B}</Project>
+      <Name>generate_dissector-p22</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\p7\generate_dissector-p7.vcxproj">
+      <Project>{283EB001-79E7-3016-9F31-3190EB75FADA}</Project>
+      <Name>generate_dissector-p7</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\p772\generate_dissector-p772.vcxproj">
+      <Project>{E58A2648-908F-3D77-B5F9-DE4B07461879}</Project>
+      <Name>generate_dissector-p772</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\pcap\generate_dissector-pcap.vcxproj">
+      <Project>{9E5A59D3-DAFB-3008-A20A-5DD2B0C17718}</Project>
+      <Name>generate_dissector-pcap</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\pkcs1\generate_dissector-pkcs1.vcxproj">
+      <Project>{9C57C4A1-D2AD-346E-AA61-9EF5D8EC742C}</Project>
+      <Name>generate_dissector-pkcs1</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\pkcs10\generate_dissector-pkcs10.vcxproj">
+      <Project>{8DF0B899-1C15-33CE-AA2F-503FEFC80C16}</Project>
+      <Name>generate_dissector-pkcs10</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\pkcs12\generate_dissector-pkcs12.vcxproj">
+      <Project>{36EE0E71-0AD3-39DD-9987-D1A1F4B1B66B}</Project>
+      <Name>generate_dissector-pkcs12</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\pkinit\generate_dissector-pkinit.vcxproj">
+      <Project>{124E94CB-6DFE-311B-A60A-A4547686F7A9}</Project>
+      <Name>generate_dissector-pkinit</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\pkix1explicit\generate_dissector-pkix1explicit.vcxproj">
+      <Project>{B92E9E31-205A-39F9-9AFF-1084BBC8622E}</Project>
+      <Name>generate_dissector-pkix1explicit</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\pkix1implicit\generate_dissector-pkix1implicit.vcxproj">
+      <Project>{D27206BF-5253-3D5E-9104-FE375ECA3880}</Project>
+      <Name>generate_dissector-pkix1implicit</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\pkixac\generate_dissector-pkixac.vcxproj">
+      <Project>{8E680413-A76A-3597-9650-84A4001CF7F7}</Project>
+      <Name>generate_dissector-pkixac</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\pkixproxy\generate_dissector-pkixproxy.vcxproj">
+      <Project>{1AE818A2-DFEF-39D8-8DE3-85D3AD7BF426}</Project>
+      <Name>generate_dissector-pkixproxy</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\pkixqualified\generate_dissector-pkixqualified.vcxproj">
+      <Project>{5BC158DE-3C79-3C49-8EE2-C16D1D61B866}</Project>
+      <Name>generate_dissector-pkixqualified</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\pkixtsp\generate_dissector-pkixtsp.vcxproj">
+      <Project>{C01A1F8E-92A2-3F06-9054-C1C3A6ED138A}</Project>
+      <Name>generate_dissector-pkixtsp</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\pres\generate_dissector-pres.vcxproj">
+      <Project>{056C79B2-53F0-398E-AE76-75F2803A7DEB}</Project>
+      <Name>generate_dissector-pres</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\q932\generate_dissector-q932.vcxproj">
+      <Project>{39DA059B-AC5E-3569-8EEF-8F2247B23F9A}</Project>
+      <Name>generate_dissector-q932</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\q932-ros\generate_dissector-q932-ros.vcxproj">
+      <Project>{B2D57DF4-B8D4-3C2D-A455-57EAEF6DC51D}</Project>
+      <Name>generate_dissector-q932-ros</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\qsig\generate_dissector-qsig.vcxproj">
+      <Project>{FEF0396F-1FBD-3EC5-9E68-95FD4AC6D8C7}</Project>
+      <Name>generate_dissector-qsig</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\ranap\generate_dissector-ranap.vcxproj">
+      <Project>{EB2DF5A3-D90D-3039-9992-EFEE41989352}</Project>
+      <Name>generate_dissector-ranap</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\rnsap\generate_dissector-rnsap.vcxproj">
+      <Project>{1AC9F509-6B78-378C-A106-ABA0A9B732FD}</Project>
+      <Name>generate_dissector-rnsap</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\ros\generate_dissector-ros.vcxproj">
+      <Project>{98CFE5CE-F6BC-3E33-B128-5C364EFE791A}</Project>
+      <Name>generate_dissector-ros</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\rrc\generate_dissector-rrc.vcxproj">
+      <Project>{99CA55CA-6A1D-339F-AF16-A7CD9CAC1A9F}</Project>
+      <Name>generate_dissector-rrc</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\rrlp\generate_dissector-rrlp.vcxproj">
+      <Project>{96E7664E-D6D0-3E2C-B655-3A584214C28A}</Project>
+      <Name>generate_dissector-rrlp</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\rtse\generate_dissector-rtse.vcxproj">
+      <Project>{9BFB0E3F-73F0-37A7-87CC-1844039247D4}</Project>
+      <Name>generate_dissector-rtse</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\rua\generate_dissector-rua.vcxproj">
+      <Project>{CA8FCA4C-4869-3C44-BA7D-D334CD923CC0}</Project>
+      <Name>generate_dissector-rua</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\s1ap\generate_dissector-s1ap.vcxproj">
+      <Project>{A5374A6C-93EE-3D3F-A4E8-D70DF1411CAC}</Project>
+      <Name>generate_dissector-s1ap</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\sabp\generate_dissector-sabp.vcxproj">
+      <Project>{11B40D57-6D99-3098-AA4F-7866E35834A1}</Project>
+      <Name>generate_dissector-sabp</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\sbc-ap\generate_dissector-sbc-ap.vcxproj">
+      <Project>{49B73436-ABD6-3986-95D5-A83B1A066353}</Project>
+      <Name>generate_dissector-sbc-ap</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\smrse\generate_dissector-smrse.vcxproj">
+      <Project>{1C422E36-A3EB-37A0-80AE-3A9221E82466}</Project>
+      <Name>generate_dissector-smrse</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\snmp\generate_dissector-snmp.vcxproj">
+      <Project>{7036DA43-C45C-3F88-B03D-4BAE6E67EB11}</Project>
+      <Name>generate_dissector-snmp</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\spnego\generate_dissector-spnego.vcxproj">
+      <Project>{2689AAB3-A5E9-398A-8F84-C6E6C0D149B3}</Project>
+      <Name>generate_dissector-spnego</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\sv\generate_dissector-sv.vcxproj">
+      <Project>{2AE83961-3803-3573-9685-E423628588D5}</Project>
+      <Name>generate_dissector-sv</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\t124\generate_dissector-t124.vcxproj">
+      <Project>{DDAA8CA7-2430-33F3-B9BB-7556AE1CF368}</Project>
+      <Name>generate_dissector-t124</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\t125\generate_dissector-t125.vcxproj">
+      <Project>{48BFD9DF-4C6D-3E0D-B5BE-BDD1C9B04E31}</Project>
+      <Name>generate_dissector-t125</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\t38\generate_dissector-t38.vcxproj">
+      <Project>{10464C45-913E-390F-AA98-1C78D621E658}</Project>
+      <Name>generate_dissector-t38</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\tcap\generate_dissector-tcap.vcxproj">
+      <Project>{B6FDDAF4-BBC2-3E83-807C-3F1017AA0DCD}</Project>
+      <Name>generate_dissector-tcap</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\tcg-cp-oids\generate_dissector-tcg-cp-oids.vcxproj">
+      <Project>{9157F393-2FF1-3E09-8C66-A364C243B777}</Project>
+      <Name>generate_dissector-tcg-cp-oids</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\tetra\generate_dissector-tetra.vcxproj">
+      <Project>{EE8A3C89-07B0-3296-8299-95ADC666E55C}</Project>
+      <Name>generate_dissector-tetra</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\ulp\generate_dissector-ulp.vcxproj">
+      <Project>{43885E15-6236-38CC-832D-498505DBFDAA}</Project>
+      <Name>generate_dissector-ulp</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\wlancertextn\generate_dissector-wlancertextn.vcxproj">
+      <Project>{9A35A9AB-05ED-32FD-B455-D9D58B69FC33}</Project>
+      <Name>generate_dissector-wlancertextn</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\x2ap\generate_dissector-x2ap.vcxproj">
+      <Project>{B4DE605A-60EF-30F5-A83C-2E2156A52D90}</Project>
+      <Name>generate_dissector-x2ap</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\x509af\generate_dissector-x509af.vcxproj">
+      <Project>{F735548B-CD7E-3D92-A2DA-451D84D06D0C}</Project>
+      <Name>generate_dissector-x509af</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\x509ce\generate_dissector-x509ce.vcxproj">
+      <Project>{8B81BBA7-35C0-3F20-9C04-68F869F87001}</Project>
+      <Name>generate_dissector-x509ce</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\x509if\generate_dissector-x509if.vcxproj">
+      <Project>{AD4486A9-1A25-353A-90F6-E1136C8B075B}</Project>
+      <Name>generate_dissector-x509if</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\x509sat\generate_dissector-x509sat.vcxproj">
+      <Project>{6BCB45EA-7234-3525-B093-66590FCEEBB2}</Project>
+      <Name>generate_dissector-x509sat</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\xnap\generate_dissector-xnap.vcxproj">
+      <Project>{F9F97977-41B3-3840-AF36-05C4F063142B}</Project>
+      <Name>generate_dissector-xnap</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\z3950\generate_dissector-z3950.vcxproj">
+      <Project>{F0DC968A-F040-3D4F-9D2A-A889BFF40964}</Project>
+      <Name>generate_dissector-z3950</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

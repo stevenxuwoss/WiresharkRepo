@@ -1,0 +1,9 @@
+# CMake generation dependency list for this directory.
+C:/Development/wireshark/image/about.qrc
+C:/Development/wireshark/image/languages/languages.qrc
+C:/Development/wireshark/image/layout.qrc
+C:/Development/wireshark/image/stock_icons.qrc
+C:/Development/wireshark/image/wsicon.qrc
+C:/Development/wireshark/ui/qt/CMakeLists.txt
+C:/Development/wireshark/ui/qt/i18n.qrc
+C:/Development/wireshark/ui/qt/i18n.qrc.in

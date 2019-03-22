@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Development\wireshark\epan\wmem\wmem_test.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Development\wireshark\epan\wmem\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="C:\Development\wireshark\epan\wmem\wmem.dir\$(Configuration)\wmem_array.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\epan\wmem\wmem.dir\$(Configuration)\wmem_core.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\epan\wmem\wmem.dir\$(Configuration)\wmem_allocator_block.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\epan\wmem\wmem.dir\$(Configuration)\wmem_allocator_block_fast.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\epan\wmem\wmem.dir\$(Configuration)\wmem_allocator_simple.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\epan\wmem\wmem.dir\$(Configuration)\wmem_allocator_strict.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\epan\wmem\wmem.dir\$(Configuration)\wmem_interval_tree.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\epan\wmem\wmem.dir\$(Configuration)\wmem_list.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\epan\wmem\wmem.dir\$(Configuration)\wmem_map.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\epan\wmem\wmem.dir\$(Configuration)\wmem_miscutl.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\epan\wmem\wmem.dir\$(Configuration)\wmem_scopes.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\epan\wmem\wmem.dir\$(Configuration)\wmem_stack.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\epan\wmem\wmem.dir\$(Configuration)\wmem_strbuf.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\epan\wmem\wmem.dir\$(Configuration)\wmem_strutl.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\epan\wmem\wmem.dir\$(Configuration)\wmem_tree.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Development\wireshark\epan\wmem\wmem.dir\$(Configuration)\wmem_user_cb.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{2B62FEC1-30E0-3133-9EE0-2D8A18198EF0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{32DF5DB2-499A-3971-AE80-FFC1FEF2EED5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

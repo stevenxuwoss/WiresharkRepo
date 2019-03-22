@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+C:/Development/wireshark/cmake/modules/LocatePythonModule.cmake
+C:/Development/wireshark/cmake/modules/WiresharkPlugin.cmake
+C:/Development/wireshark/plugins/epan/opcua/CMakeLists.txt
+C:/Development/wireshark/plugins/plugin.rc.in

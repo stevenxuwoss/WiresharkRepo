@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Development\wireshark\epan\crypt\dot11decrypt.c">
+      <Filter>crypt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\epan\crypt\dot11decrypt_ccmp.c">
+      <Filter>crypt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\epan\crypt\dot11decrypt_rijndael.c">
+      <Filter>crypt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\epan\crypt\dot11decrypt_tkip.c">
+      <Filter>crypt</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Development\wireshark\epan\crypt\dot11decrypt_debug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\epan\crypt\dot11decrypt_int.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\epan\crypt\dot11decrypt_interop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\epan\crypt\dot11decrypt_rijndael.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\epan\crypt\dot11decrypt_system.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\epan\crypt\dot11decrypt_user.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\epan\crypt\dot11decrypt_ws.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\epan\crypt\kasumi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\wireshark\epan\crypt\wep-wpadefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Development\wireshark\epan\crypt\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C6999C75-954B-316A-A081-47219EB72085}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypt">
+      <UniqueIdentifier>{041D5FB3-2DFB-3CA1-877C-5A44B1BAE1B6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Development\wireshark\epan\wslua\lrexlib.c">
+      <Filter>wslua</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\epan\wslua\lrexlib_glib.c">
+      <Filter>wslua</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\epan\wslua\lrexlib_glib_f.c">
+      <Filter>wslua</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\epan\wslua\lua_bitop.c">
+      <Filter>wslua</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\epan\wslua\wslua_address.c">
+      <Filter>wslua</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\epan\wslua\wslua_byte_array.c">
+      <Filter>wslua</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\epan\wslua\wslua_capture_info.c">
+      <Filter>wslua</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\epan\wslua\wslua_column.c">
+      <Filter>wslua</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\epan\wslua\wslua_dir.c">
+      <Filter>wslua</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\epan\wslua\wslua_dissector.c">
+      <Filter>wslua</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\epan\wslua\wslua_dumper.c">
+      <Filter>wslua</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\epan\wslua\wslua_field.c">
+      <Filter>wslua</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\epan\wslua\wslua_file.c">
+      <Filter>wslua</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\epan\wslua\wslua_file_common.c">
+      <Filter>wslua</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\epan\wslua\wslua_file_handler.c">
+      <Filter>wslua</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\epan\wslua\wslua_frame_info.c">
+      <Filter>wslua</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\epan\wslua\wslua_gui.c">
+      <Filter>wslua</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\epan\wslua\wslua_int64.c">
+      <Filter>wslua</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\epan\wslua\wslua_internals.c">
+      <Filter>wslua</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\epan\wslua\wslua_listener.c">
+      <Filter>wslua</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\epan\wslua\wslua_nstime.c">
+      <Filter>wslua</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\epan\wslua\wslua_pinfo.c">
+      <Filter>wslua</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\epan\wslua\wslua_pref.c">
+      <Filter>wslua</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\epan\wslua\wslua_proto.c">
+      <Filter>wslua</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\epan\wslua\wslua_proto_expert.c">
+      <Filter>wslua</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\epan\wslua\wslua_proto_field.c">
+      <Filter>wslua</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\epan\wslua\wslua_struct.c">
+      <Filter>wslua</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\epan\wslua\wslua_tree.c">
+      <Filter>wslua</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\epan\wslua\wslua_tvb.c">
+      <Filter>wslua</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\epan\wslua\wslua_util.c">
+      <Filter>wslua</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\epan\wslua\taps_wslua.c">
+      <Filter>wslua</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\epan\wslua\register_wslua.c">
+      <Filter>wslua</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\wireshark\epan\wslua\init_wslua.c">
+      <Filter>wslua</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\774f27b68c0df822cb665b933ea0e720\taps_wslua.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\774f27b68c0df822cb665b933ea0e720\declare_wslua.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Development\wireshark\epan\wslua\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{15AD5180-863D-3736-8DCF-AD1A045E840D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="wslua">
+      <UniqueIdentifier>{47C4C423-1CA0-30C4-91F7-4D83E6F67D6A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

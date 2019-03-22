@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CF4F33C1-BBF1-3E6D-9C2B-471728528189}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>generate_dissector-idmp</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Development\wireshark;C:\Development\wireshark-win64-libs\c-ares-1.15.0-win64ws\installed\x64-windows\include;C:\Development\wireshark-win64-libs\libgcrypt-1.8.3-win64ws\include;C:\Development\wireshark-win64-libs\gnutls-3.6.3-1-win64ws\include;C:\Development\wireshark-win64-libs\krb5-1.17-1-win64ws\installed\x64-windows\include;C:\Development\wireshark-win64-libs\lua-5.2.4-unicode-win64-vc14\include;C:\Development\wireshark-win64-libs\lz4-1.7.5-win64ws\include;C:\Development\wireshark-win64-libs\nghttp2-1.14.0-win64ws\include;C:\Development\wireshark-win64-libs\WpdPack\Include;C:\Development\wireshark-win64-libs\libsmi-svn-40773-win64ws\include;C:\Development\wireshark-win64-libs\snappy-1.1.3-win64ws\include;C:\Development\wireshark-win64-libs\zlib-1.2.11-2-ws;C:\Development\wireshark\zlib;C:\Development\wireshark-win64-libs\libxml2-2.9.9-win64ws\include\libxml2;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\include\glib-2.0;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\lib\glib-2.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Development\wireshark;C:\Development\wireshark-win64-libs\c-ares-1.15.0-win64ws\installed\x64-windows\include;C:\Development\wireshark-win64-libs\libgcrypt-1.8.3-win64ws\include;C:\Development\wireshark-win64-libs\gnutls-3.6.3-1-win64ws\include;C:\Development\wireshark-win64-libs\krb5-1.17-1-win64ws\installed\x64-windows\include;C:\Development\wireshark-win64-libs\lua-5.2.4-unicode-win64-vc14\include;C:\Development\wireshark-win64-libs\lz4-1.7.5-win64ws\include;C:\Development\wireshark-win64-libs\nghttp2-1.14.0-win64ws\include;C:\Development\wireshark-win64-libs\WpdPack\Include;C:\Development\wireshark-win64-libs\libsmi-svn-40773-win64ws\include;C:\Development\wireshark-win64-libs\snappy-1.1.3-win64ws\include;C:\Development\wireshark-win64-libs\zlib-1.2.11-2-ws;C:\Development\wireshark\zlib;C:\Development\wireshark-win64-libs\libxml2-2.9.9-win64ws\include\libxml2;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\include\glib-2.0;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\lib\glib-2.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Development\wireshark;C:\Development\wireshark-win64-libs\c-ares-1.15.0-win64ws\installed\x64-windows\include;C:\Development\wireshark-win64-libs\libgcrypt-1.8.3-win64ws\include;C:\Development\wireshark-win64-libs\gnutls-3.6.3-1-win64ws\include;C:\Development\wireshark-win64-libs\krb5-1.17-1-win64ws\installed\x64-windows\include;C:\Development\wireshark-win64-libs\lua-5.2.4-unicode-win64-vc14\include;C:\Development\wireshark-win64-libs\lz4-1.7.5-win64ws\include;C:\Development\wireshark-win64-libs\nghttp2-1.14.0-win64ws\include;C:\Development\wireshark-win64-libs\WpdPack\Include;C:\Development\wireshark-win64-libs\libsmi-svn-40773-win64ws\include;C:\Development\wireshark-win64-libs\snappy-1.1.3-win64ws\include;C:\Development\wireshark-win64-libs\zlib-1.2.11-2-ws;C:\Development\wireshark\zlib;C:\Development\wireshark-win64-libs\libxml2-2.9.9-win64ws\include\libxml2;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\include\glib-2.0;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\lib\glib-2.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Development\wireshark;C:\Development\wireshark-win64-libs\c-ares-1.15.0-win64ws\installed\x64-windows\include;C:\Development\wireshark-win64-libs\libgcrypt-1.8.3-win64ws\include;C:\Development\wireshark-win64-libs\gnutls-3.6.3-1-win64ws\include;C:\Development\wireshark-win64-libs\krb5-1.17-1-win64ws\installed\x64-windows\include;C:\Development\wireshark-win64-libs\lua-5.2.4-unicode-win64-vc14\include;C:\Development\wireshark-win64-libs\lz4-1.7.5-win64ws\include;C:\Development\wireshark-win64-libs\nghttp2-1.14.0-win64ws\include;C:\Development\wireshark-win64-libs\WpdPack\Include;C:\Development\wireshark-win64-libs\libsmi-svn-40773-win64ws\include;C:\Development\wireshark-win64-libs\snappy-1.1.3-win64ws\include;C:\Development\wireshark-win64-libs\zlib-1.2.11-2-ws;C:\Development\wireshark\zlib;C:\Development\wireshark-win64-libs\libxml2-2.9.9-win64ws\include\libxml2;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\include\glib-2.0;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\lib\glib-2.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\0e079b686f819f0808ccd2b45bb5037c\packet-idmp-stamp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating packet-idmp-stamp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Python37\python.exe C:\Development\wireshark\tools\asn2wrs.py -b -L -p idmp -c C:/Development/wireshark/epan/dissectors/asn1/idmp/idmp.cnf -s C:/Development/wireshark/epan/dissectors/asn1/idmp/packet-idmp-template -D C:/Development/wireshark/epan/dissectors/asn1/idmp -O C:/Development/wireshark/epan/dissectors IDMProtocolSpecification.asn CommonProtocolSpecification.asn
+if %errorlevel% neq 0 goto :cmEnd
+C:\Python37\python.exe -c "import shutil, sys";" x,s,d=sys.argv";" open(d, 'w')";" shutil.copystat(s, d)" C:/Development/wireshark/epan/dissectors/packet-idmp.c packet-idmp-stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Development/wireshark/CMakeFiles/0e079b686f819f0808ccd2b45bb5037c/packet-idmp-stamp.rule;C:\Development\wireshark\tools\asn2wrs.py;C:\Development\wireshark\epan\dissectors\asn1\idmp\IDMProtocolSpecification.asn;C:\Development\wireshark\epan\dissectors\asn1\idmp\CommonProtocolSpecification.asn;C:\Development\wireshark\epan\dissectors\asn1\idmp\packet-idmp-template.c;C:\Development\wireshark\epan\dissectors\asn1\idmp\packet-idmp-template.h;C:\Development\wireshark\epan\dissectors\asn1\idmp\idmp.cnf;C:\Development\wireshark\epan\dissectors\asn1\x509af\x509af-exp.cnf;C:\Development\wireshark\epan\dissectors\asn1\x509ce\x509ce-exp.cnf;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Development\wireshark\epan\dissectors\asn1\idmp\packet-idmp-stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating packet-idmp-stamp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Python37\python.exe C:\Development\wireshark\tools\asn2wrs.py -b -L -p idmp -c C:/Development/wireshark/epan/dissectors/asn1/idmp/idmp.cnf -s C:/Development/wireshark/epan/dissectors/asn1/idmp/packet-idmp-template -D C:/Development/wireshark/epan/dissectors/asn1/idmp -O C:/Development/wireshark/epan/dissectors IDMProtocolSpecification.asn CommonProtocolSpecification.asn
+if %errorlevel% neq 0 goto :cmEnd
+C:\Python37\python.exe -c "import shutil, sys";" x,s,d=sys.argv";" open(d, 'w')";" shutil.copystat(s, d)" C:/Development/wireshark/epan/dissectors/packet-idmp.c packet-idmp-stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Development/wireshark/CMakeFiles/0e079b686f819f0808ccd2b45bb5037c/packet-idmp-stamp.rule;C:\Development\wireshark\tools\asn2wrs.py;C:\Development\wireshark\epan\dissectors\asn1\idmp\IDMProtocolSpecification.asn;C:\Development\wireshark\epan\dissectors\asn1\idmp\CommonProtocolSpecification.asn;C:\Development\wireshark\epan\dissectors\asn1\idmp\packet-idmp-template.c;C:\Development\wireshark\epan\dissectors\asn1\idmp\packet-idmp-template.h;C:\Development\wireshark\epan\dissectors\asn1\idmp\idmp.cnf;C:\Development\wireshark\epan\dissectors\asn1\x509af\x509af-exp.cnf;C:\Development\wireshark\epan\dissectors\asn1\x509ce\x509ce-exp.cnf;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Development\wireshark\epan\dissectors\asn1\idmp\packet-idmp-stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating packet-idmp-stamp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Python37\python.exe C:\Development\wireshark\tools\asn2wrs.py -b -L -p idmp -c C:/Development/wireshark/epan/dissectors/asn1/idmp/idmp.cnf -s C:/Development/wireshark/epan/dissectors/asn1/idmp/packet-idmp-template -D C:/Development/wireshark/epan/dissectors/asn1/idmp -O C:/Development/wireshark/epan/dissectors IDMProtocolSpecification.asn CommonProtocolSpecification.asn
+if %errorlevel% neq 0 goto :cmEnd
+C:\Python37\python.exe -c "import shutil, sys";" x,s,d=sys.argv";" open(d, 'w')";" shutil.copystat(s, d)" C:/Development/wireshark/epan/dissectors/packet-idmp.c packet-idmp-stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Development/wireshark/CMakeFiles/0e079b686f819f0808ccd2b45bb5037c/packet-idmp-stamp.rule;C:\Development\wireshark\tools\asn2wrs.py;C:\Development\wireshark\epan\dissectors\asn1\idmp\IDMProtocolSpecification.asn;C:\Development\wireshark\epan\dissectors\asn1\idmp\CommonProtocolSpecification.asn;C:\Development\wireshark\epan\dissectors\asn1\idmp\packet-idmp-template.c;C:\Development\wireshark\epan\dissectors\asn1\idmp\packet-idmp-template.h;C:\Development\wireshark\epan\dissectors\asn1\idmp\idmp.cnf;C:\Development\wireshark\epan\dissectors\asn1\x509af\x509af-exp.cnf;C:\Development\wireshark\epan\dissectors\asn1\x509ce\x509ce-exp.cnf;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Development\wireshark\epan\dissectors\asn1\idmp\packet-idmp-stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating packet-idmp-stamp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Python37\python.exe C:\Development\wireshark\tools\asn2wrs.py -b -L -p idmp -c C:/Development/wireshark/epan/dissectors/asn1/idmp/idmp.cnf -s C:/Development/wireshark/epan/dissectors/asn1/idmp/packet-idmp-template -D C:/Development/wireshark/epan/dissectors/asn1/idmp -O C:/Development/wireshark/epan/dissectors IDMProtocolSpecification.asn CommonProtocolSpecification.asn
+if %errorlevel% neq 0 goto :cmEnd
+C:\Python37\python.exe -c "import shutil, sys";" x,s,d=sys.argv";" open(d, 'w')";" shutil.copystat(s, d)" C:/Development/wireshark/epan/dissectors/packet-idmp.c packet-idmp-stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Development/wireshark/CMakeFiles/0e079b686f819f0808ccd2b45bb5037c/packet-idmp-stamp.rule;C:\Development\wireshark\tools\asn2wrs.py;C:\Development\wireshark\epan\dissectors\asn1\idmp\IDMProtocolSpecification.asn;C:\Development\wireshark\epan\dissectors\asn1\idmp\CommonProtocolSpecification.asn;C:\Development\wireshark\epan\dissectors\asn1\idmp\packet-idmp-template.c;C:\Development\wireshark\epan\dissectors\asn1\idmp\packet-idmp-template.h;C:\Development\wireshark\epan\dissectors\asn1\idmp\idmp.cnf;C:\Development\wireshark\epan\dissectors\asn1\x509af\x509af-exp.cnf;C:\Development\wireshark\epan\dissectors\asn1\x509ce\x509ce-exp.cnf;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Development\wireshark\epan\dissectors\asn1\idmp\packet-idmp-stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\85bb8ccba6b66f633d6d3ea028c83a97\generate_dissector-idmp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Development/wireshark/CMakeFiles/85bb8ccba6b66f633d6d3ea028c83a97/generate_dissector-idmp.rule;C:\Development\wireshark\epan\dissectors\asn1\idmp\packet-idmp-stamp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Development\wireshark\epan\dissectors\asn1\idmp\CMakeFiles\generate_dissector-idmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Development/wireshark/CMakeFiles/85bb8ccba6b66f633d6d3ea028c83a97/generate_dissector-idmp.rule;C:\Development\wireshark\epan\dissectors\asn1\idmp\packet-idmp-stamp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Development\wireshark\epan\dissectors\asn1\idmp\CMakeFiles\generate_dissector-idmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Development/wireshark/CMakeFiles/85bb8ccba6b66f633d6d3ea028c83a97/generate_dissector-idmp.rule;C:\Development\wireshark\epan\dissectors\asn1\idmp\packet-idmp-stamp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Development\wireshark\epan\dissectors\asn1\idmp\CMakeFiles\generate_dissector-idmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Development/wireshark/CMakeFiles/85bb8ccba6b66f633d6d3ea028c83a97/generate_dissector-idmp.rule;C:\Development\wireshark\epan\dissectors\asn1\idmp\packet-idmp-stamp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Development\wireshark\epan\dissectors\asn1\idmp\CMakeFiles\generate_dissector-idmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Development\wireshark\epan\dissectors\asn1\idmp\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Development/wireshark/epan/dissectors/asn1/idmp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Development/wireshark -BC:/Development/wireshark --check-stamp-file C:/Development/wireshark/epan/dissectors/asn1/idmp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Development/wireshark/epan/dissectors/asn1/idmp/CMakeLists.txt;C:\Development\wireshark\epan\dissectors\asn1\idmp\CMakeLists.txt;C:\Development\wireshark\epan\dissectors\asn1\idmp\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Development\wireshark\epan\dissectors\asn1\idmp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Development/wireshark/epan/dissectors/asn1/idmp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Development/wireshark -BC:/Development/wireshark --check-stamp-file C:/Development/wireshark/epan/dissectors/asn1/idmp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Development/wireshark/epan/dissectors/asn1/idmp/CMakeLists.txt;C:\Development\wireshark\epan\dissectors\asn1\idmp\CMakeLists.txt;C:\Development\wireshark\epan\dissectors\asn1\idmp\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Development\wireshark\epan\dissectors\asn1\idmp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Development/wireshark/epan/dissectors/asn1/idmp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Development/wireshark -BC:/Development/wireshark --check-stamp-file C:/Development/wireshark/epan/dissectors/asn1/idmp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Development/wireshark/epan/dissectors/asn1/idmp/CMakeLists.txt;C:\Development\wireshark\epan\dissectors\asn1\idmp\CMakeLists.txt;C:\Development\wireshark\epan\dissectors\asn1\idmp\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Development\wireshark\epan\dissectors\asn1\idmp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Development/wireshark/epan/dissectors/asn1/idmp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Development/wireshark -BC:/Development/wireshark --check-stamp-file C:/Development/wireshark/epan/dissectors/asn1/idmp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Development/wireshark/epan/dissectors/asn1/idmp/CMakeLists.txt;C:\Development\wireshark\epan\dissectors\asn1\idmp\CMakeLists.txt;C:\Development\wireshark\epan\dissectors\asn1\idmp\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Development\wireshark\epan\dissectors\asn1\idmp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Development\wireshark\epan\dissectors\asn1\idmp\CMakeFiles\generate_dissector-idmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Development\wireshark\ZERO_CHECK.vcxproj">
+      <Project>{B765B3E1-9AF0-39DF-BCC2-760F120CAE35}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\x509af\generate-x509af-exp.cnf.vcxproj">
+      <Project>{15510236-7905-3454-8B2D-445916BDEDD6}</Project>
+      <Name>generate-x509af-exp.cnf</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\wireshark\epan\dissectors\asn1\x509ce\generate-x509ce-exp.cnf.vcxproj">
+      <Project>{1B256DED-BBE6-3C40-9A2E-A2E36FFC830B}</Project>
+      <Name>generate-x509ce-exp.cnf</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

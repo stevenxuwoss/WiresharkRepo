@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{FEF0396F-1FBD-3EC5-9E68-95FD4AC6D8C7}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>generate_dissector-qsig</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Development\wireshark;C:\Development\wireshark-win64-libs\c-ares-1.15.0-win64ws\installed\x64-windows\include;C:\Development\wireshark-win64-libs\libgcrypt-1.8.3-win64ws\include;C:\Development\wireshark-win64-libs\gnutls-3.6.3-1-win64ws\include;C:\Development\wireshark-win64-libs\krb5-1.17-1-win64ws\installed\x64-windows\include;C:\Development\wireshark-win64-libs\lua-5.2.4-unicode-win64-vc14\include;C:\Development\wireshark-win64-libs\lz4-1.7.5-win64ws\include;C:\Development\wireshark-win64-libs\nghttp2-1.14.0-win64ws\include;C:\Development\wireshark-win64-libs\WpdPack\Include;C:\Development\wireshark-win64-libs\libsmi-svn-40773-win64ws\include;C:\Development\wireshark-win64-libs\snappy-1.1.3-win64ws\include;C:\Development\wireshark-win64-libs\zlib-1.2.11-2-ws;C:\Development\wireshark\zlib;C:\Development\wireshark-win64-libs\libxml2-2.9.9-win64ws\include\libxml2;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\include\glib-2.0;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\lib\glib-2.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Development\wireshark;C:\Development\wireshark-win64-libs\c-ares-1.15.0-win64ws\installed\x64-windows\include;C:\Development\wireshark-win64-libs\libgcrypt-1.8.3-win64ws\include;C:\Development\wireshark-win64-libs\gnutls-3.6.3-1-win64ws\include;C:\Development\wireshark-win64-libs\krb5-1.17-1-win64ws\installed\x64-windows\include;C:\Development\wireshark-win64-libs\lua-5.2.4-unicode-win64-vc14\include;C:\Development\wireshark-win64-libs\lz4-1.7.5-win64ws\include;C:\Development\wireshark-win64-libs\nghttp2-1.14.0-win64ws\include;C:\Development\wireshark-win64-libs\WpdPack\Include;C:\Development\wireshark-win64-libs\libsmi-svn-40773-win64ws\include;C:\Development\wireshark-win64-libs\snappy-1.1.3-win64ws\include;C:\Development\wireshark-win64-libs\zlib-1.2.11-2-ws;C:\Development\wireshark\zlib;C:\Development\wireshark-win64-libs\libxml2-2.9.9-win64ws\include\libxml2;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\include\glib-2.0;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\lib\glib-2.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Development\wireshark;C:\Development\wireshark-win64-libs\c-ares-1.15.0-win64ws\installed\x64-windows\include;C:\Development\wireshark-win64-libs\libgcrypt-1.8.3-win64ws\include;C:\Development\wireshark-win64-libs\gnutls-3.6.3-1-win64ws\include;C:\Development\wireshark-win64-libs\krb5-1.17-1-win64ws\installed\x64-windows\include;C:\Development\wireshark-win64-libs\lua-5.2.4-unicode-win64-vc14\include;C:\Development\wireshark-win64-libs\lz4-1.7.5-win64ws\include;C:\Development\wireshark-win64-libs\nghttp2-1.14.0-win64ws\include;C:\Development\wireshark-win64-libs\WpdPack\Include;C:\Development\wireshark-win64-libs\libsmi-svn-40773-win64ws\include;C:\Development\wireshark-win64-libs\snappy-1.1.3-win64ws\include;C:\Development\wireshark-win64-libs\zlib-1.2.11-2-ws;C:\Development\wireshark\zlib;C:\Development\wireshark-win64-libs\libxml2-2.9.9-win64ws\include\libxml2;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\include\glib-2.0;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\lib\glib-2.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Development\wireshark;C:\Development\wireshark-win64-libs\c-ares-1.15.0-win64ws\installed\x64-windows\include;C:\Development\wireshark-win64-libs\libgcrypt-1.8.3-win64ws\include;C:\Development\wireshark-win64-libs\gnutls-3.6.3-1-win64ws\include;C:\Development\wireshark-win64-libs\krb5-1.17-1-win64ws\installed\x64-windows\include;C:\Development\wireshark-win64-libs\lua-5.2.4-unicode-win64-vc14\include;C:\Development\wireshark-win64-libs\lz4-1.7.5-win64ws\include;C:\Development\wireshark-win64-libs\nghttp2-1.14.0-win64ws\include;C:\Development\wireshark-win64-libs\WpdPack\Include;C:\Development\wireshark-win64-libs\libsmi-svn-40773-win64ws\include;C:\Development\wireshark-win64-libs\snappy-1.1.3-win64ws\include;C:\Development\wireshark-win64-libs\zlib-1.2.11-2-ws;C:\Development\wireshark\zlib;C:\Development\wireshark-win64-libs\libxml2-2.9.9-win64ws\include\libxml2;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\include\glib-2.0;C:\Development\wireshark-win64-libs\glib2-2.52.2-1.31-win64ws\lib\glib-2.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\d596ed79376e24b4a64d0df1df638c76\packet-qsig-stamp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating packet-qsig-stamp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Python37\python.exe C:\Development\wireshark\tools\asn2wrs.py -c C:/Development/wireshark/epan/dissectors/asn1/qsig/qsig.cnf -s C:/Development/wireshark/epan/dissectors/asn1/qsig/packet-qsig-template -D C:/Development/wireshark/epan/dissectors/asn1/qsig -O C:/Development/wireshark/epan/dissectors General-Error-List.asn qsig-gf-ext.asn qsig-gf-gp.asn qsig-gf-ade.asn QSIG-NA.asn QSIG-CF.asn QSIG-PR.asn QSIG-CT.asn QSIG-CC.asn QSIG-CO.asn QSIG-DND.asn QSIG-CI.asn QSIG-AOC.asn QSIG-RE.asn SYNC-SIG.asn QSIG-CINT.asn QSIG-CMN.asn QSIG-CPI.asn QSIG-PUMR.asn QSIG-PUMCH.asn QSIG-SSCT.asn QSIG-WTMLR.asn QSIG-WTMCH.asn QSIG-WTMAU.asn QSIG-SD.asn QSIG-CIDL.asn QSIG-SMS.asn QSIG-MCR.asn QSIG-MCM.asn QSIG-MID.asn
+if %errorlevel% neq 0 goto :cmEnd
+C:\Python37\python.exe -c "import shutil, sys";" x,s,d=sys.argv";" open(d, 'w')";" shutil.copystat(s, d)" C:/Development/wireshark/epan/dissectors/packet-qsig.c packet-qsig-stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Development/wireshark/CMakeFiles/d596ed79376e24b4a64d0df1df638c76/packet-qsig-stamp.rule;C:\Development\wireshark\tools\asn2wrs.py;C:\Development\wireshark\epan\dissectors\asn1\qsig\General-Error-List.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\qsig-gf-ext.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\qsig-gf-gp.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\qsig-gf-ade.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-NA.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-CF.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-PR.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-CT.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-CC.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-CO.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-DND.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-CI.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-AOC.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-RE.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\SYNC-SIG.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-CINT.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-CMN.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-CPI.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-PUMR.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-PUMCH.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-SSCT.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-WTMLR.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-WTMCH.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-WTMAU.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-SD.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-CIDL.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-SMS.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-MCR.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-MCM.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-MID.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\packet-qsig-template.c;C:\Development\wireshark\epan\dissectors\asn1\qsig\packet-qsig-template.h;C:\Development\wireshark\epan\dissectors\asn1\qsig\qsig.cnf;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Development\wireshark\epan\dissectors\asn1\qsig\packet-qsig-stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating packet-qsig-stamp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Python37\python.exe C:\Development\wireshark\tools\asn2wrs.py -c C:/Development/wireshark/epan/dissectors/asn1/qsig/qsig.cnf -s C:/Development/wireshark/epan/dissectors/asn1/qsig/packet-qsig-template -D C:/Development/wireshark/epan/dissectors/asn1/qsig -O C:/Development/wireshark/epan/dissectors General-Error-List.asn qsig-gf-ext.asn qsig-gf-gp.asn qsig-gf-ade.asn QSIG-NA.asn QSIG-CF.asn QSIG-PR.asn QSIG-CT.asn QSIG-CC.asn QSIG-CO.asn QSIG-DND.asn QSIG-CI.asn QSIG-AOC.asn QSIG-RE.asn SYNC-SIG.asn QSIG-CINT.asn QSIG-CMN.asn QSIG-CPI.asn QSIG-PUMR.asn QSIG-PUMCH.asn QSIG-SSCT.asn QSIG-WTMLR.asn QSIG-WTMCH.asn QSIG-WTMAU.asn QSIG-SD.asn QSIG-CIDL.asn QSIG-SMS.asn QSIG-MCR.asn QSIG-MCM.asn QSIG-MID.asn
+if %errorlevel% neq 0 goto :cmEnd
+C:\Python37\python.exe -c "import shutil, sys";" x,s,d=sys.argv";" open(d, 'w')";" shutil.copystat(s, d)" C:/Development/wireshark/epan/dissectors/packet-qsig.c packet-qsig-stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Development/wireshark/CMakeFiles/d596ed79376e24b4a64d0df1df638c76/packet-qsig-stamp.rule;C:\Development\wireshark\tools\asn2wrs.py;C:\Development\wireshark\epan\dissectors\asn1\qsig\General-Error-List.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\qsig-gf-ext.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\qsig-gf-gp.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\qsig-gf-ade.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-NA.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-CF.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-PR.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-CT.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-CC.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-CO.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-DND.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-CI.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-AOC.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-RE.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\SYNC-SIG.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-CINT.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-CMN.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-CPI.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-PUMR.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-PUMCH.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-SSCT.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-WTMLR.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-WTMCH.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-WTMAU.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-SD.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-CIDL.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-SMS.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-MCR.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-MCM.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-MID.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\packet-qsig-template.c;C:\Development\wireshark\epan\dissectors\asn1\qsig\packet-qsig-template.h;C:\Development\wireshark\epan\dissectors\asn1\qsig\qsig.cnf;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Development\wireshark\epan\dissectors\asn1\qsig\packet-qsig-stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating packet-qsig-stamp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Python37\python.exe C:\Development\wireshark\tools\asn2wrs.py -c C:/Development/wireshark/epan/dissectors/asn1/qsig/qsig.cnf -s C:/Development/wireshark/epan/dissectors/asn1/qsig/packet-qsig-template -D C:/Development/wireshark/epan/dissectors/asn1/qsig -O C:/Development/wireshark/epan/dissectors General-Error-List.asn qsig-gf-ext.asn qsig-gf-gp.asn qsig-gf-ade.asn QSIG-NA.asn QSIG-CF.asn QSIG-PR.asn QSIG-CT.asn QSIG-CC.asn QSIG-CO.asn QSIG-DND.asn QSIG-CI.asn QSIG-AOC.asn QSIG-RE.asn SYNC-SIG.asn QSIG-CINT.asn QSIG-CMN.asn QSIG-CPI.asn QSIG-PUMR.asn QSIG-PUMCH.asn QSIG-SSCT.asn QSIG-WTMLR.asn QSIG-WTMCH.asn QSIG-WTMAU.asn QSIG-SD.asn QSIG-CIDL.asn QSIG-SMS.asn QSIG-MCR.asn QSIG-MCM.asn QSIG-MID.asn
+if %errorlevel% neq 0 goto :cmEnd
+C:\Python37\python.exe -c "import shutil, sys";" x,s,d=sys.argv";" open(d, 'w')";" shutil.copystat(s, d)" C:/Development/wireshark/epan/dissectors/packet-qsig.c packet-qsig-stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Development/wireshark/CMakeFiles/d596ed79376e24b4a64d0df1df638c76/packet-qsig-stamp.rule;C:\Development\wireshark\tools\asn2wrs.py;C:\Development\wireshark\epan\dissectors\asn1\qsig\General-Error-List.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\qsig-gf-ext.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\qsig-gf-gp.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\qsig-gf-ade.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-NA.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-CF.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-PR.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-CT.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-CC.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-CO.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-DND.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-CI.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-AOC.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-RE.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\SYNC-SIG.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-CINT.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-CMN.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-CPI.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-PUMR.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-PUMCH.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-SSCT.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-WTMLR.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-WTMCH.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-WTMAU.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-SD.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-CIDL.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-SMS.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-MCR.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-MCM.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-MID.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\packet-qsig-template.c;C:\Development\wireshark\epan\dissectors\asn1\qsig\packet-qsig-template.h;C:\Development\wireshark\epan\dissectors\asn1\qsig\qsig.cnf;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Development\wireshark\epan\dissectors\asn1\qsig\packet-qsig-stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating packet-qsig-stamp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Python37\python.exe C:\Development\wireshark\tools\asn2wrs.py -c C:/Development/wireshark/epan/dissectors/asn1/qsig/qsig.cnf -s C:/Development/wireshark/epan/dissectors/asn1/qsig/packet-qsig-template -D C:/Development/wireshark/epan/dissectors/asn1/qsig -O C:/Development/wireshark/epan/dissectors General-Error-List.asn qsig-gf-ext.asn qsig-gf-gp.asn qsig-gf-ade.asn QSIG-NA.asn QSIG-CF.asn QSIG-PR.asn QSIG-CT.asn QSIG-CC.asn QSIG-CO.asn QSIG-DND.asn QSIG-CI.asn QSIG-AOC.asn QSIG-RE.asn SYNC-SIG.asn QSIG-CINT.asn QSIG-CMN.asn QSIG-CPI.asn QSIG-PUMR.asn QSIG-PUMCH.asn QSIG-SSCT.asn QSIG-WTMLR.asn QSIG-WTMCH.asn QSIG-WTMAU.asn QSIG-SD.asn QSIG-CIDL.asn QSIG-SMS.asn QSIG-MCR.asn QSIG-MCM.asn QSIG-MID.asn
+if %errorlevel% neq 0 goto :cmEnd
+C:\Python37\python.exe -c "import shutil, sys";" x,s,d=sys.argv";" open(d, 'w')";" shutil.copystat(s, d)" C:/Development/wireshark/epan/dissectors/packet-qsig.c packet-qsig-stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Development/wireshark/CMakeFiles/d596ed79376e24b4a64d0df1df638c76/packet-qsig-stamp.rule;C:\Development\wireshark\tools\asn2wrs.py;C:\Development\wireshark\epan\dissectors\asn1\qsig\General-Error-List.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\qsig-gf-ext.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\qsig-gf-gp.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\qsig-gf-ade.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-NA.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-CF.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-PR.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-CT.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-CC.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-CO.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-DND.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-CI.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-AOC.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-RE.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\SYNC-SIG.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-CINT.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-CMN.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-CPI.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-PUMR.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-PUMCH.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-SSCT.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-WTMLR.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-WTMCH.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-WTMAU.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-SD.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-CIDL.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-SMS.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-MCR.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-MCM.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\QSIG-MID.asn;C:\Development\wireshark\epan\dissectors\asn1\qsig\packet-qsig-template.c;C:\Development\wireshark\epan\dissectors\asn1\qsig\packet-qsig-template.h;C:\Development\wireshark\epan\dissectors\asn1\qsig\qsig.cnf;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Development\wireshark\epan\dissectors\asn1\qsig\packet-qsig-stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Development\wireshark\CMakeFiles\83e002c3d7b39f7a7fa1c4cb32a3ff11\generate_dissector-qsig.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Development/wireshark/CMakeFiles/83e002c3d7b39f7a7fa1c4cb32a3ff11/generate_dissector-qsig.rule;C:\Development\wireshark\epan\dissectors\asn1\qsig\packet-qsig-stamp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Development\wireshark\epan\dissectors\asn1\qsig\CMakeFiles\generate_dissector-qsig</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Development/wireshark/CMakeFiles/83e002c3d7b39f7a7fa1c4cb32a3ff11/generate_dissector-qsig.rule;C:\Development\wireshark\epan\dissectors\asn1\qsig\packet-qsig-stamp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Development\wireshark\epan\dissectors\asn1\qsig\CMakeFiles\generate_dissector-qsig</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Development/wireshark/CMakeFiles/83e002c3d7b39f7a7fa1c4cb32a3ff11/generate_dissector-qsig.rule;C:\Development\wireshark\epan\dissectors\asn1\qsig\packet-qsig-stamp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Development\wireshark\epan\dissectors\asn1\qsig\CMakeFiles\generate_dissector-qsig</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Development/wireshark/CMakeFiles/83e002c3d7b39f7a7fa1c4cb32a3ff11/generate_dissector-qsig.rule;C:\Development\wireshark\epan\dissectors\asn1\qsig\packet-qsig-stamp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Development\wireshark\epan\dissectors\asn1\qsig\CMakeFiles\generate_dissector-qsig</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Development\wireshark\epan\dissectors\asn1\qsig\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Development/wireshark/epan/dissectors/asn1/qsig/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Development/wireshark -BC:/Development/wireshark --check-stamp-file C:/Development/wireshark/epan/dissectors/asn1/qsig/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Development/wireshark/epan/dissectors/asn1/qsig/CMakeLists.txt;C:\Development\wireshark\epan\dissectors\asn1\qsig\CMakeLists.txt;C:\Development\wireshark\epan\dissectors\asn1\qsig\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Development\wireshark\epan\dissectors\asn1\qsig\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Development/wireshark/epan/dissectors/asn1/qsig/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Development/wireshark -BC:/Development/wireshark --check-stamp-file C:/Development/wireshark/epan/dissectors/asn1/qsig/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Development/wireshark/epan/dissectors/asn1/qsig/CMakeLists.txt;C:\Development\wireshark\epan\dissectors\asn1\qsig\CMakeLists.txt;C:\Development\wireshark\epan\dissectors\asn1\qsig\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Development\wireshark\epan\dissectors\asn1\qsig\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Development/wireshark/epan/dissectors/asn1/qsig/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Development/wireshark -BC:/Development/wireshark --check-stamp-file C:/Development/wireshark/epan/dissectors/asn1/qsig/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Development/wireshark/epan/dissectors/asn1/qsig/CMakeLists.txt;C:\Development\wireshark\epan\dissectors\asn1\qsig\CMakeLists.txt;C:\Development\wireshark\epan\dissectors\asn1\qsig\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Development\wireshark\epan\dissectors\asn1\qsig\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Development/wireshark/epan/dissectors/asn1/qsig/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Development/wireshark -BC:/Development/wireshark --check-stamp-file C:/Development/wireshark/epan/dissectors/asn1/qsig/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Development/wireshark/epan/dissectors/asn1/qsig/CMakeLists.txt;C:\Development\wireshark\epan\dissectors\asn1\qsig\CMakeLists.txt;C:\Development\wireshark\epan\dissectors\asn1\qsig\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Development\wireshark\epan\dissectors\asn1\qsig\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Development\wireshark\epan\dissectors\asn1\qsig\CMakeFiles\generate_dissector-qsig" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Development\wireshark\ZERO_CHECK.vcxproj">
+      <Project>{B765B3E1-9AF0-39DF-BCC2-760F120CAE35}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
